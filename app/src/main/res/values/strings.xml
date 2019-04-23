@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Control Precios Cuidados</string>
+    <string name="title_activity_denuncia_foto">DenunciaFoto</string>
+    <string name="cual_es_tu_denuncia">¿Cual es tu Denuncia?</string>
+    <string name="en_donde_est_s">¿En donde estás?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="listo">Listo</string>
+    <string name="escrib_el_lugar">Escribí el lugar</string>
+    <string name="escrib_tu_denuncia">Escribí tu Denuncia</string>
+    <string name="denuncia_sin_foto">Denuncia Sin Foto</string>
+    <string name="denuncia_con_foto">Denuncia Con Foto</string>
+    <string name="mira_las_denuncias">Mira las denuncias</string>
+
+    <string name="todo">TODO</string>
+    <string name="disclamer">Para poder publicar tu denuncia necesitamos conectar tu cuenta de twitter a nuestra App. Podes hacerlo ahora o más adelante desde el menu de la página principal. Más adelante esperamos poder ofrecerte mejores opciones y otras redes para publicar tus denuncias.</string>
+    <string name="tu_denuncia">Tu Denuncia</string>
+    <string name="enviar_por_tweeter">Enviar por Tweeter</string>
+</resources>

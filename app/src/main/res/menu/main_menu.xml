@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:title="Acerca de Nosotros" />
+    <item
+        android:id="@+id/compartir"
+        android:title="Recomenda nuestra App" />
+
+</menu>
