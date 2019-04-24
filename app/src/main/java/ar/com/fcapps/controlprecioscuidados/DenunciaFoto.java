@@ -15,7 +15,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v4.content.FileProvider;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -40,8 +39,8 @@ public class DenunciaFoto extends Activity {
     private ImageView imageView;
     private TextView lugar,denuncia;
     private Bitmap imageBitmap;
-    private File mediaFile;
-    private Uri uri;
+    private File photoFile;
+    private Uri photoURI;
     private String currentPhotoPath;
 
 
@@ -68,7 +67,7 @@ public class DenunciaFoto extends Activity {
     public void btnOK (View view) {
         //Guardar foto y pasar a la siguiente activity.
         Intent intent = new Intent(DenunciaFoto.this, MandarDenunciaFoto.class);
-        intent.putExtra("imageUri", imageBitmap);
+        intent.putExtra("imageUri", photoURI.toString());
         intent.putExtra("Donde", lugar.getText().toString());
         intent.putExtra("Denuncia", denuncia.getText().toString());
         startActivity(intent);
@@ -89,22 +88,10 @@ public class DenunciaFoto extends Activity {
 
     private void dispatchTakePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        // Ensure that there's a camera activity to handle the intent
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            // Create the File where the photo should go
-            File photoFile = null;
-            try {
-                photoFile = createImageFile();
-            } catch (IOException ex) {
-                // Error occurred while creating the File
-            }
-            // Continue only if the File was successfully created
-            if (photoFile != null) {
-                Uri photoURI = FileProvider.getUriForFile(this, "ar.com.fcapps.controlprecioscuidados.fileprovider", photoFile);
-                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
-                startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
-            }
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
         }
+
     }
 
     private File createImageFile() throws IOException {
@@ -137,6 +124,7 @@ public class DenunciaFoto extends Activity {
         //Pegar Imagen
         Matrix matrix = new Matrix();
         matrix.preScale(1.0f, 1.0f);
+        imageBitmap = Bitmap.createScaledBitmap(imageBitmap, 768, 1024, false);
         Bitmap FotoDenuncia = Bitmap.createBitmap(imageBitmap, 0, 0, imageBitmap.getWidth(), imageBitmap.getHeight(), matrix, true);
         // Arrancar acá nuevo Pegado de Imagenes.
         Resources r = getResources();
@@ -153,12 +141,18 @@ public class DenunciaFoto extends Activity {
         layerDrawable.draw(canvas);
         imageBitmap = Fotopegada;
         /* create a file to write bitmap data */
+        File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/CPC");
+        if(dir.exists() && dir.isDirectory()) {
+            // do something here
+        } else {
+            dir.mkdirs();
+        }
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        mediaFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM), "CPC_" + timeStamp + ".jpg");
-        mediaFile.getParentFile().mkdirs();
+        photoFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/CPC", "CPC_" + timeStamp + ".jpg");
+        photoFile.getParentFile().mkdirs();
         FileOutputStream out = null;
         try {
-            out = new FileOutputStream(mediaFile);
+            out = new FileOutputStream(photoFile);
             imageBitmap.compress(Bitmap.CompressFormat.JPEG, 75, out);
         } catch (Exception e) {
             e.printStackTrace();
@@ -171,6 +165,7 @@ public class DenunciaFoto extends Activity {
                 e.printStackTrace();
             }
         }
+        photoURI = Uri.fromFile(photoFile);
     }
 
     private void galleryAddPic() {

@@ -2,7 +2,6 @@ package ar.com.fcapps.controlprecioscuidados;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.content.FileProvider;
@@ -21,10 +20,11 @@ import java.io.File;
 public class MandarDenunciaFoto extends AppCompatActivity {
 
     private File imgFile;
-    private String Lugar,Denuncia,tweet;
+    private String Lugar,Denuncia,tweet, imageUri;
     private ImageView imageView;
     private TextView textView;
     private AdView mAdView;
+    private Uri imgUri;
 
 
     @Override
@@ -41,12 +41,14 @@ public class MandarDenunciaFoto extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        Bitmap imageUri = intent.getParcelableExtra("imageUri");
+        imageUri = intent.getExtras().getString("imageUri");
         Lugar = intent.getExtras().getString("Donde");
         Denuncia = intent.getExtras().getString("Denuncia");
 
+        imgUri = Uri.parse(imageUri);
+        imgFile = new File(imgUri.getPath());
         imageView = findViewById(R.id.FotoDenunciaFinal);
-        imageView.setImageBitmap(imageUri);
+        imageView.setImageURI(imgUri);
 
         tweet = "Atención! En: "+Lugar+". Nuestro usuario ha encontrado que: "+Denuncia+". @PreciosCuidados @ControlPreciosCuidados";
 
@@ -76,6 +78,7 @@ public class MandarDenunciaFoto extends AppCompatActivity {
             intent.setType("image/*");
             intent.setClassName("com.twitter.android", "com.twitter.android.PostActivity");
             intent.putExtra(Intent.EXTRA_TEXT, tweet);
+            //Uri photoURI = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".my.package.name.provider", createImageFile());
             Uri uri = FileProvider.getUriForFile(MandarDenunciaFoto.this, BuildConfig.APPLICATION_ID + ".provider",imgFile);
             intent.putExtra(Intent.EXTRA_STREAM, uri);
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
