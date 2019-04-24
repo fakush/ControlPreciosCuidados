@@ -7,22 +7,22 @@
     tools:context=".DenunciaFoto">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/Header"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/header_main"
-        android:scaleType="fitCenter"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/header_main"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/header_main" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/Footer"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -30,12 +30,12 @@
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
         android:background="@drawable/footer_main"
-        android:scaleType="fitCenter"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/adView_Denuncia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/footer_main"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/footer_main" />
 
     <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
@@ -125,12 +125,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintBottom_toTopOf="@id/Footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/btnCancelarEnvio"
+            android:id="@+id/btnCancelar"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:layout_weight="1"
@@ -168,7 +168,7 @@
         app:layout_constraintBottom_toTopOf="@+id/LugarContainer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@id/Header"
         tools:srcCompat="@tools:sample/avatars" />
 
 </android.support.constraint.ConstraintLayout>

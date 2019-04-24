@@ -15,4 +15,16 @@
     <string name="disclamer">Para poder publicar tu denuncia necesitamos conectar tu cuenta de twitter a nuestra App. Podes hacerlo ahora o más adelante desde el menu de la página principal. Más adelante esperamos poder ofrecerte mejores opciones y otras redes para publicar tus denuncias.</string>
     <string name="tu_denuncia">Tu Denuncia</string>
     <string name="enviar_por_tweeter">Enviar por Tweeter</string>
+    <string name="textview">TextView</string>
+    <string name="complet_tu_denuncia">Completá Tu Denuncia</string>
+    <string name="ingresa_tu_denuncia">Ingresa tu Denuncia</string>
+    <string name="producto_faltante">Producto Faltante</string>
+    <string name="no_respeta_precio">No Respeta Precio</string>
+    <string name="gondola_mal_se_alizada">Gondola Mal Señalizada</string>
+    <string name="lugar_de_la_denuncia">Lugar de la Denuncia</string>
+    <string name="ingresa_el_supermercado_o_lugar_que_vas_a_denunciar">- Ingresa el supermercado o lugar que vas a denunciar.</string>
+    <string name="ingrese_texto">Ingrese Texto</string>
+    <string name="ingrese_el_producto">Ingrese el Producto</string>
+    <string name="otra_denuncia">Otra Denuncia</string>
+    <string name="ingresa_la_denuncia">Ingresa La Denuncia</string>
 </resources>

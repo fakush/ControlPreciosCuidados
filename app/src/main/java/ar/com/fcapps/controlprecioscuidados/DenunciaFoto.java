@@ -14,13 +14,17 @@ import android.graphics.drawable.LayerDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -42,6 +46,20 @@ public class DenunciaFoto extends Activity {
     private File photoFile;
     private Uri photoURI;
     private String currentPhotoPath;
+    private CheckBox checkBox_Faltante, checkBox_Precio, checkBox_gondola;
+    private String Faltante, Precio, Gondola, Tweet, DenunciaLenght;
+//    private View ChkFaltante = View.inflate(this, R.layout.dialog_denuncia, null);
+//    private View ChkPrecio = View.inflate(this, R.layout.dialog_denuncia, null);
+//    private View ChkGondola = View.inflate(this, R.layout.dialog_denuncia, null);
+//    private CheckBox checkBoxFaltante = (CheckBox) ChkFaltante.findViewById(R.id.checkBox_Faltante);
+//    private CheckBox checkBoxPrecio = (CheckBox) ChkFaltante.findViewById(R.id.checkBox_Precio);
+//    private CheckBox checkBoxGondola = (CheckBox) ChkFaltante.findViewById(R.id.checkBox_gondola);
+
+
+
+
+
+
 
 
     @Override
@@ -50,6 +68,10 @@ public class DenunciaFoto extends Activity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_denuncia_foto);
+
+        //Allowing Strict mode policy for Nougat support
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+        StrictMode.setVmPolicy(builder.build());
 
         //Sacar Foto y ponerla en pantalla
         dispatchTakePictureIntent();
@@ -62,15 +84,26 @@ public class DenunciaFoto extends Activity {
 
         lugar = findViewById(R.id.field_lugar);
         denuncia = findViewById(R.id.field_denuncia);
+
+        Faltante = "";
+        Precio = "";
+        Gondola = "";
+        DenunciaLenght = Faltante + Precio + Gondola;
     }
 
     public void btnOK (View view) {
-        //Guardar foto y pasar a la siguiente activity.
+        //Se fija si la denuncia esta en blanco
+        if (lugar.getText().toString().length() > 0 && denuncia.getText().toString().length() > 0) {
+            //Guardar foto y pasar a la siguiente activity.
         Intent intent = new Intent(DenunciaFoto.this, MandarDenunciaFoto.class);
         intent.putExtra("imageUri", photoURI.toString());
         intent.putExtra("Donde", lugar.getText().toString());
         intent.putExtra("Denuncia", denuncia.getText().toString());
+        intent.putExtra("Checks", DenunciaLenght);
         startActivity(intent);
+        } else {
+            Toast.makeText(DenunciaFoto.this, "Tenes que completar lugar y denuncia para continuar.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void btnCancelar (View view) {
@@ -124,14 +157,14 @@ public class DenunciaFoto extends Activity {
         //Pegar Imagen
         Matrix matrix = new Matrix();
         matrix.preScale(1.0f, 1.0f);
-        imageBitmap = Bitmap.createScaledBitmap(imageBitmap, 768, 1024, false);
+        imageBitmap = Bitmap.createScaledBitmap(imageBitmap, 1080, 1440, false);
         Bitmap FotoDenuncia = Bitmap.createBitmap(imageBitmap, 0, 0, imageBitmap.getWidth(), imageBitmap.getHeight(), matrix, true);
         // Arrancar acá nuevo Pegado de Imagenes.
         Resources r = getResources();
         Drawable d = new BitmapDrawable(r, FotoDenuncia);//converting bitmap to drawable
         Drawable[] layers = new Drawable[2];
         layers[0] = d;
-        layers[1] = r.getDrawable(R.drawable.banner_denuncia_43);
+        layers[1] = r.getDrawable(R.drawable.banner_denuncia_43_1080);
         LayerDrawable layerDrawable = new LayerDrawable(layers);
         int width = layerDrawable.getIntrinsicWidth();
         int height = layerDrawable.getIntrinsicHeight();
@@ -141,19 +174,20 @@ public class DenunciaFoto extends Activity {
         layerDrawable.draw(canvas);
         imageBitmap = Fotopegada;
         /* create a file to write bitmap data */
-        File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/CPC");
+        //File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/CPC");
+        File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/CPC");
         if(dir.exists() && dir.isDirectory()) {
             // do something here
         } else {
             dir.mkdirs();
         }
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        photoFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/CPC", "CPC_" + timeStamp + ".jpg");
+        photoFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/CPC", "CPC_" + timeStamp + ".jpg");
         photoFile.getParentFile().mkdirs();
         FileOutputStream out = null;
         try {
             out = new FileOutputStream(photoFile);
-            imageBitmap.compress(Bitmap.CompressFormat.JPEG, 75, out);
+            imageBitmap.compress(Bitmap.CompressFormat.JPEG, 60, out);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -196,6 +230,7 @@ public class DenunciaFoto extends Activity {
                 //edittext.setText("");
             }
         });
+        dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
         dialog.show();
     }
 
@@ -219,7 +254,53 @@ public class DenunciaFoto extends Activity {
                 //edittext.setText("");
             }
         });
+        checkBox_Faltante = (CheckBox) dialog.findViewById(R.id.checkBox_Faltante);
+        checkBox_Faltante.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    DenunciaLenght = "el Falantante de un Articulo.";
+                } else {
+                    Faltante = "";
+                }
+
+            }
+        });
+        checkBox_Precio = (CheckBox) dialog.findViewById(R.id.checkBox_Precio);
+        checkBox_Precio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    DenunciaLenght = "el precio incorrecto de un Articulo.";
+                } else {
+                    Precio = "";
+                }
+            }
+        });
+        checkBox_gondola = (CheckBox) dialog.findViewById(R.id.checkBox_gondola);
+        checkBox_gondola.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    DenunciaLenght = "un Articulo no señalizado o mal señalizado.";
+                } else {
+                    Gondola = "";
+                }
+            }
+        });
+        dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
         dialog.show();
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        //Descartar y volver a Main
+        Intent intent = new Intent(DenunciaFoto.this, MainActivity.class);
+        startActivity(intent);
     }
 
 }
