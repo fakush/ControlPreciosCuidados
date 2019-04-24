@@ -27,4 +27,6 @@
     <string name="ingrese_el_producto">Ingrese el Producto</string>
     <string name="otra_denuncia">Otra Denuncia</string>
     <string name="ingresa_la_denuncia">Ingresa La Denuncia</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-2600751459304159~5853746422</string>
 </resources>

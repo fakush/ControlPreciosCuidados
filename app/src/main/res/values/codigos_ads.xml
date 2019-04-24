@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <string name="ad_main">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="ad_DenunciaFoto">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="ad_MandarDenunciaFoto">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="ad_DenunciaTexto">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="ad_FeedRedes">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ADMOB_APP_ID">ca-app-pub-2600751459304159~5853746422</string>
+
+    <string name="ad_main">ca-app-pub-2600751459304159/4058508512</string>
+    <string name="ad_DenunciaFoto">ca-app-pub-2600751459304159/1433658259</string>
+    <string name="ad_MandarDenunciaFoto">ca-app-pub-2600751459304159/6762716993</string>
+    <string name="ad_DenunciaTexto">ca-app-pub-2600751459304159/5183887928</string>
+    <string name="ad_FeedRedes">ca-app-pub-2600751459304159/8931561247</string>
 </resources>

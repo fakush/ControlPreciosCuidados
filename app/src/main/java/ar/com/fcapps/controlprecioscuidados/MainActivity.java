@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         MobileAds.initialize(this, "@string/ad_main");
         mAdView = findViewById(R.id.adView_Main);
         AdRequest adRequest = new AdRequest.Builder().build();
-
         mAdView.loadAd(adRequest);
     }
 

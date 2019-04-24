@@ -32,8 +32,7 @@
         <activity android:name=".MandarDenunciaFoto" /> <!-- Info de AddMob -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-2600751459304159~5853746422" />
-
+            android:value="@string/ADMOB_APP_ID"/>
         <activity android:name=".RecomendarApp" />
         <activity android:name=".About" />
         <activity android:name=".FeedRedes" />

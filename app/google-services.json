@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "359254078880",
+    "firebase_url": "https://control-precios-cuidados.firebaseio.com",
+    "project_id": "control-precios-cuidados",
+    "storage_bucket": "control-precios-cuidados.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359254078880:android:0984993228f948b4",
+        "android_client_info": {
+          "package_name": "ar.com.fcapps.controlprecioscuidados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359254078880-1avgo1a865vtk6c66nr2g95gma22bj1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ar.com.fcapps.controlprecioscuidados",
+            "certificate_hash": "fef78e85863381a43f3ecddef03b38c5b950884c"
+          }
+        },
+        {
+          "client_id": "359254078880-l6clotnkarfdmvun05io0amq157dfga9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7sOJCoAlwotQsDfvPPAOfMxjtlMTzNV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359254078880-l6clotnkarfdmvun05io0amq157dfga9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2600751459304159~5853746422"
+    }
+  ],
+  "configuration_version": "1"
+}
