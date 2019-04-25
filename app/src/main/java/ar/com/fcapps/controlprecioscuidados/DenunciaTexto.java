@@ -46,7 +46,7 @@ public class DenunciaTexto extends Activity {
         checkPrecio();
         checkGondola();
 
-        Tweet = "Control Precios Cuidados: Atención! En "+LugarText+". Nuestro usuario ha encontrado "+ Faltante + Precio + Gondola + " Articulo (O Denuncia:) " + DenunciaText + OtradenunciaText + ". @PreciosCuidados @ControlPreciosCuidados";
+        Tweet = "Control Precios Cuidados: Atención! En "+Lugar.getText().toString()+". Nuestro usuario ha encontrado "+ Faltante + Precio + Gondola + " Articulo (O Denuncia:) " + Denuncia.getText().toString() + OtraDenuncia.getText().toString() + ". @PreciosCuidados @ControlPreciosCuidados";
 
     }
 
@@ -100,6 +100,7 @@ public class DenunciaTexto extends Activity {
         //Se fija si la denuncia esta en blanco
         if (Lugar.getText().toString().length() > 0 && Denuncia.length() > 0) {
             //MandarTweet
+            Tweet = "Control Precios Cuidados: Atención! En "+Lugar.getText().toString()+". Nuestro usuario ha encontrado "+ Faltante + Precio + Gondola + " Articulo (O Denuncia:) " + Denuncia.getText().toString() + OtraDenuncia.getText().toString() + ". @PreciosCuidados @ControlPreciosCuidados";
             Toast.makeText(DenunciaTexto.this, "Redireccionando a Tweeter", Toast.LENGTH_SHORT).show();
             try {
                 Intent intent = new Intent(Intent.ACTION_SEND);

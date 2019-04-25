@@ -71,8 +71,15 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
                 case R.id.compartir:
-                Intent compartir = new Intent(MainActivity.this, RecomendarApp.class);
-                startActivity(compartir);
+                //Intent compartir = new Intent(MainActivity.this, RecomendarApp.class);
+                //startActivity(compartir);
+                    Intent intent = new Intent(Intent.ACTION_SEND);
+
+                    intent.setType("text/plain");
+                    intent.putExtra(Intent.EXTRA_SUBJECT, "Control Precios Cuidados - Bajate la App");
+                    intent.putExtra(Intent.EXTRA_TEXT, "Busca en el Play Store de Android la App 'Control Precios Cuidados' Entre todos nos cuidamos!!!");
+
+                    startActivity(Intent.createChooser(intent, "Compratir Nuestra App"));
                 return true;
 
             default:

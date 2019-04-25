@@ -3,9 +3,9 @@
 
     <item
         android:id="@+id/about"
-        android:title="Acerca de Nosotros" />
+        android:title="Acerca de esta App" />
     <item
         android:id="@+id/compartir"
-        android:title="Recomenda nuestra App" />
+        android:title="Recomendanos" />
 
 </menu>
