@@ -50,7 +50,7 @@ public class ListadoPrecios extends AppCompatActivity {
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
         MobileAds.initialize(this, "@string/ad_ListaPrecios");
-        mAdView = findViewById(R.id.adView_Main);
+        mAdView = findViewById(R.id.adViewListado);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 

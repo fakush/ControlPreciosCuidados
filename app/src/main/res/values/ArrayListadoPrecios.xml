@@ -2,73 +2,605 @@
 <resources>
     <string-array name="ListaPreciosMayo">
         <!--<item>CATEGORIA; PRODUCTO; PROVEEDOR; EAN; SIN TACC; AMBA; BUENOS AIRES; CENTRO Y CUYO; NORESTE Y NOROESTE; PATAGONIA; FOTO</item>-->
-        <item>ALMACÉN/;/Aceite de Girasol Cada Día x 1,5 Lt/;/AGD/;/7790272004457/;//;/$ 88,50/;/$ 91,60/;/$ 93,37/;/$ 94,70/;/$ 95,58/;/001.jpg</item>
-        <item>ALMACÉN/;/Aceite de Girasol Cada Dia x 900 Cc/;/AGD/;/7790272004785/;//;/$ 55,23/;/$ 57,17/;/$ 58,27/;/$ 59,10/;/$ 59,65/;/001.jpg</item>
-        <item>ALMACÉN/;/Cacao en Polvo Arcoa 32 x 180 Gr/;/ARCOR/;/7790580402808/;//;/$ 26,77/;/$ 27,71/;/$ 28,24/;/$ 28,64/;/$ 28,91/;/001.jpg</item>
-        <item>ALMACÉN/;/Jardinera Arcor x 300 Gr/;/ARCOR/;/7790580983307/;/si/;/$ 26,76/;/$ 27,70/;/$ 28,23/;/$ 28,63/;/$ 28,90/;/001.jpg</item>
-        <item>ALMACÉN/;/Mermelada Ciruela La Campagnola x 454 Gr/;/ARCOR/;/7793360801709/;//;/$ 65,00/;/$ 67,28/;/$ 68,58/;/$ 69,55/;/$ 70,20/;/001.jpg</item>
-        <item>ALMACÉN/;/Mermelada de Durazno Arcor 12 x 454 Gr/;/ARCOR/;/7790580509507/;/si/;/$ 51,49/;/$ 53,29/;/$ 54,32/;/$ 55,09/;/$ 55,61/;/001.jpg</item>
-        <item>ALMACÉN/;/Puré de Tomate Arcor x 520 Gr/;/ARCOR/;/7790580221904/;//;/$ 27,00/;/$ 27,95/;/$ 28,49/;/$ 28,89/;/$ 29,16/;/001.jpg</item>
-        <item>ALMACÉN/;/Tomate Perita en Lata Arcor x 400 Gr/;/ARCOR/;/7790580567903/;/si/;/$ 24,19/;/$ 25,04/;/$ 25,53/;/$ 25,89/;/$ 26,13/;/001.jpg</item>
-        <item>ALMACÉN/;/Aceite de Girasol Primor x 900 Ml/;/BUNGE ARGENTINA S.A./;/7794870001887/;//;/$ 55,20/;/$ 57,13/;/$ 58,24/;/$ 59,06/;/$ 59,62/;/001.jpg</item>
-        <item>ALMACÉN/;/Arroz Largo Fino Primor x 1 Kg/;/BUNGE ARGENTINA S.A./;/7794870001344/;/si /;/$ 35,95/;/$ 37,21/;/$ 37,93/;/$ 38,47/;/$ 38,83/;/001.jpg</item>
-        <item>ALMACÉN/;/Arroz Parboil Primor x 1 Kg/;/BUNGE ARGENTINA S.A./;/7798316700082/;/si /;/$ 44,95/;/$ 46,52/;/$ 47,42/;/$ 48,10/;/$ 48,55/;/001.jpg</item>
-        <item>ALMACÉN/;/Té en Saquitos Big Ben x 25 Un/;/CAFÉ CABRALES/;/7790550000201/;//;/$ 23,00/;/$ 23,00/;/$ 23,00/;/$ 23,00/;/$ 23,00/;/001.jpg</item>
-        <item>ALMACÉN/;/Mermelada Damasco Dulcor x 454 Gr/;/DULCOR/;/7793046008453/;/si/;/$ 49,50/;/$ 51,24/;/$ 52,23/;/$ 52,97/;/$ 53,46/;/001.jpg</item>
-        <item>ALMACÉN/;/Yerba Mate Ytacuá x 1 Kg/;/ESTABLECIMIENTO LAS MARIAS S.A./;/7790387120349/;/Sí/;/$ 104,90/;/$ 108,57/;/$ 110,67/;/$ 112,24/;/$ 113,29/;/001.jpg</item>
-        <item>ALMACÉN/;/Yerba Mate Romance Suave x 1 Kg/;/GERULA S.A./;/7790802000164/;/Sí/;/$ 112,00/;/$ 115,92/;/$ 118,16/;/$ 119,84/;/$ 120,96/;/001.jpg</item>
-        <item>ALMACÉN/;/Azúcar Dominó x 1 Kg/;/LEDESMA/;/7792878000017/;//;/$ 34,25/;/35,45/;/36,13/;/36,65/;/36,99/;/001.jpg</item>
-        <item>ALMACÉN/;/Arroz Largo Fino Susarelli x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070415899/;/Sí/;/$ 18,38/;/$ 19,02/;/$ 19,39/;/$ 19,67/;/$ 19,85/;/001.jpg</item>
-        <item>ALMACÉN/;/Fideos Codito Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322319/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
-        <item>ALMACÉN/;/Fideos Spaghetti Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322296/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
-        <item>ALMACÉN/;/Fideos Tirabuzón Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322302/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
-        <item>ALMACÉN/;/Mate Cocido en Saquitos Cruz de Malta x 50 Un/;/MOLINOS RIO DE LA PLATA/;/7790070508348/;//;/$ 44,90/;/$ 46,47/;/$ 47,37/;/$ 48,04/;/$ 48,49/;/001.jpg</item>
-        <item>ALMACÉN/;/Yerba Mate con Palo Chamigo x 1 Kg/;/MOLINOS RIO DE LA PLATA/;/7790060054954/;/Sí/;/$ 96,10/;/$ 99,46/;/$ 101,38/;/$ 102,82/;/$ 103,78/;/001.jpg</item>
-        <item>ALMACÉN/;/Fideos Mostachol Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070321978/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
-        <item>ALMACÉN/;/Fideos Tallarín Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070321961/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
-        <item>ALMACÉN/;/Harina 000 Morixe x 1 Kg/;/MORIXE/;/7790199000013/;//;/$ 24,36/;/$ 25,22/;/$ 25,70/;/$ 26,07/;/$ 26,31/;/001.jpg</item>
-        <item>ALMACÉN/;/Harina 0000 Morixe x 1 Kg/;/MORIXE/;/7790199000020/;//;/$ 34,30/;/$ 35,50/;/$ 36,19/;/$ 36,71/;/$ 37,05/;/001.jpg</item>
-        <item>ALMACÉN/;/Harina Leudante Morixe x 1 Kg/;/MORIXE/;/7790199000051/;//;/$ 38,77/;/$ 40,12/;/$ 40,90/;/$ 41,48/;/$ 41,87/;/001.jpg</item>
-        <item>ALMACÉN/;/Pan Rallado Morixe x 1 kg/;/MORIXE/;/7790199602927/;//;/$ 66,88/;/$ 69,22/;/$ 70,55/;/$ 71,56/;/$ 72,23/;/001.jpg</item>
-        <item>ALMACÉN/;/Pan Rallado Morixe x 500 Gr/;/MORIXE/;/7790199602910/;//;/$ 40,66/;/$ 42,08/;/$ 42,90/;/$ 43,51/;/$ 43,91/;/001.jpg</item>
-        <item>ALMACÉN/;/Rebozador Morixe x 1 Kg/;/MORIXE/;/7790199602941/;//;/$ 66,88/;/$ 69,22/;/$ 70,55/;/$ 71,56/;/$ 72,23/;/001.jpg</item>
-        <item>ALMACÉN/;/Rebozador Morixe x 500 Gr/;/MORIXE/;/7790199602934/;//;/$ 40,66/;/$ 42,08/;/$ 42,90/;/$ 43,51/;/$ 43,91/;/001.jpg</item>
-        <item>ALMACÉN/;/Polenta Mágica Quaker x 500 Gr/;/PEPSICO/;/7792170007196/;//;/$ 31,99/;/$ 31,99/;/$ 31,99/;/$ 31,99/;/$ 31,99/;/001.jpg</item>
-        <item>ALMACÉN/;/Arroz Largo Fino 00000 Apóstoles x 1 Kg/;/ADECOAGRO/;/7791120031656/;//;/$ 38,12/;/$ 39,45/;/$ 40,21/;/$ 40,78/;/$ 41,16/;/001.jpg</item>
-        <item>ALMACÉN/;/Arroz Parboil Largo Fino 00000 Apóstoles x 1 Kg/;/ADECOAGRO/;/A confirmar/;/Sí/;/$ 45,90/;/$ 47,51/;/$ 48,42/;/$ 49,11/;/$ 49,57/;/001.jpg</item>
-        <item>ALMACÉN/;/Arroz Parboil Tipo Largo Fino 00000 Molinos Ala x 500 Gr/;/ADECOAGRO/;/7791120037566/;/Sí/;/$ 22,16/;/$ 22,93/;/$ 23,37/;/$ 23,71/;/$ 23,93/;/001.jpg</item>
-        <item>BEBIDAS CON ALCOHOL/;/Vino Blanco Chardonnay 1895 Norton x 750 Cc/;/BODEGAS NORTON/;/7792319003966/;//;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/001.jpg</item>
-        <item>BEBIDAS CON ALCOHOL/;/Vino Dalton Red Blend x 750 Cc/;/BODEGAS NORTON/;/7792319001917/;//;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/001.jpg</item>
-        <item>BEBIDAS CON ALCOHOL/;/Vino Dalton White Blend x 750 Cc/;/BODEGAS NORTON/;/7792319655851/;//;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/001.jpg</item>
-        <item>BEBIDAS CON ALCOHOL/;/Vino Varietal Malbec 1895 Norton x 750 Cc/;/BODEGAS NORTON/;/7792319003942/;//;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/001.jpg</item>
-        <item>BEBIDAS CON ALCOHOL/;/Cerveza Rubia Quilmes Clásica x 340 Cc/;/CERVECERIA Y MALTERIA QUILMES/;/7792798011087/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/001.jpg</item>
-        <item>BEBIDAS SIN ALCOHOL/;/Agua Mineralizada con Gas Cellier Favaloro x 2 Lt/;/PRODEA/;/7790639002423/;//;/$ 24,94/;/$ 25,82/;/$ 26,32/;/$ 26,69/;/$ 26,94/;/001.jpg</item>
-        <item>BEBIDAS SIN ALCOHOL/;/Agua Mineralizada Sin Gas Cellier Favaloro x 2 Lt/;/PRODEA/;/7790639002416/;//;/$ 24,94/;/$ 25,81/;/$ 26,31/;/$ 26,69/;/$ 26,93/;/001.jpg</item>
-        <item>GALLETITAS/;/Galletitas con Salvado Fibro Active Bagley x 214 Gr/;/BAGLEY/;/7790040999404/;//;/$ 24,56/;/$ 25,41/;/$ 25,91/;/$ 26,27/;/$ 26,52/;/001.jpg</item>
-        <item>GALLETITAS/;/Galletitas con Sésamo Hogareñas 36 x 167 Gr/;/BAGLEY/;/7790040882102/;//;/$ 30,86/;/$ 31,94/;/$ 32,56/;/$ 33,02/;/$ 33,33/;/001.jpg</item>
-        <item>GALLETITAS/;/Galletitas de Agua Media Tarde Paquete x 110 Gr/;/BAGLEY/;/7790040333901/;//;/$ 10,96/;/$ 11,35/;/$ 11,56/;/$ 11,73/;/$ 11,84/;/001.jpg</item>
-        <item>GALLETITAS/;/Galletitas Ópera Agrupadas x 220 Gr/;/BAGLEY/;/7790040008175/;//;/$ 65,50/;/$ 67,79/;/$ 69,10/;/$ 70,09/;/$ 70,74/;/001.jpg</item>
-        <item>GALLETITAS/;/Galletitas Traviata x 101 Gr/;/BAGLEY/;/7790040872103/;//;/$ 15,11/;/$ 15,64/;/$ 15,94/;/$ 16,17/;/$ 16,32/;/001.jpg</item>
-        <item>GALLETITAS/;/Oblea Rellena de Chocolate Ópera Remix x 67 Gr/;/BAGLEY/;/7790040120129/;//;/$ 22,66/;/$ 23,45/;/$ 23,91/;/$ 24,25/;/$ 24,47/;/001.jpg</item>
-        <item>GALLETITAS/;/Oblea Rellena de Frutilla Ópera Remix x 67 Gr/;/BAGLEY/;/7790040121188/;//;/$ 22,66/;/$ 23,45/;/$ 23,91/;/$ 24,25/;/$ 24,47/;/001.jpg</item>
-        <item>/;/Postre Chocolate con Dulce de Leche Sancor Sublime Pack 2 x/;//;//;//;//;//;//;//;//;/001.jpg</item>
-        <item>LÁCTEOS/;/200 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150056/;/Sí/;/$ 38,98/;/$ 40,35/;/$ 41,13/;/$ 41,71/;/$ 42,10/;/001.jpg</item>
-        <item>/;/Postre Dulce de Leche con Dulce de Leche Sancor Sublime Pack/;//;//;//;//;//;//;//;//;/001.jpg</item>
-        <item>LÁCTEOS/;/2 x 200 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150063/;/Sí/;/$ 38,98/;/$ 40,35/;/$ 41,13/;/$ 41,71/;/$ 42,10/;/001.jpg</item>
-        <item>/;/Yogur Cremoso Entero Sabor Manzana Banana Sancor Primeros/;//;//;//;//;//;//;//;//;/001.jpg</item>
-        <item>LÁCTEOS/;/Sabores 2 x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080068528/;/Sí/;/$ 35,70/;/$ 36,95/;/$ 37,66/;/$ 38,20/;/$ 38,56/;/001.jpg</item>
-        <item>/;/Yogur Cremoso Entero Vainilla Sancor Primeros Sabores 2 x 120/;//;//;//;//;//;//;//;//;/001.jpg</item>
-        <item>LÁCTEOS/;/Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080068511/;/Sí/;/$ 35,70/;/$ 36,95/;/$ 37,66/;/$ 38,20/;/$ 38,56/;/001.jpg</item>
-        <item>LÁCTEOS/;/Leche Descremada en Sachet La Martona x 1 Lt/;/MASTELLONE HNOS. S.A./;/7790742186201/;//;/$ 35,80/;/$ 37,05/;/-/;/-/;/-/;/001.jpg</item>
-        <item>LÁCTEOS/;/Leche Entera en Sachet La Martona x 1 Lt/;/MASTELLONE HNOS. S.A./;/7790742186102/;//;/$ 35,80/;/$ 37,05/;/-/;/-/;/-/;/001.jpg</item>
-        <item>LÁCTEOS/;/Leche Descremada UAT Apóstoles x 1 Lt/;/ADECOAGRO/;/7798338290110/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/001.jpg</item>
-        <item>LÁCTEOS/;/Leche Entera UAT Apóstoles x 1 Lt/;/ADECOAGRO/;/7798338290103/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/001.jpg</item>
-        <item>LÁCTEOS/;/Yogur Bebible Tetratop Descremado Frutilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000432/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
-        <item>LÁCTEOS/;/Yogur Bebible Tetratop Descremado Vainilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000425/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
-        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Durazno Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000692/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
-        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Frutilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000661/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
-        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Vainilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000609/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
-        <item>LÁCTEOS/;/Yogur Firme Entero Frutilla Ilolay 2 x 120 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787004270/;/Sí/;/$ 34,00/;/$ 3.519/;/$ 3.587/;/$ 3.638/;/$ 3.672/;/001.jpg</item>
-        <item>LÁCTEOS/;/Yogur Firme Entero Vainilla Ilolay 2 x 120 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787004287/;//;/$ 34,00/;/$ 3.519/;/$ 3.587/;/$ 3.638/;/$ 3.672/;/001.jpg</item>
+        <item>ALMACÉN/;/Aceite de Girasol Cada Día x 1,5 Lt/;/AGD/;/7790272004457/;//;/$ 88,50/;/$ 91,60/;/$ 93,37/;/$ 94,70/;/$ 95,58/;/icon_pe</item>
+        <item>ALMACÉN/;/Aceite de Girasol Cada Dia x 900 Cc/;/AGD/;/7790272004785/;//;/$ 55,23/;/$ 57,17/;/$ 58,27/;/$ 59,10/;/$ 59,65/;/icon_pe</item>
+        <item>ALMACÉN/;/Cacao en Polvo Arcoa 32 x 180 Gr/;/ARCOR/;/7790580402808/;//;/$ 26,77/;/$ 27,71/;/$ 28,24/;/$ 28,64/;/$ 28,91/;/icon_pe</item>
+        <item>ALMACÉN/;/Jardinera Arcor x 300 Gr/;/ARCOR/;/7790580983307/;/si/;/$ 26,76/;/$ 27,70/;/$ 28,23/;/$ 28,63/;/$ 28,90/;/icon_pe</item>
+        <item>ALMACÉN/;/Mermelada Ciruela La Campagnola x 454 Gr/;/ARCOR/;/7793360801709/;//;/$ 65,00/;/$ 67,28/;/$ 68,58/;/$ 69,55/;/$ 70,20/;/icon_pe</item>
+        <item>ALMACÉN/;/Mermelada de Durazno Arcor 12 x 454 Gr/;/ARCOR/;/7790580509507/;/si/;/$ 51,49/;/$ 53,29/;/$ 54,32/;/$ 55,09/;/$ 55,61/;/icon_pe</item>
+        <item>ALMACÉN/;/Puré de Tomate Arcor x 520 Gr/;/ARCOR/;/7790580221904/;//;/$ 27,00/;/$ 27,95/;/$ 28,49/;/$ 28,89/;/$ 29,16/;/icon_pe</item>
+        <item>ALMACÉN/;/Tomate Perita en Lata Arcor x 400 Gr/;/ARCOR/;/7790580567903/;/si/;/$ 24,19/;/$ 25,04/;/$ 25,53/;/$ 25,89/;/$ 26,13/;/icon_pe</item>
+        <item>ALMACÉN/;/Aceite de Girasol Primor x 900 Ml/;/BUNGE ARGENTINA S.A./;/7794870001887/;//;/$ 55,20/;/$ 57,13/;/$ 58,24/;/$ 59,06/;/$ 59,62/;/icon_pe</item>
+        <item>ALMACÉN/;/Arroz Largo Fino Primor x 1 Kg/;/BUNGE ARGENTINA S.A./;/7794870001344/;/si /;/$ 35,95/;/$ 37,21/;/$ 37,93/;/$ 38,47/;/$ 38,83/;/icon_pe</item>
+        <item>ALMACÉN/;/Arroz Parboil Primor x 1 Kg/;/BUNGE ARGENTINA S.A./;/7798316700082/;/si /;/$ 44,95/;/$ 46,52/;/$ 47,42/;/$ 48,10/;/$ 48,55/;/icon_pe</item>
+        <item>ALMACÉN/;/Té en Saquitos Big Ben x 25 Un/;/CAFÉ CABRALES/;/7790550000201/;//;/$ 23,00/;/$ 23,00/;/$ 23,00/;/$ 23,00/;/$ 23,00/;/icon_pe</item>
+        <item>ALMACÉN/;/Mermelada Damasco Dulcor x 454 Gr/;/DULCOR/;/7793046008453/;/si/;/$ 49,50/;/$ 51,24/;/$ 52,23/;/$ 52,97/;/$ 53,46/;/icon_pe</item>
+        <item>ALMACÉN/;/Yerba Mate Ytacuá x 1 Kg/;/ESTABLECIMIENTO LAS MARIAS S.A./;/7790387120349/;/Sí/;/$ 104,90/;/$ 108,57/;/$ 110,67/;/$ 112,24/;/$ 113,29/;/icon_pe</item>
+        <item>ALMACÉN/;/Yerba Mate Romance Suave x 1 Kg/;/GERULA S.A./;/7790802000164/;/Sí/;/$ 112,00/;/$ 115,92/;/$ 118,16/;/$ 119,84/;/$ 120,96/;/icon_pe</item>
+        <item>ALMACÉN/;/Azúcar Dominó x 1 Kg/;/LEDESMA/;/7792878000017/;//;/$ 34,25/;/35,45/;/36,13/;/36,65/;/36,99/;/icon_pe</item>
+        <item>ALMACÉN/;/Arroz Largo Fino Susarelli x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070415899/;/Sí/;/$ 18,38/;/$ 19,02/;/$ 19,39/;/$ 19,67/;/$ 19,85/;/icon_pe</item>
+        <item>ALMACÉN/;/Fideos Codito Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322319/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/icon_pe</item>
+        <item>ALMACÉN/;/Fideos Spaghetti Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322296/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/icon_pe</item>
+        <item>ALMACÉN/;/Fideos Tirabuzón Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322302/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/icon_pe</item>
+        <item>ALMACÉN/;/Mate Cocido en Saquitos Cruz de Malta x 50 Un/;/MOLINOS RIO DE LA PLATA/;/7790070508348/;//;/$ 44,90/;/$ 46,47/;/$ 47,37/;/$ 48,04/;/$ 48,49/;/icon_pe</item>
+        <item>ALMACÉN/;/Yerba Mate con Palo Chamigo x 1 Kg/;/MOLINOS RIO DE LA PLATA/;/7790060054954/;/Sí/;/$ 96,10/;/$ 99,46/;/$ 101,38/;/$ 102,82/;/$ 103,78/;/icon_pe</item>
+        <item>ALMACÉN/;/Fideos Mostachol Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070321978/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/icon_pe</item>
+        <item>ALMACÉN/;/Fideos Tallarín Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070321961/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/icon_pe</item>
+        <item>ALMACÉN/;/Harina 000 Morixe x 1 Kg/;/MORIXE/;/7790199000013/;//;/$ 24,36/;/$ 25,22/;/$ 25,70/;/$ 26,07/;/$ 26,31/;/icon_pe</item>
+        <item>ALMACÉN/;/Harina 0000 Morixe x 1 Kg/;/MORIXE/;/7790199000020/;//;/$ 34,30/;/$ 35,50/;/$ 36,19/;/$ 36,71/;/$ 37,05/;/icon_pe</item>
+        <item>ALMACÉN/;/Harina Leudante Morixe x 1 Kg/;/MORIXE/;/7790199000051/;//;/$ 38,77/;/$ 40,12/;/$ 40,90/;/$ 41,48/;/$ 41,87/;/icon_pe</item>
+        <item>ALMACÉN/;/Pan Rallado Morixe x 1 kg/;/MORIXE/;/7790199602927/;//;/$ 66,88/;/$ 69,22/;/$ 70,55/;/$ 71,56/;/$ 72,23/;/icon_pe</item>
+        <item>ALMACÉN/;/Pan Rallado Morixe x 500 Gr/;/MORIXE/;/7790199602910/;//;/$ 40,66/;/$ 42,08/;/$ 42,90/;/$ 43,51/;/$ 43,91/;/icon_pe</item>
+        <item>ALMACÉN/;/Rebozador Morixe x 1 Kg/;/MORIXE/;/7790199602941/;//;/$ 66,88/;/$ 69,22/;/$ 70,55/;/$ 71,56/;/$ 72,23/;/icon_pe</item>
+        <item>ALMACÉN/;/Rebozador Morixe x 500 Gr/;/MORIXE/;/7790199602934/;//;/$ 40,66/;/$ 42,08/;/$ 42,90/;/$ 43,51/;/$ 43,91/;/icon_pe</item>
+        <item>ALMACÉN/;/Polenta Mágica Quaker x 500 Gr/;/PEPSICO/;/7792170007196/;//;/$ 31,99/;/$ 31,99/;/$ 31,99/;/$ 31,99/;/$ 31,99/;/icon_pe</item>
+        <item>ALMACÉN/;/Arroz Largo Fino 00000 Apóstoles x 1 Kg/;/ADECOAGRO/;/7791120031656/;//;/$ 38,12/;/$ 39,45/;/$ 40,21/;/$ 40,78/;/$ 41,16/;/icon_pe</item>
+        <item>ALMACÉN/;/Arroz Parboil Largo Fino 00000 Apóstoles x 1 Kg/;/ADECOAGRO/;/A confirmar/;/Sí/;/$ 45,90/;/$ 47,51/;/$ 48,42/;/$ 49,11/;/$ 49,57/;/icon_pe</item>
+        <item>ALMACÉN/;/Arroz Parboil Tipo Largo Fino 00000 Molinos Ala x 500 Gr/;/ADECOAGRO/;/7791120037566/;/Sí/;/$ 22,16/;/$ 22,93/;/$ 23,37/;/$ 23,71/;/$ 23,93/;/icon_pe</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Blanco Chardonnay 1895 Norton x 750 Cc/;/BODEGAS NORTON/;/7792319003966/;//;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/icon_pe</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Dalton Red Blend x 750 Cc/;/BODEGAS NORTON/;/7792319001917/;//;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/icon_pe</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Dalton White Blend x 750 Cc/;/BODEGAS NORTON/;/7792319655851/;//;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/icon_pe</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Varietal Malbec 1895 Norton x 750 Cc/;/BODEGAS NORTON/;/7792319003942/;//;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/icon_pe</item>
+        <item>BEBIDAS CON ALCOHOL/;/Cerveza Rubia Quilmes Clásica x 340 Cc/;/CERVECERIA Y MALTERIA QUILMES/;/7792798011087/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/icon_pe</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Mineralizada con Gas Cellier Favaloro x 2 Lt/;/PRODEA/;/7790639002423/;//;/$ 24,94/;/$ 25,82/;/$ 26,32/;/$ 26,69/;/$ 26,94/;/icon_pe</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Mineralizada Sin Gas Cellier Favaloro x 2 Lt/;/PRODEA/;/7790639002416/;//;/$ 24,94/;/$ 25,81/;/$ 26,31/;/$ 26,69/;/$ 26,93/;/icon_pe</item>
+        <item>GALLETITAS/;/Galletitas con Salvado Fibro Active Bagley x 214 Gr/;/BAGLEY/;/7790040999404/;//;/$ 24,56/;/$ 25,41/;/$ 25,91/;/$ 26,27/;/$ 26,52/;/icon_pe</item>
+        <item>GALLETITAS/;/Galletitas con Sésamo Hogareñas 36 x 167 Gr/;/BAGLEY/;/7790040882102/;//;/$ 30,86/;/$ 31,94/;/$ 32,56/;/$ 33,02/;/$ 33,33/;/icon_pe</item>
+        <item>GALLETITAS/;/Galletitas de Agua Media Tarde Paquete x 110 Gr/;/BAGLEY/;/7790040333901/;//;/$ 10,96/;/$ 11,35/;/$ 11,56/;/$ 11,73/;/$ 11,84/;/icon_pe</item>
+        <item>GALLETITAS/;/Galletitas Ópera Agrupadas x 220 Gr/;/BAGLEY/;/7790040008175/;//;/$ 65,50/;/$ 67,79/;/$ 69,10/;/$ 70,09/;/$ 70,74/;/icon_pe</item>
+        <item>GALLETITAS/;/Galletitas Traviata x 101 Gr/;/BAGLEY/;/7790040872103/;//;/$ 15,11/;/$ 15,64/;/$ 15,94/;/$ 16,17/;/$ 16,32/;/icon_pe</item>
+        <item>GALLETITAS/;/Oblea Rellena de Chocolate Ópera Remix x 67 Gr/;/BAGLEY/;/7790040120129/;//;/$ 22,66/;/$ 23,45/;/$ 23,91/;/$ 24,25/;/$ 24,47/;/icon_pe</item>
+        <item>GALLETITAS/;/Oblea Rellena de Frutilla Ópera Remix x 67 Gr/;/BAGLEY/;/7790040121188/;//;/$ 22,66/;/$ 23,45/;/$ 23,91/;/$ 24,25/;/$ 24,47/;/icon_pe</item>
+        <item>/;/Postre Chocolate con Dulce de Leche Sancor Sublime Pack 2 x/;//;//;//;//;//;//;//;//;/icon_pe</item>
+        <item>LÁCTEOS/;/200 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150056/;/Sí/;/$ 38,98/;/$ 40,35/;/$ 41,13/;/$ 41,71/;/$ 42,10/;/icon_pe</item>
+        <item>/;/Postre Dulce de Leche con Dulce de Leche Sancor Sublime Pack/;//;//;//;//;//;//;//;//;/icon_pe</item>
+        <item>LÁCTEOS/;/2 x 200 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150063/;/Sí/;/$ 38,98/;/$ 40,35/;/$ 41,13/;/$ 41,71/;/$ 42,10/;/icon_pe</item>
+        <item>/;/Yogur Cremoso Entero Sabor Manzana Banana Sancor Primeros/;//;//;//;//;//;//;//;//;/icon_pe</item>
+        <item>LÁCTEOS/;/Sabores 2 x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080068528/;/Sí/;/$ 35,70/;/$ 36,95/;/$ 37,66/;/$ 38,20/;/$ 38,56/;/icon_pe</item>
+        <item>/;/Yogur Cremoso Entero Vainilla Sancor Primeros Sabores 2 x 120/;//;//;//;//;//;//;//;//;/icon_pe</item>
+        <item>LÁCTEOS/;/Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080068511/;/Sí/;/$ 35,70/;/$ 36,95/;/$ 37,66/;/$ 38,20/;/$ 38,56/;/icon_pe</item>
+        <item>LÁCTEOS/;/Leche Descremada en Sachet La Martona x 1 Lt/;/MASTELLONE HNOS. S.A./;/7790742186201/;//;/$ 35,80/;/$ 37,05/;/-/;/-/;/-/;/icon_pe</item>
+        <item>LÁCTEOS/;/Leche Entera en Sachet La Martona x 1 Lt/;/MASTELLONE HNOS. S.A./;/7790742186102/;//;/$ 35,80/;/$ 37,05/;/-/;/-/;/-/;/icon_pe</item>
+        <item>LÁCTEOS/;/Leche Descremada UAT Apóstoles x 1 Lt/;/ADECOAGRO/;/7798338290110/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/icon_pe</item>
+        <item>LÁCTEOS/;/Leche Entera UAT Apóstoles x 1 Lt/;/ADECOAGRO/;/7798338290103/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/icon_pe</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Descremado Frutilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000432/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/icon_pe</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Descremado Vainilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000425/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/icon_pe</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Durazno Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000692/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/icon_pe</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Frutilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000661/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/icon_pe</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Vainilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000609/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/icon_pe</item>
+        <item>LÁCTEOS/;/Yogur Firme Entero Frutilla Ilolay 2 x 120 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787004270/;/Sí/;/$ 34,00/;/$ 3.519/;/$ 3.587/;/$ 3.638/;/$ 3.672/;/icon_pe</item>
+        <item>LÁCTEOS/;/Yogur Firme Entero Vainilla Ilolay 2 x 120 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787004287/;//;/$ 34,00/;/$ 3.519/;/$ 3.587/;/$ 3.638/;/$ 3.672/;/icon_pe</item>
+
+        <!--Acá Empiezan Precios Cuidados-->
+
+        <item>ALIMENTO PARA MASCOTAS/;/Alimento para Perros Adultos Sabor Pollo, Carne, Cereales y Arroz Raza x 3 Kg/;/MOLINO CHACABUCO/;/7791416065662/;//;/$ 118,07/;/No Aplica/;/$ 118,07/;/$ 118,07/;/$ 118,07/;/icon_pc</item>
+        <item>ALIMENTO PARA MASCOTAS/;/Alimento para Gatos Adultos Sabor Pollo y Leche Raza x 1 Kg/;/MOLINO CHACABUCO/;/7791416066096/;//;/$ 55,14/;/No Aplica/;/$ 55,14/;/$ 55,14/;/$ 55,14/;/icon_pc</item>
+        <item>ALIMENTO PARA MASCOTAS/;/Alimento para Perros Sabor Pollo Grillado con Selección de Vegetales Dogui x 3 Kg/;/NESTLÉ/;/7613036507967/;//;/$ 145,00/;/No Aplica/;/$ 145,00/;/$ 145,00/;/$ 145,00/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Hamburguesas 30 Friar Paquete x 2 Un x 69 Gr/;/FRIAR SA/;/7793040000071/;/SI/;/$ 45,00/;/No Aplica/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Milanesas de Quinoa -Manjar de los Dioses x 4 Un x 300 Gr/;/LEGUMBRESA S.R.L./;/7798109400045/;//;/No Aplica/;/No Aplica/;/$ 63,00/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Milanesas de Mijo-Manjar de los Dioses x 4 Un x 300 Gr/;/LEGUMBRESA S.R.L./;/7798109400298/;//;/No Aplica/;/No Aplica/;/$ 63,00/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Milanesas de Lenteja -Manjar de los Dioses x 4 Un x 300 Gr/;/LEGUMBRESA S.R.L./;/7798109400014/;//;/No Aplica/;/No Aplica/;/$ 63,00/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Milanesas de Soja Tradicional -Manjar de los Dioses x 5 Un x 300 Gr/;/LEGUMBRESA S.R.L./;/7798109400229/;//;/No Aplica/;/No Aplica/;/$ 32,33/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Milanesa de Soja Clásica Congelada Alisoja x 6 unidades x 300 Gr/;/MALIZANI MARIA CRISTINA/;/7792380000901/;//;/$ 40,50/;/No Aplica/;/$ 40,50/;/$ 40,50/;/$ 40,50/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Medallón de Soja Clásica Swift x 290 Gr/;/SWIFT ARGENTINA S.A./;/7790360967824/;//;/$ 69,90/;/No Aplica/;/$ 69,90/;/$ 69,90/;/$ 69,90/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Medallón de Carne Doble Burguer Swift x 4 Un x 224 Gr/;/SWIFT ARGENTINA S.A./;/7790360967763/;/SI/;/$ 49,90/;/No Aplica/;/$ 49,90/;/$ 49,90/;/$ 49,90/;/icon_pc</item>
+        <item>ALIMENTOS CONGELADOS/;/Bocaditos de carne Swift x 380 Gr/;/SWIFT ARGENTINA S.A./;/7790360023902/;//;/$ 97,98/;/No Aplica/;/$ 97,98/;/$ 97,98/;/$ 97,98/;/icon_pc</item>
+        <item>ALMACÉN/;/Mayonesa Light Cada Día DoyPack x 500 Cc/;/AGD/;/7791866000596/;/SI/;/$ 43,57/;/No Aplica/;/$ 45,97/;/$ 46,62/;/$ 47,06/;/icon_pc</item>
+        <item>ALMACÉN/;/Baloncitos Chocolatados Granix x 150 Gr/;/ALIMENTOS GRANIX/;/7790045000457/;//;/$ 42,43/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Mermelada de durazno light Sin TACC Angiord x 390 Gr/;/ANGIORD SAIC/;/7792504009018/;/SI/;/$ 49,90/;/No Aplica/;/$ 52,64/;/$ 53,39/;/$ 53,89/;/icon_pc</item>
+        <item>ALMACÉN/;/Café en Saquitos Bonafide Sensaciones x 20 Un/;/BONAFIDE/;/7792360070153/;//;/$ 80,48/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Aceite Mezcla Girasol y Maiz Siglo de Oro x 900 Cc/;/BUNGE ARGENTINA S.A./;/7794870000330/;//;/$ 38,55/;/No Aplica/;/$ 40,67/;/$ 41,25/;/$ 41,63/;/icon_pc</item>
+        <item>ALMACÉN/;/Yerba Mate con Palo Carrefour x 500 Gr/;/CARREFOUR/;/7798033330487/;/SI/;/$ 44,90/;/No Aplica/;/$ 47,37/;/$ 48,04/;/$ 48,49/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Alcohol Carrefour x 500 Cc/;/CARREFOUR/;/7798033332610/;//;/$ 21,90/;/No Aplica/;/$ 23,10/;/$ 23,43/;/$ 23,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Té en Saquitos Carrefour x 25 Un/;/CARREFOUR/;/7798033338896/;//;/$ 13,50/;/No Aplica/;/$ 14,24/;/$ 14,45/;/$ 14,58/;/icon_pc</item>
+        <item>ALMACÉN/;/Puré de Tomates Carrefour en Tetrabrick x 520 Gr/;/CARREFOUR/;/7798141711031/;/SI/;/$ 17,90/;/No Aplica/;/$ 18,88/;/$ 19,15/;/$ 19,33/;/icon_pc</item>
+        <item>ALMACÉN/;/Puré de Papas Carrefour x 100 GR/;/CARREFOUR/;/7791720016152/;//;/$ 23,90/;/No Aplica/;/$ 25,21/;/$ 25,57/;/$ 25,81/;/icon_pc</item>
+        <item>ALMACÉN/;/Mermelada Carrefour Pote x 500 Gr/;/CARREFOUR/;/7798152223431/;/SI/;/$ 25,50/;/No Aplica/;/$ 26,90/;/$ 27,29/;/$ 27,54/;/icon_pc</item>
+        <item>ALMACÉN/;/Lentejas Carrefour Bolsa x 400 Gr/;/CARREFOUR/;/7798159716721/;/SI/;/$ 33,90/;/No Aplica/;/$ 35,76/;/$ 36,27/;/$ 36,61/;/icon_pc</item>
+        <item>ALMACÉN/;/Choclo en Granos Lata Carrefour x 350 Gr/;/CARREFOUR/;/7798111009557/;/SI/;/$ 24,90/;/No Aplica/;/$ 26,27/;/$ 26,64/;/$ 26,89/;/icon_pc</item>
+        <item>ALMACÉN/;/Arroz Largo Fino Carrefour x 1 Kg/;/CARREFOUR/;/7798108345330/;/SI/;/$ 24,90/;/No Aplica/;/$ 26,27/;/$ 26,64/;/$ 26,89/;/icon_pc</item>
+        <item>ALMACÉN/;/Sal Gruesa Dos Anclas Estuche x 1 kg/;/CIA.INTRODUCTORA BS.AS./;/7792900000121/;//;/$ 32,73/;/No Aplica/;/$ 34,53/;/$ 35,02/;/$ 35,35/;/icon_pc</item>
+        <item>ALMACÉN/;/Sal Fina Light Dos Anclas Estuche x 500 Gr/;/CIA.INTRODUCTORA BS.AS./;/7792900009124/;//;/$ 67,86/;/No Aplica/;/$ 71,59/;/$ 72,61/;/$ 73,29/;/icon_pc</item>
+        <item>ALMACÉN/;/Pimienta Blanca Molida en Sobre Dos Anclas x 25 Gr/;/CIA.INTRODUCTORA BS.AS./;/7792900009025/;//;/$ 47,28/;/No Aplica/;/$ 49,88/;/$ 50,59/;/$ 51,06/;/icon_pc</item>
+        <item>ALMACÉN/;/Ajo Deshidratado en Sobre Dos Anclas x 25 Gr/;/CIA.INTRODUCTORA BS.AS./;/7792900009292/;//;/$ 23,32/;/No Aplica/;/$ 24,60/;/$ 24,95/;/$ 25,19/;/icon_pc</item>
+        <item>ALMACÉN/;/Aceto Balsámico Dos Anclas 250 Cc/;/CIA.INTRODUCTORA BS.AS./;/7792900000251/;//;/$ 62,43/;/No Aplica/;/$ 65,86/;/$ 66,80/;/$ 67,42/;/icon_pc</item>
+        <item>ALMACÉN/;/Mermelada de Durazno Frasco Dulcor x 454 Gr/;/DULCOR/;/7793046008415/;/SI/;/$ 40,50/;/No Aplica/;/$ 42,73/;/$ 43,34/;/$ 43,74/;/icon_pc</item>
+        <item>ALMACÉN/;/Alimento de Cacao Fortificado Pouch 12 x 400 Gr/;/DULFIX/;/7791113005480/;//;/$ 41,41/;/No Aplica/;/$ 43,69/;/$ 44,31/;/$ 44,72/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Manzana Comensal x1000 Cc/;/FRADEALCO S.A./;/7792378000852/;//;/$ 51,71/;/No Aplica/;/$ 54,55/;/$ 55,33/;/$ 55,84/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Alcohol Comensal Pet x 1000 Cc/;/FRADEALCO S.A./;/7792378000814/;//;/$ 33,00/;/No Aplica/;/$ 34,82/;/$ 35,31/;/$ 35,64/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Alcohol Comensal x 500 Cc/;/FRADEALCO S.A./;/7792378000821/;//;/$ 19,59/;/No Aplica/;/$ 20,67/;/$ 20,96/;/$ 21,16/;/icon_pc</item>
+        <item>ALMACÉN/;/Jugo de Limón Comensal x 250 Cc/;/FRADEALCO S.A./;/7792378002214/;//;/$ 29,38/;/No Aplica/;/$ 30,99/;/$ 31,43/;/$ 31,73/;/icon_pc</item>
+        <item>ALMACÉN/;/Jugo de Limon Comensal Pet x 500 Cc/;/FRADEALCO S.A./;/7792378002221/;//;/$ 56,90/;/No Aplica/;/$ 60,03/;/$ 60,88/;/$ 61,45/;/icon_pc</item>
+        <item>ALMACÉN/;/Mayonesa Reducida Majesta x 500 Gr/;/GENTE DE LA PAMPA S.A./;/7793377524226/;//;/$ 35,00/;/No Aplica/;/$ 36,93/;/$ 37,45/;/$ 37,80/;/icon_pc</item>
+        <item>ALMACÉN/;/Mayonesa Reducida en Calorías Majesta x 250 Gr/;/GENTE DE LA PAMPA S.A./;/7793377524219/;//;/$ 18,00/;/No Aplica/;/$ 18,99/;/$ 19,26/;/$ 19,44/;/icon_pc</item>
+        <item>ALMACÉN/;/Tomates Triturados Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500001166/;//;/$ 24,62/;/$ 24,62/;/$ 24,62/;/$ 24,62/;/$ 24,62/;/icon_pc</item>
+        <item>ALMACÉN/;/Tomates Enteros Pelados Silvia Lata x 400 Gr/;/GOLDEN HARVEST S.A./;/7790500005959/;//;/$ 26,78/;/$ 26,78/;/$ 26,78/;/$ 26,78/;/$ 26,78/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Lista Spaghetti Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500001012/;//;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Lista Portuguesa Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500000992/;//;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Lista Pomarola Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500000961/;//;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Lista para Pizza Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500000978/;//;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Lista Napolitana Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500000985/;//;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Lista Filetto Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500001005/;//;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/$ 25,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Puré de Tomates Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500001142/;//;/$ 20,09/;/$ 20,09/;/$ 20,09/;/$ 20,09/;/$ 20,09/;/icon_pc</item>
+        <item>ALMACÉN/;/Pulpa de Tomates Silvia Doypack x 340 Gr/;/GOLDEN HARVEST S.A./;/7790500001135/;//;/$ 19,06/;/$ 19,06/;/$ 19,06/;/$ 19,06/;/$ 19,06/;/icon_pc</item>
+        <item>ALMACÉN/;/Duraznos Mitades en Almíbar Silvia lata x 820 Gr/;/GOLDEN HARVEST S.A./;/7790500005065/;//;/$ 49,44/;/$ 49,44/;/$ 49,44/;/$ 49,44/;/$ 49,44/;/icon_pc</item>
+        <item>ALMACÉN/;/Duraznos en Mitades Bajas Calorías Silvia Lata x 820 Gr/;/GOLDEN HARVEST S.A./;/7790500000220/;//;/$ 53,56/;/$ 53,56/;/$ 53,56/;/$ 53,56/;/$ 53,56/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan de Mesa Lactal x 560 Gr/;/GRUPO BIMBO/;/7793890001129/;//;/$ 82,83/;/$ 85,73/;/$ 87,39/;/$ 88,63/;/$ 89,46/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan de Mesa Lactal x 335 Gr/;/GRUPO BIMBO/;/7793890250992/;//;/$ 44,01/;/$ 45,55/;/$ 46,43/;/$ 47,09/;/$ 47,53/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan con Salvado Lactal x 630 Gr/;/GRUPO BIMBO/;/7793890001143/;//;/$ 85,42/;/$ 88,41/;/$ 90,12/;/$ 91,40/;/$ 92,25/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan con Salvado Lactal x 350 Gr/;/GRUPO BIMBO/;/7793890251081/;//;/$ 46,60/;/$ 48,23/;/$ 49,16/;/$ 49,86/;/$ 50,33/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan Árabe Blanco Bimbo x 230 Gr/;/GRUPO BIMBO/;/7796989010293/;//;/$ 42,79/;/$ 44,29/;/$ 45,14/;/$ 45,78/;/$ 46,21/;/icon_pc</item>
+        <item>ALMACÉN/;/Alfajor Boom Marinela x 6 Un/;/GRUPO BIMBO/;/7796989076060/;//;/$ 108,00/;/$ 111,78/;/$ 113,94/;/$ 115,56/;/$ 116,64/;/icon_pc</item>
+        <item>ALMACÉN/;/Alfajor Boom Marinela x 55 Gr (1 Un)/;/GRUPO BIMBO/;/7796989076053/;//;/$ 19,00/;/$ 19,67/;/$ 20,05/;/$ 20,33/;/$ 20,52/;/icon_pc</item>
+        <item>ALMACÉN/;/Té en Saquitos Rosamonte x 25 Un/;/HREÑUK/;/7790411000142/;//;/$ 18,56/;/$ 18,56/;/$ 18,56/;/$ 18,56/;/$ 18,56/;/icon_pc</item>
+        <item>ALMACÉN/;/Yerba Mate Suave Especial Rosamonte x 500 Gr/;/HREÑUK/;/7790411000548/;//;/$ 47,19/;/$ 47,19/;/$ 47,19/;/$ 47,19/;/$ 47,19/;/icon_pc</item>
+        <item>ALMACÉN/;/Yerba Mate Rosamonte Suave Especial x 1 Kg/;/HREÑUK/;/7790411000531/;//;/$ 96,63/;/$ 96,63/;/$ 96,63/;/$ 96,63/;/$ 96,63/;/icon_pc</item>
+        <item>ALMACÉN/;/Tomate Triturado La Banda x 500 Gr/;/INTERNACIONAL DE PRODUCTOS/;/7790499017667/;//;/$ 31,50/;/$ 32,60/;/$ 33,23/;/$ 33,71/;/$ 34,02/;/icon_pc</item>
+        <item>ALMACÉN/;/Orégano en Hojas Yuspe x 25 Grs/;/JOSE LLENES S.A.C.I.F/;/7794980931234/;//;/$ 21,00/;/$ 21,74/;/$ 22,16/;/$ 22,47/;/$ 22,68/;/icon_pc</item>
+        <item>ALMACÉN/;/Chimichurri Yuspe x 25 Grs/;/JOSE LLENES S.A.C.I.F/;/7794980938837/;//;/$ 19,99/;/$ 20,69/;/$ 21,08/;/$ 21,38/;/$ 21,58/;/icon_pc</item>
+        <item>ALMACÉN/;/Té Mezcla de Hierbas Natural La Morenita Sin Sobre x 20 Un x 1,5 Gr/;/LA VIRGINIA/;/7790170926622/;//;/$ 21,00/;/$ 21,00/;/$ 21,00/;/$ 21,00/;/$ 21,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Edulcorante en Sobres Tuy Sweet x 200 Un/;/LA VIRGINIA/;/7790150695951/;//;/$ 113,36/;/$ 113,36/;/$ 113,36/;/$ 113,36/;/$ 113,36/;/icon_pc</item>
+        <item>ALMACÉN/;/Café Instantaneo Suave en Saquitos La Virginia x 36 Un/;/LA VIRGINIA/;/7790150101049/;//;/$ 103,95/;/$ 103,95/;/$ 103,95/;/$ 103,95/;/$ 103,95/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Alcohol Alcazar x 1000 Cc/;/MENOYO/;/7790130000294/;//;/$ 30,00/;/$ 31,05/;/$ 31,65/;/$ 32,10/;/$ 32,40/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan Rallado San Agustín x 1 Kg/;/MOLINO CAÑUELAS/;/7792180134431/;//;/$ 62,69/;/$ 64,88/;/$ 66,14/;/$ 67,08/;/$ 67,71/;/icon_pc</item>
+        <item>ALMACÉN/;/Vitina Espinaca x 250 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070318893/;//;/$ 46,00/;/$ 47,61/;/$ 48,53/;/$ 49,22/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Premezcla de Chipa con Fugazzetta Luchetti x 250 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070416643/;//;/$ 76,00/;/$ 78,66/;/$ 80,18/;/$ 81,32/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Polvo para Preparar Gelatina Sabor Naranja Royal x 40 Gr/;/MONDELEZ/;/7622300865573/;//;/$ 28,00/;/$ 28,00/;/$ 28,00/;/$ 28,00/;/$ 28,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Polvo para Preparar Gelatina Sabor Frambuesa Royal x 40 Gr/;/MONDELEZ/;/7622300865542/;//;/$ 28,00/;/$ 28,00/;/$ 28,00/;/$ 28,00/;/$ 28,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Polvo para Preparar Flan Light Vainilla x 16 Gr/;/MONDELEZ/;/7622300871581/;//;/$ 18,89/;/$ 18,89/;/$ 18,89/;/$ 18,89/;/$ 18,89/;/icon_pc</item>
+        <item>ALMACÉN/;/Jugo en Polvo Verao Naranja Durazno 16x20 x 10 Gr/;/MONDELEZ/;/7622300861100/;//;/$ 3,73/;/$ 3,73/;/$ 3,73/;/$ 3,73/;/$ 3,73/;/icon_pc</item>
+        <item>ALMACÉN/;/Jugo en Polvo Verao Naranja 16 x 20 x 10 Gr/;/MONDELEZ/;/7622300861049/;//;/$ 3,73/;/$ 3,73/;/$ 3,73/;/$ 3,73/;/$ 3,73/;/icon_pc</item>
+        <item>ALMACÉN/;/Pechuga de Pollo en Trozos en Salsa de Tomate Pennisi x 170 Gr/;/NATUSUR S.A./;/7790202057515/;//;/$ 67,14/;/$ 67,14/;/$ 67,14/;/$ 67,14/;/$ 67,14/;/icon_pc</item>
+        <item>ALMACÉN/;/Pechuga de Pollo en Trozos en Aceite Pennisi x 170 Gr/;/NATUSUR S.A./;/7790202057492/;//;/$ 67,14/;/$ 67,14/;/$ 67,14/;/$ 67,14/;/$ 67,14/;/icon_pc</item>
+        <item>ALMACÉN/;/Pechuga de Pollo en Trozos al Natural Pennisi x 170 Gr/;/NATUSUR S.A./;/7790202057508/;//;/$ 66,11/;/$ 66,11/;/$ 66,11/;/$ 66,11/;/$ 66,11/;/icon_pc</item>
+        <item>ALMACÉN/;/Cereales de Arroz con Hierro Nestum x 200 Gr/;/NESTLÉ/;/7613034428271/;//;/$ 86,00/;/$ 86,00/;/$ 86,00/;/$ 86,00/;/$ 86,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Cereales con Vegetales Nestum x 200 Gr/;/NESTLÉ/;/7613034191182/;//;/$ 81,00/;/$ 81,00/;/$ 81,00/;/$ 81,00/;/$ 81,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Caldo de Gallina Menos Sodio Maggi x 114 Gr/;/NESTLÉ/;/7891000253588/;//;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/icon_pc</item>
+        <item>ALMACÉN/;/Caldo de Carne Menos Sodio Maggi x 114 Gr/;/NESTLÉ/;/7891000253526/;//;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Pomarola Montenevi x 340 Gr/;/NUTREMAS/;/7792290000381/;//;/$ 32,90/;/$ 34,05/;/$ 34,71/;/$ 35,20/;/$ 35,53/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Pizza Montenevi x 340 Gr/;/NUTREMAS/;/7792290000374/;//;/$ 32,90/;/$ 34,05/;/$ 34,71/;/$ 35,20/;/$ 35,53/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Pizza Montenevi x 200 Gr/;/NUTREMAS/;/7792290278704/;//;/$ 23,74/;/$ 24,57/;/$ 25,05/;/$ 25,40/;/$ 25,64/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Filetto Montenevi x 340 Gr/;/NUTREMAS/;/7792290000367/;//;/$ 32,90/;/$ 34,05/;/$ 34,71/;/$ 35,20/;/$ 35,53/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Filetto Montenevi x 200 Gr/;/NUTREMAS/;/7792290278711/;//;/$ 23,74/;/$ 24,57/;/$ 25,05/;/$ 25,40/;/$ 25,64/;/icon_pc</item>
+        <item>ALMACÉN/;/Puré de Tomates Tarragona Tetra Recart x 200 Gr/;/NUTREMAS/;/7792290278810/;//;/$ 17,41/;/$ 18,02/;/$ 18,37/;/$ 18,63/;/$ 18,80/;/icon_pc</item>
+        <item>ALMACÉN/;/Puré de Tomates Montenevi Tetra Recart x 200 Gr/;/NUTREMAS/;/7792290278742/;//;/$ 17,41/;/$ 18,02/;/$ 18,37/;/$ 18,63/;/$ 18,80/;/icon_pc</item>
+        <item>ALMACÉN/;/Porotos Montenevi Tetra Recart x 340 Gr/;/NUTREMAS/;/7792290000404/;//;/$ 27,06/;/$ 28,01/;/$ 28,55/;/$ 28,96/;/$ 29,23/;/icon_pc</item>
+        <item>ALMACÉN/;/Garbanzos Montenevi Tetra Recart x 340 Gr/;/NUTREMAS/;/7792290278797/;//;/$ 27,06/;/$ 28,01/;/$ 28,55/;/$ 28,96/;/$ 29,23/;/icon_pc</item>
+        <item>ALMACÉN/;/Choclo Amarilo Cremoso Montenevi Tetra Recart x 340 Gr/;/NUTREMAS/;/7792290278780/;//;/$ 24,31/;/$ 25,16/;/$ 25,65/;/$ 26,02/;/$ 26,26/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan para Hamburguesa Veneziana x 210 Gr/;/PANIFICADORA VENEZIANA S.A./;/7791708001248/;//;/$ 30,50/;/$ 31,57/;/$ 32,18/;/$ 32,64/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan para Panchos Veneziana x 210 Gr/;/PANIFICADORA VENEZIANA S.A./;/7791708001378/;//;/$ 30,50/;/$ 31,57/;/$ 32,18/;/$ 32,64/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Pan Lacteado Veneziana x 360 Gr/;/PANIFICADORA VENEZIANA S.A./;/7791708001491/;//;/$ 42,74/;/$ 44,24/;/$ 45,10/;/$ 45,74/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Torta con Chips de Chocolate Veneziana x 400 Gr/;/PANIFICADORA VENEZIANA S.A./;/7791708611799/;//;/$ 48,95/;/$ 50,66/;/$ 51,64/;/$ 52,38/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Torta con Cáscaras de Naranja Veneziana x 400 Gr/;/PANIFICADORA VENEZIANA S.A./;/7791708611737/;//;/$ 48,95/;/$ 50,66/;/$ 51,64/;/$ 52,38/;/No Aplica/;/icon_pc</item>
+        <item>ALMACÉN/;/Cacao en Polvo Toddy Extremo x 180 Gr/;/PEPSICO/;/7798153810494/;//;/$ 32,87/;/$ 32,87/;/$ 32,87/;/$ 32,87/;/$ 32,87/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Chimichurri Tradicional La Parmesana x 300 Gr/;/POO ALIMENTOS S.A./;/7796373002682/;//;/$ 69,90/;/$ 69,90/;/$ 69,90/;/$ 69,90/;/$ 69,90/;/icon_pc</item>
+        <item>ALMACÉN/;/Provenzal en Sobre La Parmesana x 25 Gr/;/POO ALIMENTOS S.A./;/7796373002460/;//;/$ 26,65/;/$ 26,65/;/$ 26,65/;/$ 26,65/;/$ 26,65/;/icon_pc</item>
+        <item>ALMACÉN/;/Pimentón Extra Dulce La Parmesana x 50 Gr/;/POO ALIMENTOS S.A./;/7796373002392/;//;/$ 36,00/;/$ 36,00/;/$ 36,00/;/$ 36,00/;/$ 36,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Esencia de Vainilla La Parmesana Bot x 110 Cc/;/POO ALIMENTOS S.A./;/7796373002156/;//;/$ 42,40/;/$ 42,40/;/$ 42,40/;/$ 42,40/;/$ 42,40/;/icon_pc</item>
+        <item>ALMACÉN/;/Condimento Pizzadobo La Parmesana Sobre x 25 Gr/;/POO ALIMENTOS S.A./;/7796373002286/;//;/$ 23,73/;/$ 23,73/;/$ 23,73/;/$ 23,73/;/$ 23,73/;/icon_pc</item>
+        <item>ALMACÉN/;/Condimento Para Arroz La Parmesana Sobre x 20 Gr/;/POO ALIMENTOS S.A./;/7796373002323/;//;/$ 18,97/;/$ 18,97/;/$ 18,97/;/$ 18,97/;/$ 18,97/;/icon_pc</item>
+        <item>ALMACÉN/;/Azúcar Impalpable La Parmesana Sobre x 250 Gr/;/POO ALIMENTOS S.A./;/7796373002101/;//;/$ 49,10/;/$ 49,10/;/$ 49,10/;/$ 49,10/;/$ 49,10/;/icon_pc</item>
+        <item>ALMACÉN/;/Ají Molido en Sobre La Parmesana x 50 Gr/;/POO ALIMENTOS S.A./;/7796373002293/;//;/$ 28,64/;/$ 28,64/;/$ 28,64/;/$ 28,64/;/$ 28,64/;/icon_pc</item>
+        <item>ALMACÉN/;/Picadillo de Carne Safra x 90 Gr/;/SWIFT ARGENTINA S.A./;/7790920008707/;//;/$ 12,95/;/$ 12,95/;/$ 12,95/;/$ 12,95/;/$ 12,95/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Vino El Sureño x 1000 Cc/;/TAMBURINI S.A./;/7792594000223/;//;/$ 46,73/;/$ 48,37/;/$ 49,30/;/$ 50,00/;/$ 50,47/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Manzana El Sureño x 1000 Cc/;/TAMBURINI S.A./;/7792594000230/;//;/$ 52,15/;/$ 53,98/;/$ 55,02/;/$ 55,80/;/$ 56,32/;/icon_pc</item>
+        <item>ALMACÉN/;/Vinagre de Alcohol El Sureño x 1000 Cc/;/TAMBURINI S.A./;/7792594000216/;//;/$ 36,23/;/$ 37,50/;/$ 38,22/;/$ 38,77/;/$ 39,13/;/icon_pc</item>
+        <item>ALMACÉN/;/Chimichurri El Sureño 6 x 500 Cc/;/TAMBURINI S.A./;/7792594001008/;//;/$ 66,65/;/$ 68,98/;/$ 70,32/;/$ 71,32/;/$ 71,98/;/icon_pc</item>
+        <item>ALMACÉN/;/Chimichurri El Sureño 12 x 180 Cc/;/TAMBURINI S.A./;/7792594000186/;//;/$ 45,40/;/$ 46,99/;/$ 47,90/;/$ 48,58/;/$ 49,03/;/icon_pc</item>
+        <item>ALMACÉN/;/Aderezo a Base de Ají Picante Tipo Chileno El Sureño 12 x 180 Cc/;/TAMBURINI S.A./;/7792594000292/;//;/$ 45,40/;/$ 46,99/;/$ 47,90/;/$ 48,58/;/$ 49,03/;/icon_pc</item>
+        <item>ALMACÉN/;/Aceitunas Verdes Seleccionadas El Sureño Doy Pack x 100 Gr/;/TAMBURINI S.A./;/7792594000094/;//;/$ 26,00/;/$ 26,91/;/$ 27,43/;/$ 27,82/;/$ 28,08/;/icon_pc</item>
+        <item>ALMACÉN/;/Té en Saquitos Yellow Label Lipton x 10 Un/;/UNILEVER/;/7801810712847/;//;/$ 23,09/;/$ 23,09/;/$ 23,09/;/$ 23,09/;/$ 23,09/;/icon_pc</item>
+        <item>ALMACÉN/;/Aceitunas Verdes En Salmuera Doy Pack Vanoli x 180 Grs/;/VANOLI Y CIA S.A./;/7790127000269/;/SI/;/$ 39,90/;/$ 41,31/;/$ 42,10/;/$ 42,70/;/$ 43,10/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa Tipo Vitel Toné DP Línea x 250 Cc/;/VIA DELICIAS/;/7790216471000/;//;/$ 25,00/;/$ 25,88/;/$ 26,38/;/$ 26,75/;/$ 27,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa de Pimienta Negra Línea Doy Pack x 250 Cc/;/VIA DELICIAS/;/7790216479570/;//;/$ 25,00/;/$ 25,88/;/$ 26,38/;/$ 26,75/;/$ 27,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa de Pimienta Blanca Línea Doy Pack x 250 Cc/;/VIA DELICIAS/;/7790216479587/;//;/$ 25,00/;/$ 25,88/;/$ 26,38/;/$ 26,75/;/$ 27,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Salsa de Ajo Línea Doy Pack x 250 Cc/;/VIA DELICIAS/;/7790216477385/;//;/$ 25,00/;/$ 25,88/;/$ 26,38/;/$ 26,75/;/$ 27,00/;/icon_pc</item>
+        <item>ALMACÉN/;/Chimichurri Tradicional Línea Doy Pack x 250 Cc/;/VIA DELICIAS/;/7790216473080/;//;/$ 25,00/;/$ 25,88/;/$ 26,38/;/$ 26,75/;/$ 27,00/;/icon_pc</item>
+        <item>BEBÉS/;/Shampoo Extra Suave Algabo Baby x 755 Ml/;/ALGABO S.A./;/7791274000386/;//;/$ 129,50/;/$ 129,50/;/$ 129,50/;/$ 129,50/;/$ 129,50/;/icon_pc</item>
+        <item>BEBÉS/;/Shampoo Extra Suave Algabo Baby x 444 Ml/;/ALGABO S.A./;/7791274192326/;//;/$ 85,40/;/$ 85,40/;/$ 85,40/;/$ 85,40/;/$ 85,40/;/icon_pc</item>
+        <item>BEBÉS/;/Shampoo Camomila Algabo Baby x 755 Ml/;/ALGABO S.A./;/7791274000393/;//;/$ 129,50/;/$ 129,50/;/$ 129,50/;/$ 129,50/;/$ 129,50/;/icon_pc</item>
+        <item>BEBÉS/;/Shampoo Camomila Algabo Baby x 444 Ml/;/ALGABO S.A./;/7791274196508/;//;/$ 85,40/;/$ 85,40/;/$ 85,40/;/$ 85,40/;/$ 85,40/;/icon_pc</item>
+        <item>BEBÉS/;/Colonia Suave Brisa Algabo Baby x 200 Ml/;/ALGABO S.A./;/7791274192241/;//;/$ 83,85/;/$ 83,85/;/$ 83,85/;/$ 83,85/;/$ 83,85/;/icon_pc</item>
+        <item>BEBÉS/;/Vaso Decorado Traslúcido Para Jugo Dispita x 1 Un/;/DISPITA/;/7798038310989/;//;/$ 53,59/;/$ 55,47/;/$ 56,54/;/$ 57,34/;/$ 57,88/;/icon_pc</item>
+        <item>BEBÉS/;/Sonajero Caritas Dispita x 1 Un/;/DISPITA/;/7798038317193/;//;/$ 53,13/;/$ 54,99/;/$ 56,05/;/$ 56,85/;/$ 57,38/;/icon_pc</item>
+        <item>BEBÉS/;/Shampoo con Avena Dispita x 225 Ml/;/DISPITA/;/7798038318244/;//;/$ 59,29/;/$ 61,37/;/$ 62,55/;/$ 63,44/;/$ 64,03/;/icon_pc</item>
+        <item>BEBÉS/;/Óleo Calcáreo Dispita x 500 Ml/;/DISPITA/;/7798038311870/;//;/$ 75,90/;/$ 78,56/;/$ 80,07/;/$ 81,21/;/$ 81,97/;/icon_pc</item>
+        <item>BEBÉS/;/Óleo Calcáreo Dispita x 250 Ml/;/DISPITA/;/7798038311863/;//;/$ 51,15/;/$ 52,94/;/$ 53,96/;/$ 54,73/;/$ 55,24/;/icon_pc</item>
+        <item>BEBÉS/;/Oleo Calcáreo Dispita x 1 Lt/;/DISPITA/;/7798038311887/;//;/$ 110,00/;/$ 113,85/;/$ 116,05/;/$ 117,70/;/$ 118,80/;/icon_pc</item>
+        <item>BEBÉS/;/Mamadera Dl Estampada con Tetina de Silicona Dispita x 250 Ml/;/DISPITA/;/7798038312679/;//;/$ 90,70/;/$ 93,87/;/$ 95,69/;/$ 97,05/;/$ 97,96/;/icon_pc</item>
+        <item>BEBÉS/;/Mamadera de Boca Ancha con Antideslizante y Tetina de Siliconas Tonalizada Dispita x 240 Ml/;/DISPITA/;/7798038317926/;//;/$ 92,09/;/$ 95,31/;/$ 97,15/;/$ 98,54/;/$ 99,46/;/icon_pc</item>
+        <item>BEBÉS/;/Chupete de Silicona Redondo Color Dispita x 1 Un/;/DISPITA/;/7798038312297/;//;/$ 65,89/;/$ 68,20/;/$ 69,51/;/$ 70,50/;/$ 71,16/;/icon_pc</item>
+        <item>BEBÉS/;/Chupete de Silicona Anatómico Color Dispita x 1 Un/;/DISPITA/;/7798038312303/;//;/$ 65,89/;/$ 68,20/;/$ 69,51/;/$ 70,50/;/$ 71,16/;/icon_pc</item>
+        <item>BEBÉS/;/Biberón de Estampado con Tetina de Silicona Dispita x 125 Ml/;/DISPITA/;/7798038312655/;//;/$ 81,47/;/$ 84,32/;/$ 85,95/;/$ 87,17/;/$ 87,99/;/icon_pc</item>
+        <item>BEBÉS/;/Aspirador Nasal con Dos Picos Dispita x 1 Un/;/DISPITA/;/7798038311122/;//;/$ 63,45/;/$ 65,67/;/$ 66,94/;/$ 67,89/;/$ 68,53/;/icon_pc</item>
+        <item>BEBÉS/;/Pañales Huggies Active Sec XXG Mega 8 x 17 Un/;/KIMBERLY CLARK ARGENTINA S.A./;/7794626008856/;//;/$ 196,00/;/$ 202,86/;/$ 206,78/;/$ 209,72/;/$ 211,68/;/icon_pc</item>
+        <item>BEBÉS/;/Pañales Huggies Active Sec XG Mega 12 x 18 Un/;/KIMBERLY CLARK ARGENTINA S.A./;/7794626008849/;//;/$ 196,00/;/$ 202,86/;/$ 206,78/;/$ 209,72/;/$ 211,68/;/icon_pc</item>
+        <item>BEBÉS/;/Pañales Huggies Active Sec M Mega 5 x 26 Un/;/KIMBERLY CLARK ARGENTINA S.A./;/7794626008825/;//;/$ 196,00/;/$ 202,86/;/$ 206,78/;/$ 209,72/;/$ 211,68/;/icon_pc</item>
+        <item>BEBÉS/;/Pañales Huggies Active Sec G Mega 4 x 22 Un/;/KIMBERLY CLARK ARGENTINA S.A./;/7794626008832/;//;/$ 196,00/;/$ 202,86/;/$ 206,78/;/$ 209,72/;/$ 211,68/;/icon_pc</item>
+        <item>BEBÉS/;/Toallitas Húmedad para Bebé, Hipoalergenicas Sin Alcohol Life Quality Flow Pack x 50 Un/;/LABORATORIOS ESME S.A.I.C/;/7791199003608/;//;/$ 49,50/;/$ 51,23/;/$ 52,22/;/$ 52,97/;/$ 53,46/;/icon_pc</item>
+        <item>BEBÉS/;/Toallas Húmedas para Bebés Manzanilla Baby Sol x 50 Un/;/LABORATORIOS PRETTY/;/7798062051827/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/icon_pc</item>
+        <item>BEBÉS/;/Toallas Húmedas para Bebés Manzanilla Baby Sol x 150 Un/;/LABORATORIOS PRETTY/;/7798062051490/;//;/$ 80,00/;/$ 82,80/;/$ 84,40/;/$ 85,60/;/$ 86,40/;/icon_pc</item>
+        <item>BEBÉS/;/Toallas Húmedas para Bebés Manzanilla Baby Sol x 100 Un/;/LABORATORIOS PRETTY/;/7798062051834/;//;/$ 57,70/;/$ 59,72/;/$ 60,87/;/$ 61,74/;/$ 62,32/;/icon_pc</item>
+        <item>BEBÉS/;/Shampoo Manzanilla Baby Sol x 250 Ml/;/LABORATORIOS PRETTY/;/7798062051520/;//;/$ 48,50/;/$ 50,20/;/$ 51,17/;/$ 51,90/;/$ 52,38/;/icon_pc</item>
+        <item>BEBÉS/;/Óleo Calcáreo Baby Sol Botella x 500 Ml/;/LABORATORIOS PRETTY/;/7798062059557/;//;/$ 66,90/;/$ 69,24/;/$ 70,58/;/$ 71,58/;/$ 72,25/;/icon_pc</item>
+        <item>BEBÉS/;/Óleo Calcáreo Baby Sol Botella x 1000 Ml/;/LABORATORIOS PRETTY/;/7798062050899/;//;/$ 113,00/;/$ 116,96/;/$ 119,22/;/$ 120,91/;/$ 122,04/;/icon_pc</item>
+        <item>BEBÉS/;/Toallitas para Bebé Doypack Sniffy x 70 Un/;/PRIFAMON/;/7790773018571/;//;/$ 38,99/;/$ 38,99/;/$ 38,99/;/$ 38,99/;/$ 38,99/;/icon_pc</item>
+        <item>BEBÉS/;/Toallitas Ideal Flowpack x 50 Un/;/PRIFAMON/;/7790773084903/;//;/$ 56,90/;/$ 56,90/;/$ 56,90/;/$ 56,90/;/$ 56,90/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Cerveza Isenbeck 100% Malta x 1 Lt/;/CCU/;/7795697001708/;//;/$ 60,00/;/$ 62,00/;/$ 61,00/;/$ 61,00/;/$ 64,80/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Cerveza Quilmes Bajo Cero x 1 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7792798007424/;//;/$ 60,00/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Tinto Toro Viejo x 1125 Ml/;/FECOVITA COOP LTDA/;/7790314005305/;//;/$ 74,50/;/$ 74,50/;/$ 74,50/;/$ 74,50/;/$ 74,50/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Tinto Toro Lacrado x 750 Cc/;/FECOVITA COOP LTDA/;/7790314009518/;//;/$ 48,90/;/$ 48,90/;/$ 48,90/;/$ 48,90/;/$ 48,90/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Tinto Tetra Brik Resero x 1 Lt/;/FECOVITA COOP LTDA/;/7790314057014/;//;/$ 43,67/;/$ 43,67/;/$ 43,67/;/$ 43,67/;/$ 43,67/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Canciller Blend III 6 x 1125 Ml/;/FECOVITA COOP LTDA/;/7790314011252/;//;/$ 89,90/;/$ 89,90/;/$ 89,90/;/$ 89,90/;/$ 89,90/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Cabernet Sauvignon Canciller x 750 Ml/;/FECOVITA COOP LTDA/;/7790314000133/;//;/$ 99,99/;/$ 99,99/;/$ 99,99/;/$ 99,99/;/$ 99,99/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Cabernet Malbec Canciller 750 Ml/;/FECOVITA COOP LTDA/;/7790314000232/;//;/$ 99,99/;/$ 99,99/;/$ 99,99/;/$ 99,99/;/$ 99,99/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Blanco Resero Tetrabrik x 1 Lt/;/FECOVITA COOP LTDA/;/7790314057021/;//;/$ 36,00/;/$ 36,00/;/$ 36,00/;/$ 36,00/;/$ 36,00/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Bebida Alcohólica Mixta Gasificada Pronto Shake x 650 Ml/;/GRUPO CEPAS/;/7790950134131/;//;/$ 54,00/;/$ 54,00/;/$ 54,00/;/$ 54,00/;/$ 54,00/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Trapiche Alaris Dulce Cosecha x 750 Cc/;/GRUPO PEÑAFLOR/;/7790240041880/;//;/$ 92,87/;/$ 92,87/;/$ 92,87/;/$ 92,87/;/$ 92,87/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Trapiche Alaris Dulce Cosecha Rose x 750 Cc/;/GRUPO PEÑAFLOR/;/7790240095289/;//;/$ 92,87/;/$ 92,87/;/$ 92,87/;/$ 92,87/;/$ 92,87/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Tinto Etiqueta Negra Santa Ana x 750 Cc/;/GRUPO PEÑAFLOR/;/7790762050919/;//;/$ 53,58/;/$ 53,58/;/$ 53,58/;/$ 53,58/;/$ 53,58/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Nolita Sweet x 750 Cc/;/GRUPO PEÑAFLOR/;/7791540049651/;//;/$ 109,99/;/$ 109,99/;/$ 109,99/;/$ 109,99/;/$ 109,99/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Blanco Etiqueta Negra Santa Ana x 750 Cc/;/GRUPO PEÑAFLOR/;/7790762050926/;//;/$ 50,01/;/$ 50,01/;/$ 50,01/;/$ 50,01/;/$ 50,01/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Bi Varietal Syrah Cabernet Suter x 750 Cc/;/GRUPO PEÑAFLOR/;/7790704169587/;//;/$ 79,79/;/$ 79,79/;/$ 79,79/;/$ 79,79/;/$ 79,79/;/icon_pc</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Bi Varietal Cabernet Merlot Suter x 750 Cc/;/GRUPO PEÑAFLOR/;/7790704169600/;//;/$ 79,79/;/$ 79,79/;/$ 79,79/;/$ 79,79/;/$ 79,79/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Con Gas Ser x 1,5 Lt/;/AGUAS DANONE/;/7798062549898/;//;/$ 30,45/;/$ 30,45/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Sin Azúcar Guaraná x 1,5 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7792798000470/;//;/$ 42,00/;/$ 43,47/;/$ 44,31/;/$ 44,94/;/$ 45,36/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Lima Limón Sin Azúcar 7up x 1,5 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7791813421580/;//;/$ 42,00/;/$ 43,47/;/$ 44,31/;/$ 44,94/;/$ 45,36/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Saborizada Sin Gas Pomelo Awafrut x 2,25 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7795930000499/;//;/$ 55,00/;/$ 56,93/;/$ 58,03/;/$ 58,85/;/$ 59,40/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Saborizada Sin Gas Naranja Durazno Awafrut x 2,25 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7795930000482/;//;/$ 55,00/;/$ 56,93/;/$ 58,03/;/$ 58,85/;/$ 59,40/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Saborizada sin Gas Manzana Awafrut x 2,25 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7795930000505/;//;/$ 55,00/;/$ 56,93/;/$ 58,03/;/$ 58,85/;/$ 59,40/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Saborizada con Gas Sabor Naranchelo H2OH x 1,5 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7791813421511/;//;/$ 42,00/;/$ 43,47/;/$ 44,31/;/$ 44,94/;/$ 45,36/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Saborizada con Gas Sabor Lima Limón H2OH x 1,5 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7791813421238/;//;/$ 42,00/;/$ 43,47/;/$ 44,31/;/$ 44,94/;/$ 45,36/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Cola Pepsi Black x 2,25 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7791813423058/;//;/$ 62,00/;/$ 64,17/;/$ 65,41/;/$ 66,34/;/$ 66,96/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa de Pomelo Paso de los Toros x 1,5 Lt/;/CERVECERIA Y MALTERIA QUILMES/;/7791813421382/;//;/$ 42,00/;/$ 43,47/;/$ 44,31/;/$ 44,94/;/$ 45,36/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua de Mesa Kin x 1,5 Lt/;/COCA COLA/;/7790895064456/;//;/$ 21,55/;/$ 22,30/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Jugo Concentrado Naranja Botella Carioca x 1,5 Lt/;/COCA COLA/;/7790895064289/;//;/$ 15,90/;/$ 16,46/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Schweppes Pomelo x 2,25 Lt/;/COCA COLA/;/7790895010095/;//;/$ 62,00/;/$ 64,17/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Lima Limón Sprite Sin Azúcares x 2,25 Lt/;/COCA COLA/;/7790895064166/;//;/$ 62,00/;/$ 64,17/;/$ 65,41/;/$ 66,34/;/$ 66,96/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Bebida a Base de Hierbas Serrano Tacconi Bot x 1500 Ml/;/GRUPO CEPAS/;/7790950003048/;//;/$ 35,75/;/$ 35,75/;/$ 35,75/;/$ 35,75/;/$ 35,75/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Bebida a Base de Hierbas Blanco Tacconi Bot x 1500 Ml/;/GRUPO CEPAS/;/7790950003062/;//;/$ 35,75/;/$ 35,75/;/$ 35,75/;/$ 35,75/;/$ 35,75/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Tónica Sin Azúcar Cunnington x 2,25 Lt/;/PRODEA/;/7790639003130/;//;/$ 38,23/;/$ 39,57/;/$ 40,33/;/$ 40,91/;/$ 41,29/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Cola Sin Azúcar Cunnington x 2,25 Lt/;/PRODEA/;/7790639002003/;//;/$ 38,23/;/$ 39,57/;/$ 40,33/;/$ 40,91/;/$ 41,29/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Naranja Cunnington x 2,25 Lt/;/PRODEA/;/7790639002201/;//;/$ 42,69/;/$ 44,19/;/$ 45,04/;/$ 45,68/;/$ 46,11/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Gaseosa Limón Cunnington x 2,25 Lt/;/PRODEA/;/7790639001365/;//;/$ 42,69/;/$ 44,19/;/$ 45,04/;/$ 45,68/;/$ 46,11/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Jugo de Limonada 25% Plenty Life x 1 Lt/;/PURA FRESH/;/7798125300282/;//;/$ 29,64/;/$ 30,68/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Mineralizada Pura Bidón Pet 3 x 5 Lt/;/PURA FRESH/;/779812530060/;//;/$ 40,35/;/$ 41,77/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Jugo de Arándano Libre de Gluten Fruto de Vida x 1500 Cc/;/STAR JEWEL S.A./;/7790000712852/;//;/No Aplica/;/No Aplica/;/$ 48,20/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>CARNE/;/Cortes Tradicionales de Carne Vacuna Picada Común x 1 Kg/;/SUPERMERCADO/;/10007/;//;/$ 78,79/;/$ 81,54/;/$ 83,12/;/$ 84,30/;/$ 85,09/;/icon_pc</item>
+        <item>CARNE/;/Cortes Tradicionales de Carne Vacuna Espinazo x 1 Kg/;/SUPERMERCADO/;/10008/;//;/$ 37,34/;/$ 38,64/;/$ 39,39/;/$ 39,95/;/$ 40,32/;/icon_pc</item>
+        <item>FIAMBRERÍA/;/Mortadela Mini x 350 Gr/;/CAGNOLI/;/7798013100598/;//;/$ 66,46/;/$ 68,79/;/$ 70,12/;/$ 71,11/;/$ 71,78/;/icon_pc</item>
+        <item>FIAMBRERÍA/;/Leberwust Cagnoli x 150 Gr/;/CAGNOLI/;/7798013103155/;//;/$ 29,88/;/$ 30,93/;/$ 31,53/;/$ 31,98/;/$ 32,27/;/icon_pc</item>
+        <item>FIAMBRERÍA/;/Salchichas Carrefour Flow Pack x 6 Un/;/CARREFOUR/;/7798159719623/;//;/$ 28,50/;/$ 29,50/;/$ 30,07/;/$ 30,50/;/$ 30,78/;/icon_pc</item>
+        <item>FIAMBRERÍA/;/Salchichas cocidas sin piel Nutryte x 6 Un x 190 Gr/;/FRIAR SA/;/7793040001047/;//;/$ 27,00/;/$ 27,95/;/$ 28,49/;/$ 28,89/;/$ 29,16/;/icon_pc</item>
+        <item>FIAMBRERÍA/;/Salchichas Sin Piel La Criolla x 190 Gr/;/SWIFT ARGENTINA S.A./;/7790360968500/;//;/$ 32,00/;/$ 32,00/;/$ 32,00/;/$ 32,00/;/$ 32,00/;/icon_pc</item>
+        <item>FRUTAS Y VERDURAS/;/Papa x 1 Kg/;/SUPERMERCADO/;/10003/;//;/$ 14,68/;/$ 15,20/;/$ 15,49/;/$ 15,71/;/$ 15,86/;/icon_pc</item>
+        <item>FRUTAS Y VERDURAS/;/Manzana Comercial x 1 Kg/;/SUPERMERCADO/;/10005/;//;/$ 30,77/;/$ 31,84/;/$ 32,46/;/$ 32,92/;/$ 33,23/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Leche con Dulce de Leche Okebon 16 Un x 290 Gr/;/ALICORP/;/7790263110921/;//;/$ 32,61/;/$ 32,61/;/$ 32,61/;/$ 32,61/;/$ 32,61/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas de Vainilla con Chips Sabor a Chocolate Girotondo x 229 Gr/;/ALICORP/;/7790263119283/;//;/$ 31,25/;/$ 31,25/;/$ 31,25/;/$ 31,25/;/$ 31,25/;/icon_pc</item>
+        <item>GALLETITAS/;/Bizcochitos Con Semillas de Sésamo Granix x 180 Gr/;/ALIMENTOS GRANIX/;/7790045823865/;//;/$ 36,08/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>GALLETITAS/;/Bizcochitos Con Semillas de Lino Granix x 180 Gr/;/ALIMENTOS GRANIX/;/7790045823858/;//;/$ 34,70/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Sabor Chocolate Rellena Vainilla Macucas x 123 Gr/;/BAGLEY/;/7790040174801/;//;/$ 9,83/;/$ 10,17/;/$ 10,37/;/$ 10,52/;/$ 10,62/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Vainilla Vocación 170 Gr/;/BAGLEY/;/7790040177307/;//;/$ 24,90/;/$ 25,77/;/$ 26,27/;/$ 26,64/;/$ 26,89/;/icon_pc</item>
+        <item>GALLETITAS/;/Vainillas Carrefour x 160 Gr/;/CARREFOUR/;/7798033338032/;//;/$ 19,90/;/$ 20,60/;/$ 20,99/;/$ 21,29/;/$ 21,49/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Crackers Carrefour 3 x 112 Gr/;/CARREFOUR/;/7798152224032/;//;/$ 39,90/;/$ 41,30/;/$ 42,09/;/$ 42,69/;/$ 43,09/;/icon_pc</item>
+        <item>GALLETITAS/;/Tostada de Arroz Salada Dos Hermanos x 120 Gr/;/DOS HERMANOS SA/;/7790503000333/;/SI/;/$ 33,00/;/$ 33,00/;/$ 33,00/;/$ 33,00/;/$ 33,00/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Dulces sabor Vainilla La Cumbre x 250 Gr/;/ESTABLECIMIENTO LA CUMBRE SA/;/645554001174/;//;/$ 28,90/;/$ 29,91/;/$ 30,49/;/$ 30,92/;/$ 31,21/;/icon_pc</item>
+        <item>GALLETITAS/;/Bizcochos Materos La Cumbre x 170 Gr/;/ESTABLECIMIENTO LA CUMBRE SA/;/645554041101/;//;/$ 24,90/;/$ 25,77/;/$ 26,27/;/$ 26,64/;/$ 26,89/;/icon_pc</item>
+        <item>GALLETITAS/;/Bizcochitos 0% Trans La Cumbre x 170 Gr/;/ESTABLECIMIENTO LA CUMBRE SA/;/645554041002/;//;/$ 26,90/;/$ 27,84/;/$ 28,38/;/$ 28,78/;/$ 29,05/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletas marineras con SALVADO, DON PANCHO x 220 grs/;/GALLETAS DON PANCHO S.A./;/7798033900178/;//;/$ 30,00/;/$ 31,05/;/$ 31,65/;/$ 32,10/;/$ 32,40/;/icon_pc</item>
+        <item>GALLETITAS/;/Snack de arroz CARAMELO, DON PANCHO x 45 grs/;/GALLETAS DON PANCHO S.A./;/7798033900253/;//;/$ 27,00/;/$ 27,95/;/$ 28,49/;/$ 28,89/;/$ 29,16/;/icon_pc</item>
+        <item>GALLETITAS/;/Snack de arroz SIN SAL AGREGADA, DON PANCHO x 45 grs/;/GALLETAS DON PANCHO S.A./;/7798033900284/;//;/$ 27,00/;/$ 27,95/;/$ 28,49/;/$ 28,89/;/$ 29,16/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Dulces Manón x 178 Gr/;/MONDELEZ/;/7622300829629/;//;/$ 28,57/;/$ 28,57/;/$ 28,57/;/$ 28,57/;/$ 28,57/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Dulces Anillos Terrabusi x 160 Gr/;/MONDELEZ/;/7622300398569/;//;/$ 27,96/;/$ 27,96/;/$ 27,96/;/$ 27,96/;/$ 27,96/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas de Vainilla Zucoa x 126 Gr/;/PEPSICO/;/7790310982563/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas de Chocolate Zucoa x 126 Gr/;/PEPSICO/;/7790310982556/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Dulces Rellenas Sabor Limón Soft x 165 Gr/;/PRODUCTOS EMERY S.A./;/7798054220330/;//;/$ 22,00/;/$ 22,77/;/$ 23,21/;/$ 23,54/;/$ 23,76/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Dulces Rellenas Sabor Frutos del Bosque Soft x 165 Gr/;/PRODUCTOS EMERY S.A./;/7798054220354/;//;/$ 22,00/;/$ 22,77/;/$ 23,21/;/$ 23,54/;/$ 23,76/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Saladas Grifinas x 140 Gr/;/TEMFLOR SRL/;/7793176003250/;//;/$ 34,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Pepas Temflor x 400 Gr/;/TEMFLOR SRL/;/7793176003212/;//;/$ 32,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>GALLETITAS/;/Bizcochitos Ahumados "Ahumaditos" x 180 Gr/;/TEMFLOR SRL/;/7793176003229/;//;/$ 18,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>GALLETITAS/;/Galletitas Pepas Dale x 300 Gr/;/TÍA MARUCA/;/7798113159915/;//;/$ 30,00/;/$ 30,00/;/$ 30,00/;/$ 30,00/;/$ 30,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lámara Led A60 ECO LED 9W LD E27 x 1 Un/;/ALIC/;/7798170655832/;//;/$ 56,00/;/$ 56,00/;/$ 56,00/;/$ 56,00/;/$ 56,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lámpara Led A60 ECO LED 7W LC E27 x 1 Un/;/ALIC/;/7798170655801/;//;/$ 52,00/;/$ 52,00/;/$ 52,00/;/$ 52,00/;/$ 52,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lámpara Led A60 ECO LED 9W LC E27 x 1 Un/;/ALIC/;/7798170655825/;//;/$ 56,00/;/$ 56,00/;/$ 56,00/;/$ 56,00/;/$ 56,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lámpara Led LA60 ECO LED 7W LD E27 x 1 Un/;/ALIC/;/7798170655818/;//;/$ 52,00/;/$ 52,00/;/$ 52,00/;/$ 52,00/;/$ 52,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lampara Bulbo Blanco Cálido MACROLED A55 7W E27 610LM/;/MACROLED/;/7428325564602/;//;/$ 58,95/;/$ 58,95/;/$ 58,95/;/$ 58,95/;/$ 58,95/;/icon_pc</item>
+        <item>ILUMINACION/;/Lampara Bulbo Blanco Frío MACROLED A55 7W E27 630LM/;/MACROLED/;/7428325564589/;//;/$ 58,95/;/$ 58,95/;/$ 58,95/;/$ 58,95/;/$ 58,95/;/icon_pc</item>
+        <item>ILUMINACION/;/Lampara Bulbo Blanco Cálido MACROLED A60 10W E27 880LM/;/MACROLED/;/7428325564633/;//;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lampara Bulbo Blanco Frío A60 10W E27 900LM/;/MACROLED/;/7428325564619/;//;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lampara Bulbo Blanco Cálido MACROLED A60 14W E27 1300LM/;/MACROLED/;/7428325564664/;//;/$ 79,75/;/$ 79,75/;/$ 79,75/;/$ 79,75/;/$ 79,75/;/icon_pc</item>
+        <item>ILUMINACION/;/Lampara Bulbo Blanco Frío MACROLED A60 14W E27 1400LM/;/MACROLED/;/7428325564640/;//;/$ 79,75/;/$ 79,75/;/$ 79,75/;/$ 79,75/;/$ 79,75/;/icon_pc</item>
+        <item>ILUMINACION/;/Led Value Classic A40 4.5W/830 220V/;/OSRAM/;/4058075064102/;//;/$ 54,00/;/$ 54,00/;/$ 54,00/;/$ 54,00/;/$ 54,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Led Value Classic A40 4.5W/865 220V/;/OSRAM/;/4058075064126/;//;/$ 54,00/;/$ 54,00/;/$ 54,00/;/$ 54,00/;/$ 54,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Led Value Classic A50 7W/830 220V E27/;/OSRAM/;/4058075064140/;//;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Led Value Classic A50 7W/865 220V E27/;/OSRAM/;/4058075064164/;//;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Lámpara LED de 7w Luz Fría./;/PHILCO/;/7796962532149/;//;/$ 64,00/;/$ 64,00/;/$ 64,00/;/$ 64,00/;/$ 64,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Bulbo 4-40 Pack x 2/;/PHILIPS/;/929001377295/;//;/$ 105,00/;/$ 105,00/;/$ 105,00/;/$ 105,00/;/$ 105,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Bulbo 4-40 Pack x 2/;/PHILIPS/;/929001377595/;//;/$ 105,00/;/$ 105,00/;/$ 105,00/;/$ 105,00/;/$ 105,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Bulbo 4-40 Pack x 1/;/PHILIPS/;/929001377271/;//;/$ 59,00/;/$ 59,00/;/$ 59,00/;/$ 59,00/;/$ 59,00/;/icon_pc</item>
+        <item>ILUMINACION/;/Bulbo 4-40 Pack x 1/;/PHILIPS/;/929001377571/;//;/$ 59,00/;/$ 59,00/;/$ 59,00/;/$ 59,00/;/$ 59,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Bombitas de Agua Bombucha Paquete x 100 Un/;/CIDAL/;/7798106005001/;//;/$ 55,00/;/$ 55,00/;/$ 55,00/;/$ 55,00/;/$ 55,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Camioncito Van x 1 Un/;/MEGAPRICE/;/7798104180959/;//;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Camioncito Tractor x 1 Un/;/MEGAPRICE/;/7798104180942/;//;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Camioncito de Ciudad x 1 Un/;/MEGAPRICE/;/7798104180966/;//;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Camioncito 4x4 x 1 Un/;/MEGAPRICE/;/7798104180973/;//;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Juego de la Oca Línea Verde x 1 Un/;/RUIBAL/;/7794635061156/;//;/$ 280,00/;/$ 280,00/;/$ 280,00/;/$ 280,00/;/$ 280,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Juego de Ludo Línea verde x 1 Un/;/RUIBAL/;/7794635061125/;//;/$ 280,00/;/$ 280,00/;/$ 280,00/;/$ 280,00/;/$ 280,00/;/icon_pc</item>
+        <item>JUGUETERÍA/;/Pelota de PVC x 1 Un/;/TURBY TOY/;/7795168001251/;//;/$ 89,00/;/$ 89,00/;/$ 89,00/;/$ 89,00/;/$ 89,00/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Cereales Descremado Sabor Natural Yogs Pote x 162 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080067910/;/SI/;/$ 26,62/;/$ 27,55/;/$ 28,08/;/$ 28,48/;/$ 28,75/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Bebible Descremado Vainilla Sancor Vida x 185 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150162/;/SI/;/$ 30,76/;/$ 31,84/;/$ 32,46/;/$ 32,92/;/$ 33,22/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Bebible Descremado Frutilla Sancor Vida x 185 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150155/;/SI/;/$ 30,76/;/$ 31,84/;/$ 32,46/;/$ 32,92/;/$ 33,22/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Descremado Cremoso Sabor Vainilla Sancor Vida 2 x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150124/;/SI/;/$ 31,00/;/$ 32,09/;/$ 32,71/;/$ 33,17/;/$ 33,48/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Descremado Cremoso Sabor Frutilla Sancor Vida 2 x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150117/;/SI/;/$ 31,00/;/$ 32,09/;/$ 32,71/;/$ 33,17/;/$ 33,48/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre Entero Vainilla Shimy Pote x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080040876/;/SI/;/$ 29,00/;/$ 30,02/;/$ 30,60/;/$ 31,03/;/$ 31,32/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre Entero Vainilla con Dulce de Leche Shimy Pote x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080040890/;/SI/;/$ 29,00/;/$ 30,02/;/$ 30,60/;/$ 31,03/;/$ 31,32/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre Entero Dulce de Leche Shimy Pote x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080040920/;/SI/;/$ 29,00/;/$ 30,02/;/$ 30,60/;/$ 31,03/;/$ 31,32/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre Entero Chocolate Shimy Pote x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080040906/;/SI/;/$ 29,00/;/$ 30,02/;/$ 30,60/;/$ 31,03/;/$ 31,32/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre Entero Chocolate con Dulce de Leche Shimy Pote x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080040913/;/SI/;/$ 29,00/;/$ 30,02/;/$ 30,60/;/$ 31,03/;/$ 31,32/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogurisimo Entero Sabor Vainilla Fortificado Firme x 500 Gr/;/DANONE/;/7791337690813/;/SI/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogurisimo Entero Sabor Frutilla Fortificado Firme x 500 Gr/;/DANONE/;/7791337690820/;/SI/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Entero Sabor Vainilla Yogurisimo Cremix Pack x 480 Gr/;/DANONE/;/7791337695719/;/SI/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Entero Sabor Frutilla Yogurisimo Cremix Pack x 480 Gr/;/DANONE/;/7791337695726/;/SI/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/$ 51,14/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Crema Clásico Casancrem x 500 Gr/;/DANONE/;/7791337011304/;/SI/;/$ 89,10/;/$ 92,21/;/$ 94,00/;/$ 95,33/;/$ 96,22/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Blanco Light Casancrem x 500 Gr/;/DANONE/;/7791337011311/;/SI/;/$ 86,84/;/$ 89,88/;/$ 91,62/;/$ 92,92/;/$ 93,79/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre Dulce de Leche Serenito WAU x 100 Gr/;/DANONE/;/7791337000568/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre de Vainilla Serenito WAU x 100 Gr/;/DANONE/;/7791337000698/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/icon_pc</item>
+        <item>LÁCTEOS/;/Postre de Chocolate Serenito WAU x 100 Gr/;/DANONE/;/7791337000681/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/icon_pc</item>
+        <item>LÁCTEOS/;/Manteca Light Tonadita x 100 Gr/;/ELCOR S.A./;/7798060852150/;/SI/;/$ 28,89/;/$ 29,90/;/$ 30,47/;/$ 30,91/;/$ 31,20/;/icon_pc</item>
+        <item>LÁCTEOS/;/Crema de Leche Light La Tonadita x 350 Cc/;/ELCOR S.A./;/7798060852143/;/SI/;/$ 68,17/;/$ 70,56/;/$ 71,92/;/$ 72,94/;/$ 73,62/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Light Vainilla Pote Tregar x 125 Gr/;/GARCIA HERMANOS AGROINDUSTRIAL SRL/;/7793913000832/;//;/$ 14,25/;/$ 14,75/;/$ 15,03/;/$ 15,25/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Light Frutilla Pote Tregar x 125 Gr/;/GARCIA HERMANOS AGROINDUSTRIAL SRL/;/7793913000849/;//;/$ 14,25/;/$ 14,75/;/$ 15,03/;/$ 15,25/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Bebible Entero Vainilla Sachet Tregar x 1 Lt/;/GARCIA HERMANOS AGROINDUSTRIAL SRL/;/7793913000757/;/SI/;/$ 39,04/;/$ 40,40/;/$ 41,18/;/$ 41,77/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Bebible Descremado Vainilla Sachet Tregar x 900 Gr/;/GARCIA HERMANOS AGROINDUSTRIAL SRL/;/7793913001785/;/SI/;/$ 39,04/;/$ 40,40/;/$ 41,18/;/$ 41,77/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Leche en Polvo Entera 26% Mg Inst. Fortif. C/Vit AYD Libre de Gluten-SIN TACC Manfrey x 800 Gr/;/MANFREY COOP. DE TAMBEROS/;/7791058010815/;/SI/;/No Aplica/;/No Aplica/;/$ 215,00/;/$ 215,00/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Leche en Polvo Entera Instantánea Armonía Bolsa x 200 Gr/;/MASTELLONE HNOS. S.A./;/7790742122704/;/SI/;/$ 46,18/;/$ 47,80/;/$ 48,72/;/$ 49,41/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Leche en Polvo Descremada Instantánea Armonía Bolsa x 200 Gr/;/MASTELLONE HNOS. S.A./;/7790742122803/;/SI/;/$ 46,18/;/$ 47,80/;/$ 48,72/;/$ 49,41/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Leche Chocolatada Milkaut x 200 Cc/;/MILKAUT/;/7794820004159/;/SI/;/$ 24,83/;/$ 25,70/;/$ 26,20/;/$ 26,57/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Leche Chocolatada Milkaut x 1 Lt/;/MILKAUT/;/7794820002810/;/SI/;/$ 56,91/;/$ 58,91/;/$ 60,04/;/$ 60,90/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Entero con Trozos de Frutilla Plus Milkaut Pote x 150 Gr/;/MILKAUT/;/7794820012413/;/SI/;/$ 29,99/;/$ 31,04/;/$ 31,64/;/$ 32,09/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Entero con Trozos de Durazno Plus Milkaut Pote x 150 Gr/;/MILKAUT/;/7794820012406/;/SI/;/$ 29,99/;/$ 31,04/;/$ 31,64/;/$ 32,09/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur de Vainilla Milkaut x 200 Gr/;/MILKAUT/;/7794820901199/;//;/$ 29,99/;/$ 31,04/;/$ 31,64/;/$ 32,09/;/-/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur de Frutilla Milkaut x 200 Gr/;/MILKAUT/;/7794820001301/;//;/$ 29,99/;/$ 31,04/;/$ 31,64/;/$ 32,09/;/-/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Cremoso Horma Supercrem x 1 Kg/;/MOLFINO HNOS. S.A./;/7794990874842/;/SI/;/$ 196,24/;/$ 203,11/;/$ 207,03/;/$ 209,97/;/$ 211,94/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Cremoso 1/2 Horma Supercrem x 1 Kg/;/MOLFINO HNOS. S.A./;/7794990880027/;/SI/;/$ 196,24/;/$ 203,11/;/$ 207,03/;/$ 209,97/;/$ 211,94/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Port Salut Horma La Paulina x 1 Kg/;/MOLFINO HNOS. S.A./;/7794990866182/;/SI/;/$ 213,55/;/$ 221,03/;/$ 225,30/;/$ 228,50/;/$ 230,64/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Port Salut 1/2 Horma La Paulina x 1 Kg/;/MOLFINO HNOS. S.A./;/7794990866212/;/SI/;/$ 213,55/;/$ 221,03/;/$ 225,30/;/$ 228,50/;/$ 230,64/;/icon_pc</item>
+        <item>LÁCTEOS/;/Leche en Polvo Entera Instantanea con Vitamina A y D en Paquete Purisima x 400 Gr/;/SA LA SIBILA/;/7798095170823/;/SI/;/$ 81,54/;/$ 81,54/;/$ 81,54/;/$ 81,54/;/$ 81,54/;/icon_pc</item>
+        <item>LÁCTEOS/;/Dulce de Leche San Ignacio x 200 Gr/;/SAN IGNACIO/;/7790244940929/;/SI/;/$ 27,18/;/$ 28,14/;/$ 28,68/;/$ 29,09/;/$ 29,36/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Cremoso Tradicional 1/8 Sancor x 1 Kg/;/SANCOR/;/7790080024937/;/SI/;/$ 210,00/;/$ 217,35/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Crema Mendicrim Cremoso x 300 Gr/;/SANCOR/;/7790080040074/;//;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 69,55/;/No Aplica/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Crema Mendicrim x 460 Gr/;/SANCOR/;/7790080040159/;/SI/;/$ 62,40/;/$ 64,58/;/$ 65,83/;/$ 66,77/;/$ 67,39/;/icon_pc</item>
+        <item>LÁCTEOS/;/Queso Crema Light Mendicrim x 460 Gr/;/SANCOR/;/7790080040180/;/SI/;/$ 62,40/;/$ 64,58/;/$ 65,83/;/$ 66,77/;/$ 67,39/;/icon_pc</item>
+        <item>LÁCTEOS/;/Yogur Vainilla con Aritos Frutados Ilolay x 160 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787104772/;//;/$ 21,51/;/$ 22,26/;/$ 22,69/;/$ 23,01/;/$ 23,23/;/icon_pc</item>
+        <item>LÁCTEOS/;/Flan Vainilla con Dulce de Leche Ilolay Kids x 110 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787087341/;/SI/;/$ 12,61/;/$ 13,05/;/$ 13,30/;/$ 13,49/;/$ 13,62/;/icon_pc</item>
+        <item>LÁCTEOS/;/Flan Vainilla con Caramelo Ilolay Kids x 110 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787087334/;/SI/;/$ 12,61/;/$ 13,05/;/$ 13,30/;/$ 13,49/;/$ 13,62/;/icon_pc</item>
+        <item>LÁCTEOS/;/Dulce de Leche Repostero Ilolay x 400 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787153671/;/SI/;/$ 45,84/;/$ 47,44/;/$ 48,36/;/$ 49,05/;/$ 49,51/;/icon_pc</item>
+        <item>LIBRERÍA/;/Lápiz Grafito Evolution Mina HB BL x 4 Un/;/BIC/;/3270220000167/;//;/$ 34,59/;/$ 35,80/;/$ 36,49/;/$ 37,01/;/$ 37,36/;/icon_pc</item>
+        <item>LIBRERÍA/;/Lapicera Round Stick (2 azules, 1 negro, 1 rojo) Bic x 4 Un/;/BIC/;/70330187757/;//;/$ 43,57/;/$ 45,09/;/$ 45,97/;/$ 46,62/;/$ 47,06/;/icon_pc</item>
+        <item>LIBRERÍA/;/Rotulador Marker 420 Rojo x 1 Un/;/PELIKAN ARGENTINA S.A./;/7792700002820/;//;/$ 36,90/;/$ 38,19/;/$ 38,93/;/$ 39,48/;/$ 39,85/;/icon_pc</item>
+        <item>LIBRERÍA/;/Rotulador Marker 420 Negro x 1 Un/;/PELIKAN ARGENTINA S.A./;/7792700002813/;//;/$ 36,90/;/$ 38,19/;/$ 38,93/;/$ 39,48/;/$ 39,85/;/icon_pc</item>
+        <item>LIBRERÍA/;/Rotulador Marker 420 Azul x 1 Un/;/PELIKAN ARGENTINA S.A./;/7792700002806/;//;/$ 36,90/;/$ 38,19/;/$ 38,93/;/$ 39,48/;/$ 39,85/;/icon_pc</item>
+        <item>LIBRERÍA/;/Roller + Cartucho Grand Prix Arl Pelikan Blíster x 1 Un/;/PELIKAN ARGENTINA S.A./;/7792700003025/;//;/$ 129,00/;/$ 133,52/;/$ 136,10/;/$ 138,03/;/$ 139,32/;/icon_pc</item>
+        <item>LIBRERÍA/;/Regla Flexible de 15 Cm Pelikan x 1 Un/;/PELIKAN ARGENTINA S.A./;/7792700005128/;//;/$ 41,50/;/$ 42,95/;/$ 43,78/;/$ 44,41/;/$ 44,82/;/icon_pc</item>
+        <item>LIBRERÍA/;/Plastilina en Pan Verde Claro x 180 Gr/;/PELIKAN ARGENTINA S.A./;/7501015228296/;//;/$ 40,30/;/$ 41,71/;/$ 42,52/;/$ 43,12/;/$ 43,52/;/icon_pc</item>
+        <item>LIBRERÍA/;/Plastilina en Pan Rojo x 180 Gr/;/PELIKAN ARGENTINA S.A./;/7501015211151/;//;/$ 40,30/;/$ 41,71/;/$ 42,52/;/$ 43,12/;/$ 43,52/;/icon_pc</item>
+        <item>LIBRERÍA/;/Plastilina en Pan Celeste x 180 Gr/;/PELIKAN ARGENTINA S.A./;/7501015211182/;//;/$ 40,30/;/$ 41,71/;/$ 42,52/;/$ 43,12/;/$ 43,52/;/icon_pc</item>
+        <item>LIBRERÍA/;/Plastilina en Pan Amarillo x 180 Gr/;/PELIKAN ARGENTINA S.A./;/7501015212851/;//;/$ 40,30/;/$ 41,71/;/$ 42,52/;/$ 43,12/;/$ 43,52/;/icon_pc</item>
+        <item>LIBRERÍA/;/Marcador Pintaloco Jr Pelikan Estuche x 12 Un/;/PELIKAN ARGENTINA S.A./;/7792700008273/;//;/$ 79,20/;/$ 81,97/;/$ 83,56/;/$ 84,74/;/$ 85,54/;/icon_pc</item>
+        <item>LIBRERÍA/;/Lápiz Largo de Color Estuche Pelikan x 12 Un/;/PELIKAN ARGENTINA S.A./;/7792700002691/;//;/$ 124,50/;/$ 128,86/;/$ 131,35/;/$ 133,22/;/$ 134,46/;/icon_pc</item>
+        <item>LIBRERÍA/;/Lápiz Corrector Pelikan Bolsita x 1 Un/;/PELIKAN ARGENTINA S.A./;/7792700005623/;//;/$ 45,50/;/$ 47,09/;/$ 48,00/;/$ 48,69/;/$ 49,14/;/icon_pc</item>
+        <item>LIBRERÍA/;/Lápiz Corrector + Pointec Pelikan Blíster x 2 Un/;/PELIKAN ARGENTINA S.A./;/7792700000031/;//;/$ 55,70/;/$ 57,65/;/$ 58,76/;/$ 59,60/;/$ 60,16/;/icon_pc</item>
+        <item>LIBRERÍA/;/Goma Lápiz/Tinta Roja/Azul Bolsa x 2 Un/;/PELIKAN ARGENTINA S.A./;/7792700044028/;//;/$ 36,60/;/$ 37,88/;/$ 38,61/;/$ 39,16/;/$ 39,53/;/icon_pc</item>
+        <item>LIBRERÍA/;/Crayón Redondo Pelikan Estuche x 6 Un/;/PELIKAN ARGENTINA S.A./;/7501015204047/;//;/$ 44,30/;/$ 45,85/;/$ 46,74/;/$ 47,40/;/$ 47,84/;/icon_pc</item>
+        <item>LIBRERÍA/;/Crayón Redondo Colorella Extuche x 12 Un/;/PELIKAN ARGENTINA S.A./;/7501015204054/;//;/$ 68,00/;/$ 70,38/;/$ 71,74/;/$ 72,76/;/$ 73,44/;/icon_pc</item>
+        <item>LIBRERÍA/;/Cartucho Estilográfico TP ARL Pelikan Bolsita x 6 Un/;/PELIKAN ARGENTINA S.A./;/4012700301178/;//;/$ 44,60/;/$ 46,16/;/$ 47,05/;/$ 47,72/;/$ 48,17/;/icon_pc</item>
+        <item>LIBRERÍA/;/Barra Adhesiva Pelifix Pelikan Blister x 1 Un x 10 Gr/;/PELIKAN ARGENTINA S.A./;/7792700371360/;//;/$ 47,10/;/$ 48,75/;/$ 49,69/;/$ 50,40/;/$ 50,87/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabón en Pan Clásico Zorro 2 x 150 Gr/;/ALICORP/;/7790990572269/;//;/$ 21,66/;/$ 21,66/;/$ 21,66/;/$ 21,66/;/$ 21,66/;/icon_pc</item>
+        <item>LIMPIEZA/;/Suavizante Clásico Carrefour Doypack x 900 Cc/;/CARREFOUR/;/7798159717605/;//;/$ 34,90/;/$ 36,12/;/$ 36,82/;/$ 37,34/;/$ 37,69/;/icon_pc</item>
+        <item>LIMPIEZA/;/Lavandina Concentrada Ayudín x 1 Lt/;/CLOROX ARGENTINA S.A./;/7790132098459/;//;/$ 20,96/;/$ 20,96/;/$ 20,96/;/$ 20,96/;/$ 20,96/;/icon_pc</item>
+        <item>LIMPIEZA/;/Palitos Brochettes Iberia 25 Cm x 25 Un/;/INDUSTRIAS IBERIA S.A.I.C./;/7790900001155/;//;/$ 35,77/;/$ 37,02/;/$ 37,74/;/$ 38,27/;/$ 38,63/;/icon_pc</item>
+        <item>LIMPIEZA/;/Palillero Dos Picos 2 x 50 Un/;/INDUSTRIAS IBERIA S.A.I.C./;/7790900006617/;//;/$ 36,30/;/$ 37,57/;/$ 38,30/;/$ 38,84/;/$ 39,20/;/icon_pc</item>
+        <item>LIMPIEZA/;/Suavizante para Ropa Gigante Doy Pack x 900 Cc/;/JOSÉ GUMA/;/7790828104556/;//;/$ 34,80/;/$ 34,80/;/$ 34,80/;/$ 34,80/;/$ 34,80/;/icon_pc</item>
+        <item>LIMPIEZA/;/Suavizante Fragancia Rosa Fórmula Económica Gigante x 800 Ml/;/JOSÉ GUMA/;/7790828104624/;//;/$ 28,90/;/$ 28,90/;/$ 28,90/;/$ 28,90/;/$ 28,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Limpiador de Piso Fragancia Marina Fórmula Económica Gigante x 750 Ml/;/JOSÉ GUMA/;/7790828104686/;//;/$ 22,90/;/$ 22,90/;/$ 22,90/;/$ 22,90/;/$ 22,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Limpiador de Piso Fragancia Lavanda Fórmula Económica Gigante x 750 Ml/;/JOSÉ GUMA/;/7790828104648/;//;/$ 22,90/;/$ 22,90/;/$ 22,90/;/$ 22,90/;/$ 22,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Lavavajillas Concentrado Pomelo Fórmula Económica 12 x 273 Ml/;/JOSÉ GUMA/;/7790828104709/;//;/$ 27,00/;/$ 27,00/;/$ 27,00/;/$ 27,00/;/$ 27,00/;/icon_pc</item>
+        <item>LIMPIEZA/;/Lavavajillas Concentrado Limón Fórmula Económica Gigante x 273 Ml/;/JOSÉ GUMA/;/7790828104723/;//;/$ 27,00/;/$ 27,00/;/$ 27,00/;/$ 27,00/;/$ 27,00/;/icon_pc</item>
+        <item>LIMPIEZA/;/Lavavajillas con Glicerina Fórmula Econ Gigante x 750 Ml/;/JOSÉ GUMA/;/7790828104679/;//;/$ 26,90/;/$ 26,90/;/$ 26,90/;/$ 26,90/;/$ 26,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabón Puro de Lavar Gigante x 150 Gr/;/JOSÉ GUMA/;/7790828002067/;//;/$ 9,90/;/$ 9,90/;/$ 9,90/;/$ 9,90/;/$ 9,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabon para Lavar la Ropa Gigante x 120 Gr/;/JOSÉ GUMA/;/7790828104655/;//;/$ 8,00/;/$ 8,00/;/$ 8,00/;/$ 8,00/;/$ 8,00/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabón en Pan Limpieza Clásica Gigante Pack x 2 Un x 200 Gr x 400 Gr/;/JOSÉ GUMA/;/7790828103344/;//;/$ 27,00/;/$ 27,00/;/$ 27,00/;/$ 27,00/;/$ 27,00/;/icon_pc</item>
+        <item>LIMPIEZA/;/Detergente para Lavar la Ropa Gigante Doy Pack x 900 Cc/;/JOSÉ GUMA/;/7790828002487/;//;/$ 78,15/;/$ 78,15/;/$ 78,15/;/$ 78,15/;/$ 78,15/;/icon_pc</item>
+        <item>LIMPIEZA/;/Detergente para Lavar la Ropa Gigante Botella x 730 Ml/;/JOSÉ GUMA/;/7790828001947/;//;/$ 73,55/;/$ 73,55/;/$ 73,55/;/$ 73,55/;/$ 73,55/;/icon_pc</item>
+        <item>LIMPIEZA/;/Suavizante Flores Silvestres Ecovita Doypack x 3 Lt/;/LABORATORIOS ECOVITA S.A./;/7798124361017/;//;/$ 119,00/;/$ 123,17/;/$ 125,55/;/$ 127,33/;/$ 128,52/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabón Líquido para Lavar la Ropa Ecovita Botella x 800 Ml/;/LABORATORIOS ECOVITA S.A./;/7798124360676/;//;/$ 65,52/;/$ 67,81/;/$ 69,12/;/$ 70,11/;/$ 70,76/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabón Líquido para Lavar la Ropa Ecovita Botella x 1,5 Lt/;/LABORATORIOS ECOVITA S.A./;/7798124360720/;//;/$ 113,36/;/$ 117,33/;/$ 119,59/;/$ 121,30/;/$ 122,43/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabón Líquido Ecovita Botella x 3 Lt/;/LABORATORIOS ECOVITA S.A./;/7798124360737/;//;/$ 196,56/;/$ 203,44/;/$ 207,37/;/$ 210,32/;/$ 212,28/;/icon_pc</item>
+        <item>LIMPIEZA/;/Detergente Ropa Fina Ecovita Doypack x 450 Ml/;/LABORATORIOS ECOVITA S.A./;/7798124360805/;//;/$ 43,20/;/$ 44,71/;/$ 45,58/;/$ 46,22/;/$ 46,66/;/icon_pc</item>
+        <item>LIMPIEZA/;/Suavizante para Ropa Tradicional Doy Pack x 900 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199001468/;//;/$ 35,00/;/$ 36,23/;/$ 36,93/;/$ 37,45/;/$ 37,80/;/icon_pc</item>
+        <item>LIMPIEZA/;/Limpiador Cremoso Top Win x 750 Gr/;/LABORATORIOS ESME S.A.I.C/;/7791199001635/;//;/$ 48,00/;/$ 49,68/;/$ 50,64/;/$ 51,36/;/$ 51,84/;/icon_pc</item>
+        <item>LIMPIEZA/;/Detergente Lavavajillas Limón Cristalino Zefer x 750 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199003967/;//;/$ 32,00/;/$ 33,12/;/$ 33,76/;/$ 34,24/;/$ 34,56/;/icon_pc</item>
+        <item>LIMPIEZA/;/Detergente Lavavajillas Frutal Cristalino Zefer x 750 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199003974/;//;/$ 32,00/;/$ 33,12/;/$ 33,76/;/$ 34,24/;/$ 34,56/;/icon_pc</item>
+        <item>LIMPIEZA/;/Rollitos de Acero Virulana Pack x 10 Un x 70 Gr/;/MAPA VIRULANA S.A.I. Y C./;/7794440101702/;//;/$ 29,00/;/$ 30,02/;/$ 30,60/;/$ 31,03/;/$ 31,32/;/icon_pc</item>
+        <item>LIMPIEZA/;/Guante Finos Segunda Piel Talle M Mapa Pack x 10 Un/;/MAPA VIRULANA S.A.I. Y C./;/7794440986071/;//;/$ 63,90/;/$ 66,14/;/$ 67,41/;/$ 68,37/;/$ 69,01/;/icon_pc</item>
+        <item>LIMPIEZA/;/Guante Finos Segunda Piel Talle L Mapa Pack x 10 Un/;/MAPA VIRULANA S.A.I. Y C./;/7794440986088/;//;/$ 63,90/;/$ 66,14/;/$ 67,41/;/$ 68,37/;/$ 69,01/;/icon_pc</item>
+        <item>LIMPIEZA/;/Guante de Látex Virulana Multiuso Talle S x 1 Par/;/MAPA VIRULANA S.A.I. Y C./;/7794440045419/;//;/$ 63,90/;/$ 66,14/;/$ 67,41/;/$ 68,37/;/$ 69,01/;/icon_pc</item>
+        <item>LIMPIEZA/;/Guante de Látex Virulana Multiuso Talle M x 1 Par/;/MAPA VIRULANA S.A.I. Y C./;/7794440045426/;//;/$ 63,90/;/$ 66,14/;/$ 67,41/;/$ 68,37/;/$ 69,01/;/icon_pc</item>
+        <item>LIMPIEZA/;/Guante de Látex Virulana Multiuso Talle L x 1 Par/;/MAPA VIRULANA S.A.I. Y C./;/7794440045433/;//;/$ 63,90/;/$ 66,14/;/$ 67,41/;/$ 68,37/;/$ 69,01/;/icon_pc</item>
+        <item>LIMPIEZA/;/Esponja Mapa Multiondas Virulana x 1 Un/;/MAPA VIRULANA S.A.I. Y C./;/7794440000210/;//;/$ 17,49/;/$ 18,10/;/$ 18,45/;/$ 18,71/;/$ 18,89/;/icon_pc</item>
+        <item>LIMPIEZA/;/Esponja Mapa Multiondas Sin Rayar Virulana x 1 Un/;/MAPA VIRULANA S.A.I. Y C./;/7794440003242/;//;/$ 17,49/;/$ 18,10/;/$ 18,45/;/$ 18,71/;/$ 18,89/;/icon_pc</item>
+        <item>LIMPIEZA/;/Esponja con Fibra Multiuso Cuidauñas Virulana x 1 Un/;/MAPA VIRULANA S.A.I. Y C./;/7794440003440/;//;/$ 16,90/;/$ 17,49/;/$ 17,83/;/$ 18,09/;/$ 18,25/;/icon_pc</item>
+        <item>LIMPIEZA/;/Escobillón para Todo Tipo Pisos Madera Clásico Virulana x 1 Un/;/MAPA VIRULANA S.A.I. Y C./;/7794440007035/;//;/$ 94,90/;/$ 98,22/;/$ 100,12/;/$ 101,54/;/$ 102,49/;/icon_pc</item>
+        <item>LIMPIEZA/;/Paños Multiuso Mapa Virulana 4 Un/;/MAPA VIRULANA S.A.I. Y C./;/7794440000203/;//;/$ 142,48/;/$ 147,46/;/$ 150,31/;/$ 152,45/;/$ 153,87/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Limpiador Concentrado para Pisos Fragancia Pino Multimax x 1 Lt/;/MULTIMAX/;/7798184581578/;//;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Limpiador Concentrado para Pisos Fragancia Marina Multimax x 1 Lt/;/MULTIMAX/;/7798184581561/;//;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Limpiador Concentrado para Pisos Fragancia Lavanda Multimax x 1 Lt/;/MULTIMAX/;/7798184581554/;//;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Limpiador Concentrado para Pisos Fragancia Coco Vainilla Multimax x 1 Lt/;/MULTIMAX/;/7798184581547/;//;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Limpiador Concentrado para Pisos Fragancia Cítrico Multimax x 1 Lt/;/MULTIMAX/;/7798184581530/;//;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Limpiador Concentrado para Pisos Fragancia Cherry Multimax x 1 Lt/;/MULTIMAX/;/7798184581523/;//;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/$ 18,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Antibacterial para pisos Fragancia Pino Multimax x 5Lt/;/MULTIMAX/;/7798184581080/;//;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Antibacterial para pisos Fragancia Marina Multimax x 5Lt/;/MULTIMAX/;/7798184581073/;//;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Antibacterial para pisos Fragancia Lavanda Multimax x 5Lt/;/MULTIMAX/;/7798184581103/;//;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Antibacterial para pisos Fragancia Coco Vainilla Multimax x 5Lt/;/MULTIMAX/;/7798184581332/;//;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Antibacterial para pisos Fragancia Cítrico Multimax x 5Lt/;/MULTIMAX/;/7798184581097/;//;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/icon_pc</item>
+        <item>LIMPIEZA/;/Desodorante Antibacterial para pisos Fragancia Cherry Multimax x 5Lt/;/MULTIMAX/;/7798184581066/;//;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/$ 62,30/;/icon_pc</item>
+        <item>LIMPIEZA/;/Servilletas Blancas Cartabella 32 x 70 Un/;/PAPELERA SAN ANDRÉS DE GILES S.A./;/7791828004914/;//;/$ 24,90/;/$ 25,77/;/$ 26,27/;/$ 26,64/;/$ 26,89/;/icon_pc</item>
+        <item>LIMPIEZA/;/Rollo de Cocina Decorado Sweety Cuisine 60 Paños x 3 Un/;/PAPELERA SAN ANDRÉS DE GILES S.A./;/7791828000565/;//;/$ 67,17/;/$ 69,52/;/$ 70,86/;/$ 71,87/;/$ 72,54/;/icon_pc</item>
+        <item>LIMPIEZA/;/Escarbadientes Ideal Bolsa x 50 Un/;/PRIFAMON/;/7790773034014/;//;/$ 12,95/;/$ 12,95/;/$ 12,95/;/$ 12,95/;/$ 12,95/;/icon_pc</item>
+        <item>LIMPIEZA/;/Escarbadientes Ideal Bolsa 2 x 50 Un/;/PRIFAMON/;/7790773034021/;//;/$ 37,90/;/$ 37,90/;/$ 37,90/;/$ 37,90/;/$ 37,90/;/icon_pc</item>
+        <item>LIMPIEZA/;/Tableta Contra Mosquitos Doble Accion Raid x 12 Un/;/S.C. JOHNSON Y SON DE ARG. S.A./;/7790520017345/;//;/$ 38,22/;/$ 38,22/;/$ 38,22/;/$ 38,22/;/$ 38,22/;/icon_pc</item>
+        <item>LIMPIEZA/;/Quitamanchas Liquido White Doypack Ala x 400 Ml/;/UNILEVER/;/7891150057326/;//;/$ 41,00/;/$ 41,00/;/$ 41,00/;/$ 41,00/;/$ 41,00/;/icon_pc</item>
+        <item>LIMPIEZA/;/Quitamanchas en Polvo White Bag Ala x 420 Gr/;/UNILEVER/;/7891150057340/;//;/$ 116,35/;/$ 116,35/;/$ 116,35/;/$ 116,35/;/$ 116,35/;/icon_pc</item>
+        <item>LIMPIEZA/;/Jabón Líquido para Ropa Piel Sensible Ala Matic Doypack x 700 Ml/;/UNILEVER/;/7791290786219/;//;/$ 101,75/;/$ 101,75/;/$ 101,75/;/$ 101,75/;/$ 101,75/;/icon_pc</item>
+        <item>LIMPIEZA/;/Esponja Salva Uñas Cif Ballerina x 1 Un/;/UNILEVER/;/7791290786950/;//;/$ 24,10/;/$ 24,10/;/$ 24,10/;/$ 24,10/;/$ 24,10/;/icon_pc</item>
+        <item>NAVIDEÑA/;/Postre de Maní Marmolado Mantecol x 110 Gr/;/MONDELEZ/;/7791249420911/;/SI/;/$ 47,93/;/$ 47,93/;/$ 47,93/;/$ 47,93/;/$ 47,93/;/icon_pc</item>
+        <item>PANIFICADOS/;/Pionono Blé Bon Mase x 180 Gr/;/BON MASE SA/;/7791473000514/;//;/$ 44,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Pionono Blé Bon Mase x 150 Gr/;/BON MASE SA/;/7791473000422/;//;/$ 39,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Madalena de Vainilla Miss Yvette Bon Mase x 175 Gr/;/BON MASE SA/;/7791473002778/;//;/$ 33,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Madalena de Naranja Miss Yvette Bon Mase x 175 Gr/;/BON MASE SA/;/7791473002853/;//;/$ 33,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Madalena de Limón Miss Yvette Bon Mase x 175 Gr/;/BON MASE SA/;/7791473002846/;//;/$ 33,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Madalena con Chips Miss Yvette Bon Mase x 175 Gr/;/BON MASE SA/;/7791473002785/;//;/$ 33,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín Marmolado Miss Yvette Bon Mase x 160 Gr/;/BON MASE SA/;/7791473002655/;//;/$ 29,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín Inglés Miss Yvette Bon Mase x 160 Gr/;/BON MASE SA/;/7791473002693/;//;/$ 29,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín de Vainilla Miss Yvette Bon Mase x 160 Gr/;/BON MASE SA/;/7791473002648/;//;/$ 29,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín de Limón Miss Yvette Bon Mase x 160 Gr/;/BON MASE SA/;/7791473002662/;//;/$ 29,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín con Chips Miss Yvette Bon Mase x 160 Gr/;/BON MASE SA/;/7791473002679/;//;/$ 29,90/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín Marmolado Don Satur x 220 Gr/;/DON SATUR/;/7795735000052/;//;/$ 42,00/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín de Vainilla Relleno con Dulce de Leche Don Satur x 250 Gr/;/DON SATUR/;/7795735600979/;//;/$ 42,00/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín de Vainilla Don Satur x 220 Gr/;/DON SATUR/;/7795735000021/;//;/$ 42,00/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Budín con Frutas Don Satur x 220 Gr/;/DON SATUR/;/7795735000038/;//;/$ 42,00/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/"Budín con Chips Don Satur x 210 Gr Budín Light Reducido en Azúcar sabor Vainilla La Cumbre x 200"/;/DON SATUR/;/7795735000045/;//;/$ 42,00/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PANIFICADOS/;/Gr/;/ESTABLECIMIENTO LA CUMBRE SA/;/816855020304/;//;/$ 49,90/;/$ 51,65/;/$ 52,64/;/$ 53,39/;/$ 53,89/;/icon_pc</item>
+        <item>PASCUAS/;/Huevos de Pascua Leche Bon o Bon Display x 20 Gr/;/ARCOR/;/7790580463403/;//;/$ 40,00/;/$ 41,40/;/$ 42,20/;/$ 42,80/;/$ 43,20/;/icon_pc</item>
+        <item>PASCUAS/;/Huevos de Pascua Blanco Bon o Bon Display x 20 Gr/;/ARCOR/;/7790580430900/;//;/$ 40,00/;/$ 41,40/;/$ 42,20/;/$ 42,80/;/$ 43,20/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos Secos Carrefour x 500 Gr/;/CARREFOUR/;/7798159717247/;//;/$ 29,90/;/$ 30,95/;/$ 31,54/;/$ 31,99/;/$ 32,29/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Pre Pizza Mendía x 2 Un/;/CASAMEN SA/;/7790522012010/;//;/$ 42,00/;/$ 42,00/;/$ 42,00/;/$ 42,00/;/$ 42,00/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Tapas para Pastelitos Mendía x 24 Un/;/CASAMEN SA/;/7790522000031/;//;/$ 44,90/;/$ 44,90/;/$ 44,90/;/$ 44,90/;/$ 44,90/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Tapas para Empanada Horno Mendía X 12 Un/;/CASAMEN SA/;/7790522000796/;//;/$ 32,00/;/$ 32,00/;/$ 32,00/;/$ 32,00/;/$ 32,00/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Ñoquis de Sémola 308 x 500 Gr/;/FIDEGROUP SA/;/7790427002086/;//;/$ 28,70/;/$ 28,70/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos Tirabuzón Trisabor 308 x 500 Gr/;/FIDEGROUP SA/;/7790427000174/;//;/$ 34,00/;/$ 34,00/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos Tirabuzón Dintel x 500 Gr/;/FIDEGROUP SA/;/7790427102090/;//;/$ 20,50/;/$ 20,50/;/$ 21,94/;/$ 22,55/;/$ 22,96/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos Spaghetti Dintel x 500 Gr/;/FIDEGROUP SA/;/7790427102236/;//;/$ 20,50/;/$ 20,50/;/$ 21,94/;/$ 22,55/;/$ 22,96/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos Mostachol Trisabor 308 x 500 Gr/;/FIDEGROUP SA/;/7790427000167/;//;/$ 34,00/;/$ 34,00/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos Mostachol Dintel x 500 Gr/;/FIDEGROUP SA/;/7790427102069/;//;/$ 20,50/;/$ 20,50/;/$ 21,94/;/$ 22,55/;/$ 22,96/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos de Sémola Vermichelli 308 x 500 Gr/;/FIDEGROUP SA/;/7790427003021/;//;/$ 28,70/;/$ 28,70/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos de Sémola Tirabuzón 308 x 500 Gr/;/FIDEGROUP SA/;/7790427002093/;//;/$ 28,70/;/$ 28,70/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos de Sémola Mostachol 308 x 500 Gr/;/FIDEGROUP SA/;/7790427002062/;//;/$ 28,70/;/$ 28,70/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos con Huevo Codo Rayado 308 x 500 Gr/;/FIDEGROUP SA/;/7790427005209/;//;/$ 30,50/;/$ 30,50/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Fideos Codito Dintel x 500 Gr/;/FIDEGROUP SA/;/7790427102045/;//;/$ 20,50/;/$ 20,50/;/$ 21,94/;/$ 22,55/;/$ 22,96/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Tapas para Empanadas Criollas Don Celedonio x 12 Un/;/LA SALTEÑA/;/7790236018261/;//;/$ 28,01/;/$ 28,01/;/$ 28,01/;/$ 28,01/;/$ 28,01/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Tapa para Pascualina de Hojaldre Don Celedonio x 2 Un/;/LA SALTEÑA/;/7790236018179/;//;/$ 33,74/;/$ 33,74/;/$ 33,74/;/$ 33,74/;/$ 33,74/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Tapa de Empanada de Hojaldre Don Celedonio x 300 Gr/;/LA SALTEÑA/;/7790236018254/;//;/$ 28,01/;/$ 28,01/;/$ 28,01/;/$ 28,01/;/$ 28,01/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Ravioles de Queso Don Celedonio x 500 Gr/;/LA SALTEÑA/;/7790236018223/;//;/$ 59,20/;/$ 59,20/;/$ 59,20/;/$ 59,20/;/$ 59,20/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Ravioles de Pollo y Verdura Don Celedonio x 500 Gr/;/LA SALTEÑA/;/7790236018247/;//;/$ 59,20/;/$ 59,20/;/$ 59,20/;/$ 59,20/;/$ 59,20/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Pascualina Criolla Don Celedonio x 360 Gr/;/LA SALTEÑA/;/7790236018216/;//;/$ 33,74/;/$ 33,74/;/$ 33,74/;/$ 33,74/;/$ 33,74/;/icon_pc</item>
+        <item>PASTAS Y TAPAS/;/Ñoquis Don Celedonio x 500 Gr/;/LA SALTEÑA/;/7790236018230/;//;/$ 46,47/;/$ 46,47/;/$ 46,47/;/$ 46,47/;/$ 46,47/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Shampoo Manzana y Magnolia Algabo Natural x 300 Ml./;/ALGABO S.A./;/7791274196973/;//;/$ 38,30/;/$ 38,30/;/$ 38,30/;/$ 38,30/;/$ 38,30/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente Líquido en Spray Vais x 200 Ml/;/ALGABO S.A./;/7791274195952/;//;/$ 79,90/;/$ 79,90/;/$ 79,90/;/$ 79,90/;/$ 79,90/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente Líquido en Spray Extra Duración Vais x 200 Ml/;/ALGABO S.A./;/7791274197079/;//;/$ 122,70/;/$ 122,70/;/$ 122,70/;/$ 122,70/;/$ 122,70/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Quitaesmalte ra con KeratinaAlgabo x 50 Ml/;/ALGABO S.A./;/7791274005299/;//;/$ 28,80/;/$ 28,80/;/$ 28,80/;/$ 28,80/;/$ 28,80/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Protector Solar FPS 30 Cocoa Beach Pomo x 130 Ml/;/ALGABO S.A./;/7791274002830/;//;/$ 175,00/;/$ 175,00/;/$ 175,00/;/$ 175,00/;/$ 175,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Polvo Desodorante para Pies Algabo Talquera x 100 Gr/;/ALGABO S.A./;/7791274187742/;//;/$ 35,50/;/$ 35,50/;/$ 35,50/;/$ 35,50/;/$ 35,50/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Hispos Bebe x 50 Un./;/ALGABO S.A./;/7791274005220/;//;/$ 49,00/;/$ 49,00/;/$ 49,00/;/$ 49,00/;/$ 49,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Hisopos Algabo Control Tubo x 150 Un/;/ALGABO S.A./;/7791274005251/;//;/$ 49,00/;/$ 49,00/;/$ 49,00/;/$ 49,00/;/$ 49,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Hisopos Algabo Control Tubo x 100 Un/;/ALGABO S.A./;/7791274005237/;//;/$ 31,00/;/$ 31,00/;/$ 31,00/;/$ 31,00/;/$ 31,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Gel Post Solar con Aloe Vera Cocoa Beach x 200 Ml/;/ALGABO S.A./;/7791274001956/;//;/$ 125,00/;/$ 125,00/;/$ 125,00/;/$ 125,00/;/$ 125,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Gel Fijación Fuerte Pomo x 200 Gr/;/ALGABO S.A./;/7791274189333/;//;/$ 52,00/;/$ 52,00/;/$ 52,00/;/$ 52,00/;/$ 52,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Gel Capilar Brillo Y Control Amarillo Algabo Pomo x 150 Gr/;/ALGABO S.A./;/7791274196430/;//;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/$ 45,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Enjuague Bucal Artic Algabo x 500 Ml/;/ALGABO S.A./;/7791274196485/;//;/$ 92,00/;/$ 92,00/;/$ 92,00/;/$ 92,00/;/$ 92,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Crema para Peinar Keratina Algabo Control x 300 Ml/;/ALGABO S.A./;/7791274001482/;//;/$ 75,00/;/$ 75,00/;/$ 75,00/;/$ 75,00/;/$ 75,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Acondicionador Manzana y Magnolia Algabo Natural x 300 Ml./;/ALGABO S.A./;/7791274197000/;//;/$ 38,30/;/$ 38,30/;/$ 38,30/;/$ 38,30/;/$ 38,30/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Jabón Líquido Green Tea Algabo Doy pack x 300 Ml/;/ALGABO S.A./;/7791274196041/;//;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Jabón Líquido Floral Rain Algabo Doy pack x 300 Ml/;/ALGABO S.A./;/7791274196003/;//;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Jabón Líquido Citrus Algabo Doy pack x 300 Ml/;/ALGABO S.A./;/7791274196010/;//;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/$ 38,50/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Shampoo Brillo Sublime Effect Plusbelle x 650 Ml/;/ALICORP/;/7790740507732/;//;/$ 65,45/;/$ 65,45/;/$ 65,45/;/$ 65,45/;/$ 65,45/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Shampoo Antioxidante Plusbelle x 1 Lt/;/ALICORP/;/7790740505592/;//;/$ 57,70/;/$ 57,70/;/$ 57,70/;/$ 57,70/;/$ 57,70/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón Sensación Nutritiva Plusbelle Pack x 3 x 125 Gr/;/ALICORP/;/7790990586808/;//;/$ 44,61/;/$ 44,61/;/$ 44,61/;/$ 44,61/;/$ 44,61/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Acondicionador Plusbelle Brillo Sublime Effect x 650 Ml/;/ALICORP/;/7790740507770/;//;/$ 65,45/;/$ 65,45/;/$ 65,45/;/$ 65,45/;/$ 65,45/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Acondicionador Plusbelle Antioxidante x 1 Lt/;/ALICORP/;/7790740502485/;//;/$ 57,70/;/$ 57,70/;/$ 57,70/;/$ 57,70/;/$ 57,70/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Toallitas Demaquillantes Nivea Pure x 25 Un/;/BEIERSDORF/;/4005808428656/;//;/$ 109,20/;/$ 109,20/;/$ 109,20/;/$ 109,20/;/$ 109,20/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Desodorante Antitranspirante Hombre en Roll On Nivea Sensitive X 50 ML/;/BEIERSDORF/;/4005808257621/;//;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Desodorante Antitranspirante en Roll On Nivea Protect Care x 50 ML/;/BEIERSDORF/;/4005900130785/;//;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/$ 62,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema de Cuidado Nutritivo Nivea x 100 Ml/;/BEIERSDORF/;/42300083/;//;/$ 104,00/;/$ 104,00/;/$ 104,00/;/$ 104,00/;/$ 104,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema Corporal Body Express Hydration Nivea x 250 Ml/;/BEIERSDORF/;/4005808352630/;//;/$ 89,00/;/$ 89,00/;/$ 89,00/;/$ 89,00/;/$ 89,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Desodorante Antitranspirante en Aerosol Nivea Protection Y Care 150 Cc/;/BEIERSDORF/;/4005900122186/;//;/$ 64,00/;/$ 64,00/;/$ 64,00/;/$ 64,00/;/$ 64,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Desodorante Antitranspirante en Aerosol Nivea Sensitive Protect for Men 150 Cc/;/BEIERSDORF/;/7791969029807/;//;/$ 64,00/;/$ 64,00/;/$ 64,00/;/$ 64,00/;/$ 64,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Máquina de Afeitar For Women Bic Comfort x 5 Un/;/BIC/;/70330728974/;//;/$ 72,10/;/$ 74,62/;/$ 76,07/;/$ 77,15/;/$ 77,87/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Máquina de Afeitar Bic Comfort Twin x 5 Un/;/BIC/;/70330709881/;//;/$ 72,10/;/$ 74,62/;/$ 76,07/;/$ 77,15/;/$ 77,87/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón de tocador Carrefour 3 x 90 Gr/;/CARREFOUR/;/7798152225213/;//;/$ 29,90/;/$ 30,95/;/$ 31,54/;/$ 31,99/;/$ 32,29/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón de Tocador Hidratación Intensa Karité Palmolive x 85 Gr/;/COLGATE PALMOLIVE S.A./;/7891024034781/;//;/$ 19,90/;/$ 20,60/;/$ 20,99/;/$ 21,29/;/$ 21,49/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema Dental Kolynos Extra Fresh x 90 Gr/;/COLGATE PALMOLIVE S.A./;/7793100120220/;//;/$ 43,40/;/$ 44,92/;/$ 45,79/;/$ 46,44/;/$ 46,87/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema Dental Colgate Triple Acción x 50 Gr/;/COLGATE PALMOLIVE S.A./;/7891024131909/;//;/$ 26,00/;/$ 26,91/;/$ 27,43/;/$ 27,82/;/$ 28,08/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Gel Capilar Máxima Fijación Super Look x 500 Gr/;/COSMETEC S.A./;/7792143720060/;//;/$ 86,82/;/$ 89,86/;/$ 91,59/;/$ 92,89/;/$ 93,76/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Gel Capilar Brillo Mojado Super Look x 150 Gr/;/COSMETEC S.A./;/7792143502253/;//;/$ 42,50/;/$ 43,99/;/$ 44,84/;/$ 45,48/;/$ 45,90/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema Reparadora Yoga Energy Lola Puga x 200 Gr/;/COSMETEC S.A./;/7792143700642/;//;/$ 45,84/;/$ 47,44/;/$ 48,36/;/$ 49,05/;/$ 49,51/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema de Almendras Sexy Skin Lola Puga x 200 Gr/;/COSMETEC S.A./;/7792143700635/;//;/$ 45,84/;/$ 47,44/;/$ 48,36/;/$ 49,05/;/$ 49,51/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema Corporal de Té Verde Relax Lola Puga x 200 Gr/;/COSMETEC S.A./;/7792143700628/;//;/$ 45,84/;/$ 47,44/;/$ 48,36/;/$ 49,05/;/$ 49,51/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Alcohol Etílico U/A 96º MF x 250 Cc/;/FRADEALCO S.A./;/7792378001705/;//;/$ 32,60/;/$ 33,74/;/$ 34,39/;/$ 34,88/;/$ 35,21/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Alcohol en Gel Etílico 70ª MF x 500 Cc/;/FRADEALCO S.A./;/7792378001750/;//;/$ 84,33/;/$ 87,28/;/$ 88,96/;/$ 90,23/;/$ 91,07/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Desodorante Antitranspirante Roll On Flowers Hinds 60 Gr/;/GLAXOSMITHKLINE ARGENTINA S.A./;/7794640171376/;//;/$ 49,90/;/$ 49,90/;/$ 49,90/;/$ 49,90/;/$ 49,90/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Desodorante Antitranspirante Original Etiquet Men x 60 Gr/;/GLAXOSMITHKLINE ARGENTINA S.A./;/7794490630511/;//;/$ 49,90/;/$ 49,90/;/$ 49,90/;/$ 49,90/;/$ 49,90/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Crema Corporal Hidratación Esencial Hinds x 250 Ml/;/GLAXOSMITHKLINE ARGENTINA S.A./;/7794640171468/;//;/$ 79,00/;/$ 79,00/;/$ 79,00/;/$ 79,00/;/$ 79,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón Tocador Duke Armonic x 90 Gr/;/JOSÉ GUMA/;/7790828002609/;//;/$ 9,90/;/$ 9,90/;/$ 9,90/;/$ 9,90/;/$ 9,90/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón de Tocador Neutro de Glicerina Sin Perfume Duc x 125 Gr/;/JOSÉ GUMA/;/7790828001466/;//;/$ 25,90/;/$ 25,90/;/$ 25,90/;/$ 25,90/;/$ 25,90/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón de Tocador Kenia Cremoso 1 x 90Gr/;/JOSÉ GUMA/;/7790828101548/;//;/$ 8,88/;/$ 8,88/;/$ 8,88/;/$ 8,88/;/$ 8,88/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón de Tocador Kenia Colormix 3 x 80 Gr/;/JOSÉ GUMA/;/7790828104785/;//;/$ 22,90/;/$ 22,90/;/$ 22,90/;/$ 22,90/;/$ 22,90/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón de Tocador Hidrative Duc x 110 Gr/;/JOSÉ GUMA/;/7790828104907/;//;/$ 11,90/;/$ 11,90/;/$ 11,90/;/$ 11,90/;/$ 11,90/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Jabón de Tocador Antibacterial Clinerol Pack x 3 Un x 90 Gr/;/JOSÉ GUMA/;/7790828001848/;//;/$ 41,30/;/$ 41,30/;/$ 41,30/;/$ 41,30/;/$ 41,30/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Tampones Femeninos Tamaño Super Íntima x 8 Un/;/JVASWISS PERSONAL CARE PRODUCTS SRL/;/662425026845/;//;/$ 27,98/;/$ 27,98/;/$ 27,98/;/$ 27,98/;/$ 27,98/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Tampones Femeninos Tamaño Super Íntima x 20 Un/;/JVASWISS PERSONAL CARE PRODUCTS SRL/;/662425026753/;//;/$ 69,00/;/$ 69,00/;/$ 69,00/;/$ 69,00/;/$ 69,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Tampones Femeninos Tamaño Medio Íntima x 8 Un/;/JVASWISS PERSONAL CARE PRODUCTS SRL/;/662425026821/;//;/$ 27,98/;/$ 27,98/;/$ 27,98/;/$ 27,98/;/$ 27,98/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Tampones Femeninos Tamaño Medio Íntima x 20 Un/;/JVASWISS PERSONAL CARE PRODUCTS SRL/;/662425027040/;//;/$ 69,00/;/$ 69,00/;/$ 69,00/;/$ 69,00/;/$ 69,00/;/icon_pc</item>
+        <item>PERFUMENRIA Y CUIDADO PERSONAL/;/Papel Higienico Doble Hoja Scott Gold Class 30 Mt x 4 Un/;/KIMBERLY CLARK ARGENTINA S.A./;/7794626996726/;//;/$ 74,00/;/$ 76,59/;/$ 78,07/;/$ 79,18/;/$ 79,92/;/icon_pc</item>
+        <item>"PERFUMERÍA Y CUIDADO PERSONAL"/;/Preservativos Texturado Tulipán x 6 Un/;/KOPELCO S.A./;/7791014001529/;//;/$ 83,46/;/$ 86,38/;/$ 88,05/;/$ 89,30/;/$ 90,14/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Preservativos Super Fino Tulipán x 6 Un/;/KOPELCO S.A./;/7791014001536/;//;/$ 83,46/;/$ 86,38/;/$ 88,05/;/$ 89,30/;/$ 90,14/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Toallas Femeninas Normales con Alas Confort Ladysoft x 8 Un/;/LA PAPELERA DEL PLATA S.A./;/7790250096788/;//;/$ 26,50/;/$ 27,43/;/$ 27,96/;/$ 28,36/;/$ 28,62/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Papel Higienico Aloe Vera Hoja Simple Flor Cadenas 30 Mts Elite Extra x 4 Un/;/LA PAPELERA DEL PLATA S.A./;/7790250912804/;//;/$ 43,09/;/$ 44,60/;/$ 45,46/;/$ 46,11/;/$ 46,54/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Shampoo de Uso Diario de Manzana Life Quality Doypack x 950 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199004315/;//;/$ 42,85/;/$ 44,35/;/$ 45,20/;/$ 45,85/;/$ 46,28/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Shampoo de Uso Diario de Ceramidas Life Quality Doypack x 950 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199004322/;//;/$ 42,85/;/$ 44,35/;/$ 45,20/;/$ 45,85/;/$ 46,28/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente de Insectos en Spray Fush x 200 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199003028/;//;/$ 75,00/;/$ 77,63/;/$ 79,13/;/$ 80,25/;/$ 81,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente de Insectos en Crema Fush x 60 Gr/;/LABORATORIOS ESME S.A.I.C/;/7791199002861/;//;/$ 28,00/;/$ 28,98/;/$ 29,54/;/$ 29,96/;/$ 30,24/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente de Insectos en Crema Fush x 200 Gr/;/LABORATORIOS ESME S.A.I.C/;/7791199002526/;//;/$ 59,00/;/$ 61,07/;/$ 62,25/;/$ 63,13/;/$ 63,72/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Quitaesmalte Fortalecedor Sin Acetona Uniquit x 120 Ml/;/LABORATORIOS ESME S.A.I.C/;/77968487/;//;/$ 49,00/;/$ 50,72/;/$ 51,70/;/$ 52,43/;/$ 52,92/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Jabón Líquido para Manos Fragancia Mora y Lirio Life Quality Doypack x 250 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199004261/;//;/$ 30,02/;/$ 31,08/;/$ 31,68/;/$ 32,13/;/$ 32,43/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Jabón Líquido para Manos Fragancia Durazno Life Quality Doypack x 250 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199004254/;//;/$ 30,02/;/$ 31,08/;/$ 31,68/;/$ 32,13/;/$ 32,43/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Jabón Líquido para Manos Fragancia Coco y Vainilla Life Quality Doypack x 250 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199004230/;//;/$ 30,02/;/$ 31,08/;/$ 31,68/;/$ 32,13/;/$ 32,43/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Jabón Líquido para Manos de Glicerina Life Quality Doypack x 250ml/;/LABORATORIOS ESME S.A.I.C/;/7791199004247/;//;/$ 30,02/;/$ 31,08/;/$ 31,68/;/$ 32,13/;/$ 32,43/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Gel Capilar Fijación Fuerte con Provitamina B5 Pomo Life Quality x 150 Gr/;/LABORATORIOS ESME S.A.I.C/;/7791199004070/;//;/$ 39,00/;/$ 40,37/;/$ 41,15/;/$ 41,73/;/$ 42,12/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Enjuague Bucal Antiplaca con Flúor Sabor Menta Fresh Dent x 270 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199002465/;//;/$ 58,73/;/$ 60,79/;/$ 61,96/;/$ 62,84/;/$ 63,43/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Crema Dental con Flúor para Niños Sabor Tutti Frutti Fresh Dent x 90 Gr/;/LABORATORIOS ESME S.A.I.C/;/7791199002458/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Alcohol en Gel Sanitizante Neutro Hipolaergénico Sensitive con Válvula Life Quality x 250 Ml/;/LABORATORIOS ESME S.A.I.C/;/7791199003189/;//;/$ 60,00/;/$ 62,10/;/$ 63,30/;/$ 64,20/;/$ 64,80/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Toallitas Demaquillante Skin Balance x 25 Un/;/LABORATORIOS PRETTY/;/7798062050769/;//;/$ 60,00/;/$ 62,10/;/$ 63,30/;/$ 64,20/;/$ 64,80/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Alcohol en gel Germex Doypack x 250 Ml/;/LABORATORIOS PRETTY/;/7798062050233/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Papel Higiénico Doble Hoja Decorado Sweety 4 Un x 30 Mt/;/PAPELERA SAN ANDRÉS DE GILES S.A./;/7791828000213/;//;/$ 70,28/;/$ 72,74/;/$ 74,15/;/$ 75,20/;/$ 75,90/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Toallitas Desmaquillantes Agua Micelar Q-Soft x 25 Un/;/PRIFAMON/;/7790773008435/;//;/$ 77,99/;/$ 77,99/;/$ 77,99/;/$ 77,99/;/$ 77,99/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Hisopos Familiares Q-Soft x 100 Un/;/PRIFAMON/;/7790773041005/;//;/$ 36,99/;/$ 36,99/;/$ 36,99/;/$ 36,99/;/$ 36,99/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Toallas Femeninas con Alas Plus Suave Always x 8 Un/;/PROCTER Y GAMBLE/;/7500435140577/;//;/$ 34,18/;/$ 34,18/;/$ 34,18/;/$ 34,18/;/$ 34,18/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Toallas Femeninas Nocturnas Tela Suave Con Alas T3 Always 8x12IT/;/PROCTER Y GAMBLE/;/7500435140560/;//;/$ 71,37/;/$ 71,37/;/$ 71,37/;/$ 71,37/;/$ 71,37/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente en Crema Fuyi x 200 Gr/;/S.C. JOHNSON Y SON DE ARG. S.A./;/7790520990068/;//;/$ 54,73/;/$ 54,73/;/$ 54,73/;/$ 54,73/;/$ 54,73/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente en Aerosol OFF Family x 165 Ml/;/S.C. JOHNSON Y SON DE ARG. S.A./;/7790520009494/;//;/$ 77,20/;/$ 77,20/;/$ 77,20/;/$ 77,20/;/$ 77,20/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente en Aerosol Fuyi x 165 Ml/;/S.C. JOHNSON Y SON DE ARG. S.A./;/7790520990075/;//;/$ 63,00/;/$ 63,00/;/$ 63,00/;/$ 63,00/;/$ 63,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Repelente en Aerosol Protección Total Livopen x 165 Ml/;/UNILEVER/;/7791290786554/;//;/$ 67,00/;/$ 67,00/;/$ 67,00/;/$ 67,00/;/$ 67,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Desodorante Stick Axe Apollo Barra 12 x 54 Gr/;/UNILEVER/;/75043308/;//;/$ 83,00/;/$ 83,00/;/$ 83,00/;/$ 83,00/;/$ 83,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Desodorante en Aerosol Patrichs Noir 12 x 155 Gr/241 Ml/;/UNILEVER/;/7791293035420/;//;/$ 69,00/;/$ 69,00/;/$ 69,00/;/$ 69,00/;/$ 69,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Desodorante en Aerosol Masculino Rexona Invisible 12 x 90 Gr/;/UNILEVER/;/7791293022635/;//;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/icon_pc</item>
+        <item>PERFUMERÍA Y CUIDADO PERSONAL/;/Desodorante en Aerosol Femenino Rexona Invisible 12 x 90 Gr/;/UNILEVER/;/7791293032481/;//;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/$ 65,00/;/icon_pc</item>
+        <item>SIN TACC/;/Puré de Papas Libre de Gluten 123Listo! x 125 Gr/;/123LISTO! DE ADRIÁN LUNA PORTA/;/7798239780093/;/SI/;/$ 40,74/;//;/$ 42,98/;//;//;/icon_pc</item>
+        <item>SIN TACC/;/Premezcla para Preparar Pan 3 cereales Libre de Gluten 123Listo! x 385 Gr/;/123LISTO! DE ADRIÁN LUNA PORTA/;/7798239780048/;/SI/;/$ 94,40/;//;/$ 99,59/;//;//;/icon_pc</item>
+        <item>SIN TACC/;/Rebozador Libre de Gluten Naturalsur x 500 Gr/;/CINCO CUMBRES - NATURALSUR/;/7798193377285/;/SI/;/$ 64,27/;/$ 66,52/;/$ 67,80/;/$ 68,77/;/$ 69,41/;/icon_pc</item>
+        <item>SIN TACC/;/Premezcla para Pizza Libre de Gluten Naturalsur x 500 Gr/;/CINCO CUMBRES - NATURALSUR/;/7798193377261/;/SI/;/$ 68,74/;/$ 71,14/;/$ 72,52/;/$ 73,55/;/$ 74,23/;/icon_pc</item>
+        <item>SIN TACC/;/Premezcla Budín Libre de Gluten Naturalsur x 500 Gr/;/CINCO CUMBRES - NATURALSUR/;/7798193377063/;/SI/;/$ 98,63/;/$ 102,08/;/$ 104,05/;/$ 105,53/;/$ 106,52/;/icon_pc</item>
+        <item>SIN TACC/;/Chalitas Sabor Clásico Libres de Gluten/;/NOBELFOODS/;/7798195940128/;/SI/;/$ 43,90/;/$ 43,90/;/$ 43,90/;/$ 43,90/;/$ 43,90/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto de Tomate al Pesto Libre de Gluten Sin Tacc Quinto Zalla X 250 gr/;/QUINTO ZALLA/;/7798145510449/;/SI/;/$ 58,79/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto de Tomate al Pesto Libre de Gluten Sin Tacc Quinto Zalla x 500 gr/;/QUINTO ZALLA/;/7798145510869/;/SI/;/$ 70,08/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto Integral de Puerros, Hongos y Cebolla de Verdeo Libre de gluten sin Tacc Quinto Zalla X 500 gr/;/QUINTO ZALLA/;/7798145510883/;/SI/;/$ 80,11/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto Integral de Puerros, Hongos y Cebolla de Verdeo Libre de Gluten sin Tacc Quinto Zalla X 250 gr/;/QUINTO ZALLA/;/7798145510456/;/SI/;/$ 55,98/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto de Vegetales Libre de Gluten Sin Tacc Quinto Zalla x 500 gr/;/QUINTO ZALLA/;/7798145510852/;/SI/;/$ 80,11/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto de Espinaca y Cebolla Libre de Gluten Sin TACC Quinto Zalla x 500gr/;/QUINTO ZALLA/;/7798145510425/;/SI/;/$ 55,98/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto de espinaca y cebolla libre de gluten Sin Tacc Quinto Zalla/;/QUINTO ZALLA/;/7798145510876/;/SI/;/$ 80,11/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Risotto de espinaca y cebolla libre de gluten Sin Tacc Quinto Zalla X 250 gr/;/QUINTO ZALLA/;/7798145510432/;/SI/;/$ 55,98/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Polenta a las finas hierbas, Libre de Gluten Sin Tacc Quinto Zalla x 225 gr/;/QUINTO ZALLA/;/7798145510975/;/SI/;/$ 38,07/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Polenta a las finas hierbas Libre de Gluten Sin Tacc Quinto Zalla x 450 gr/;/QUINTO ZALLA/;/7798145511002/;/SI/;/$ 49,89/;/No Aplica/;/No Aplica/;/No Aplica/;/No Aplica/;/icon_pc</item>
+        <item>SIN TACC/;/Tostadas de Arroz sin TACC Ocean x 110 Gr/;/TÍA MARUCA/;/7798082744402/;/SI/;/$ 30,00/;/$ 30,00/;/$ 30,00/;/$ 30,00/;/$ 30,00/;/icon_pc</item>
     </string-array>
 </resources>
