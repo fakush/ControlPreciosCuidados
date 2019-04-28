@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void card_FeedRedes (View view) {
-        Intent intent = new Intent(MainActivity.this, FeedRedes.class);
+        Intent intent = new Intent(MainActivity.this, ListadoPrecios.class);
         startActivity(intent);
     }
 

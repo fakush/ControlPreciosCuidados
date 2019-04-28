@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ListaPreciosMayo">
+        <item>CATEGORIA; PRODUCTO; PROVEEDOR; EAN; SIN TACC; AMBA; BUENOS AIRES; CENTRO Y CUYO; NORESTE Y NOROESTE; PATAGONIA; FOTO</item>
+        <item>ALMACÉN/;/Aceite de Girasol Cada Día x 1,5 Lt/;/AGD/;/7790272004457/;//;/$ 88,50/;/$ 91,60/;/$ 93,37/;/$ 94,70/;/$ 95,58/;/001.jpg</item>
+        <item>ALMACÉN/;/Aceite de Girasol Cada Dia x 900 Cc/;/AGD/;/7790272004785/;//;/$ 55,23/;/$ 57,17/;/$ 58,27/;/$ 59,10/;/$ 59,65/;/001.jpg</item>
+        <item>ALMACÉN/;/Cacao en Polvo Arcoa 32 x 180 Gr/;/ARCOR/;/7790580402808/;//;/$ 26,77/;/$ 27,71/;/$ 28,24/;/$ 28,64/;/$ 28,91/;/001.jpg</item>
+        <item>ALMACÉN/;/Jardinera Arcor x 300 Gr/;/ARCOR/;/7790580983307/;/si/;/$ 26,76/;/$ 27,70/;/$ 28,23/;/$ 28,63/;/$ 28,90/;/001.jpg</item>
+        <item>ALMACÉN/;/Mermelada Ciruela La Campagnola x 454 Gr/;/ARCOR/;/7793360801709/;//;/$ 65,00/;/$ 67,28/;/$ 68,58/;/$ 69,55/;/$ 70,20/;/001.jpg</item>
+        <item>ALMACÉN/;/Mermelada de Durazno Arcor 12 x 454 Gr/;/ARCOR/;/7790580509507/;/si/;/$ 51,49/;/$ 53,29/;/$ 54,32/;/$ 55,09/;/$ 55,61/;/001.jpg</item>
+        <item>ALMACÉN/;/Puré de Tomate Arcor x 520 Gr/;/ARCOR/;/7790580221904/;//;/$ 27,00/;/$ 27,95/;/$ 28,49/;/$ 28,89/;/$ 29,16/;/001.jpg</item>
+        <item>ALMACÉN/;/Tomate Perita en Lata Arcor x 400 Gr/;/ARCOR/;/7790580567903/;/si/;/$ 24,19/;/$ 25,04/;/$ 25,53/;/$ 25,89/;/$ 26,13/;/001.jpg</item>
+        <item>ALMACÉN/;/Aceite de Girasol Primor x 900 Ml/;/BUNGE ARGENTINA S.A./;/7794870001887/;//;/$ 55,20/;/$ 57,13/;/$ 58,24/;/$ 59,06/;/$ 59,62/;/001.jpg</item>
+        <item>ALMACÉN/;/Arroz Largo Fino Primor x 1 Kg/;/BUNGE ARGENTINA S.A./;/7794870001344/;/si /;/$ 35,95/;/$ 37,21/;/$ 37,93/;/$ 38,47/;/$ 38,83/;/001.jpg</item>
+        <item>ALMACÉN/;/Arroz Parboil Primor x 1 Kg/;/BUNGE ARGENTINA S.A./;/7798316700082/;/si /;/$ 44,95/;/$ 46,52/;/$ 47,42/;/$ 48,10/;/$ 48,55/;/001.jpg</item>
+        <item>ALMACÉN/;/Té en Saquitos Big Ben x 25 Un/;/CAFÉ CABRALES/;/7790550000201/;//;/$ 23,00/;/$ 23,00/;/$ 23,00/;/$ 23,00/;/$ 23,00/;/001.jpg</item>
+        <item>ALMACÉN/;/Mermelada Damasco Dulcor x 454 Gr/;/DULCOR/;/7793046008453/;/si/;/$ 49,50/;/$ 51,24/;/$ 52,23/;/$ 52,97/;/$ 53,46/;/001.jpg</item>
+        <item>ALMACÉN/;/Yerba Mate Ytacuá x 1 Kg/;/ESTABLECIMIENTO LAS MARIAS S.A./;/7790387120349/;/Sí/;/$ 104,90/;/$ 108,57/;/$ 110,67/;/$ 112,24/;/$ 113,29/;/001.jpg</item>
+        <item>ALMACÉN/;/Yerba Mate Romance Suave x 1 Kg/;/GERULA S.A./;/7790802000164/;/Sí/;/$ 112,00/;/$ 115,92/;/$ 118,16/;/$ 119,84/;/$ 120,96/;/001.jpg</item>
+        <item>ALMACÉN/;/Azúcar Dominó x 1 Kg/;/LEDESMA/;/7792878000017/;//;/$ 34,25/;/35,45/;/36,13/;/36,65/;/36,99/;/001.jpg</item>
+        <item>ALMACÉN/;/Arroz Largo Fino Susarelli x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070415899/;/Sí/;/$ 18,38/;/$ 19,02/;/$ 19,39/;/$ 19,67/;/$ 19,85/;/001.jpg</item>
+        <item>ALMACÉN/;/Fideos Codito Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322319/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
+        <item>ALMACÉN/;/Fideos Spaghetti Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322296/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
+        <item>ALMACÉN/;/Fideos Tirabuzón Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070322302/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
+        <item>ALMACÉN/;/Mate Cocido en Saquitos Cruz de Malta x 50 Un/;/MOLINOS RIO DE LA PLATA/;/7790070508348/;//;/$ 44,90/;/$ 46,47/;/$ 47,37/;/$ 48,04/;/$ 48,49/;/001.jpg</item>
+        <item>ALMACÉN/;/Yerba Mate con Palo Chamigo x 1 Kg/;/MOLINOS RIO DE LA PLATA/;/7790060054954/;/Sí/;/$ 96,10/;/$ 99,46/;/$ 101,38/;/$ 102,82/;/$ 103,78/;/001.jpg</item>
+        <item>ALMACÉN/;/Fideos Mostachol Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070321978/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
+        <item>ALMACÉN/;/Fideos Tallarín Regio x 500 Gr/;/MOLINOS RIO DE LA PLATA/;/7790070321961/;//;/$ 21,28/;/$ 22,02/;/$ 22,45/;/$ 22,77/;/$ 22,98/;/001.jpg</item>
+        <item>ALMACÉN/;/Harina 000 Morixe x 1 Kg/;/MORIXE/;/7790199000013/;//;/$ 24,36/;/$ 25,22/;/$ 25,70/;/$ 26,07/;/$ 26,31/;/001.jpg</item>
+        <item>ALMACÉN/;/Harina 0000 Morixe x 1 Kg/;/MORIXE/;/7790199000020/;//;/$ 34,30/;/$ 35,50/;/$ 36,19/;/$ 36,71/;/$ 37,05/;/001.jpg</item>
+        <item>ALMACÉN/;/Harina Leudante Morixe x 1 Kg/;/MORIXE/;/7790199000051/;//;/$ 38,77/;/$ 40,12/;/$ 40,90/;/$ 41,48/;/$ 41,87/;/001.jpg</item>
+        <item>ALMACÉN/;/Pan Rallado Morixe x 1 kg/;/MORIXE/;/7790199602927/;//;/$ 66,88/;/$ 69,22/;/$ 70,55/;/$ 71,56/;/$ 72,23/;/001.jpg</item>
+        <item>ALMACÉN/;/Pan Rallado Morixe x 500 Gr/;/MORIXE/;/7790199602910/;//;/$ 40,66/;/$ 42,08/;/$ 42,90/;/$ 43,51/;/$ 43,91/;/001.jpg</item>
+        <item>ALMACÉN/;/Rebozador Morixe x 1 Kg/;/MORIXE/;/7790199602941/;//;/$ 66,88/;/$ 69,22/;/$ 70,55/;/$ 71,56/;/$ 72,23/;/001.jpg</item>
+        <item>ALMACÉN/;/Rebozador Morixe x 500 Gr/;/MORIXE/;/7790199602934/;//;/$ 40,66/;/$ 42,08/;/$ 42,90/;/$ 43,51/;/$ 43,91/;/001.jpg</item>
+        <item>ALMACÉN/;/Polenta Mágica Quaker x 500 Gr/;/PEPSICO/;/7792170007196/;//;/$ 31,99/;/$ 31,99/;/$ 31,99/;/$ 31,99/;/$ 31,99/;/001.jpg</item>
+        <item>ALMACÉN/;/Arroz Largo Fino 00000 Apóstoles x 1 Kg/;/ADECOAGRO/;/7791120031656/;//;/$ 38,12/;/$ 39,45/;/$ 40,21/;/$ 40,78/;/$ 41,16/;/001.jpg</item>
+        <item>ALMACÉN/;/Arroz Parboil Largo Fino 00000 Apóstoles x 1 Kg/;/ADECOAGRO/;/A confirmar/;/Sí/;/$ 45,90/;/$ 47,51/;/$ 48,42/;/$ 49,11/;/$ 49,57/;/001.jpg</item>
+        <item>ALMACÉN/;/Arroz Parboil Tipo Largo Fino 00000 Molinos Ala x 500 Gr/;/ADECOAGRO/;/7791120037566/;/Sí/;/$ 22,16/;/$ 22,93/;/$ 23,37/;/$ 23,71/;/$ 23,93/;/001.jpg</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Blanco Chardonnay 1895 Norton x 750 Cc/;/BODEGAS NORTON/;/7792319003966/;//;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/001.jpg</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Dalton Red Blend x 750 Cc/;/BODEGAS NORTON/;/7792319001917/;//;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/001.jpg</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Dalton White Blend x 750 Cc/;/BODEGAS NORTON/;/7792319655851/;//;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/$ 74,90/;/001.jpg</item>
+        <item>BEBIDAS CON ALCOHOL/;/Vino Varietal Malbec 1895 Norton x 750 Cc/;/BODEGAS NORTON/;/7792319003942/;//;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/$ 109,00/;/001.jpg</item>
+        <item>BEBIDAS CON ALCOHOL/;/Cerveza Rubia Quilmes Clásica x 340 Cc/;/CERVECERIA Y MALTERIA QUILMES/;/7792798011087/;//;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/$ 20,00/;/001.jpg</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Mineralizada con Gas Cellier Favaloro x 2 Lt/;/PRODEA/;/7790639002423/;//;/$ 24,94/;/$ 25,82/;/$ 26,32/;/$ 26,69/;/$ 26,94/;/001.jpg</item>
+        <item>BEBIDAS SIN ALCOHOL/;/Agua Mineralizada Sin Gas Cellier Favaloro x 2 Lt/;/PRODEA/;/7790639002416/;//;/$ 24,94/;/$ 25,81/;/$ 26,31/;/$ 26,69/;/$ 26,93/;/001.jpg</item>
+        <item>GALLETITAS/;/Galletitas con Salvado Fibro Active Bagley x 214 Gr/;/BAGLEY/;/7790040999404/;//;/$ 24,56/;/$ 25,41/;/$ 25,91/;/$ 26,27/;/$ 26,52/;/001.jpg</item>
+        <item>GALLETITAS/;/Galletitas con Sésamo Hogareñas 36 x 167 Gr/;/BAGLEY/;/7790040882102/;//;/$ 30,86/;/$ 31,94/;/$ 32,56/;/$ 33,02/;/$ 33,33/;/001.jpg</item>
+        <item>GALLETITAS/;/Galletitas de Agua Media Tarde Paquete x 110 Gr/;/BAGLEY/;/7790040333901/;//;/$ 10,96/;/$ 11,35/;/$ 11,56/;/$ 11,73/;/$ 11,84/;/001.jpg</item>
+        <item>GALLETITAS/;/Galletitas Ópera Agrupadas x 220 Gr/;/BAGLEY/;/7790040008175/;//;/$ 65,50/;/$ 67,79/;/$ 69,10/;/$ 70,09/;/$ 70,74/;/001.jpg</item>
+        <item>GALLETITAS/;/Galletitas Traviata x 101 Gr/;/BAGLEY/;/7790040872103/;//;/$ 15,11/;/$ 15,64/;/$ 15,94/;/$ 16,17/;/$ 16,32/;/001.jpg</item>
+        <item>GALLETITAS/;/Oblea Rellena de Chocolate Ópera Remix x 67 Gr/;/BAGLEY/;/7790040120129/;//;/$ 22,66/;/$ 23,45/;/$ 23,91/;/$ 24,25/;/$ 24,47/;/001.jpg</item>
+        <item>GALLETITAS/;/Oblea Rellena de Frutilla Ópera Remix x 67 Gr/;/BAGLEY/;/7790040121188/;//;/$ 22,66/;/$ 23,45/;/$ 23,91/;/$ 24,25/;/$ 24,47/;/001.jpg</item>
+        <item>/;/Postre Chocolate con Dulce de Leche Sancor Sublime Pack 2 x/;//;//;//;//;//;//;//;//;/001.jpg</item>
+        <item>LÁCTEOS/;/200 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150056/;/Sí/;/$ 38,98/;/$ 40,35/;/$ 41,13/;/$ 41,71/;/$ 42,10/;/001.jpg</item>
+        <item>/;/Postre Dulce de Leche con Dulce de Leche Sancor Sublime Pack/;//;//;//;//;//;//;//;//;/001.jpg</item>
+        <item>LÁCTEOS/;/2 x 200 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7798321150063/;/Sí/;/$ 38,98/;/$ 40,35/;/$ 41,13/;/$ 41,71/;/$ 42,10/;/001.jpg</item>
+        <item>/;/Yogur Cremoso Entero Sabor Manzana Banana Sancor Primeros/;//;//;//;//;//;//;//;//;/001.jpg</item>
+        <item>LÁCTEOS/;/Sabores 2 x 120 Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080068528/;/Sí/;/$ 35,70/;/$ 36,95/;/$ 37,66/;/$ 38,20/;/$ 38,56/;/001.jpg</item>
+        <item>/;/Yogur Cremoso Entero Vainilla Sancor Primeros Sabores 2 x 120/;//;//;//;//;//;//;//;//;/001.jpg</item>
+        <item>LÁCTEOS/;/Gr/;/ALIMENTOS REFRIGERADOS S.A./;/7790080068511/;/Sí/;/$ 35,70/;/$ 36,95/;/$ 37,66/;/$ 38,20/;/$ 38,56/;/001.jpg</item>
+        <item>LÁCTEOS/;/Leche Descremada en Sachet La Martona x 1 Lt/;/MASTELLONE HNOS. S.A./;/7790742186201/;//;/$ 35,80/;/$ 37,05/;/-/;/-/;/-/;/001.jpg</item>
+        <item>LÁCTEOS/;/Leche Entera en Sachet La Martona x 1 Lt/;/MASTELLONE HNOS. S.A./;/7790742186102/;//;/$ 35,80/;/$ 37,05/;/-/;/-/;/-/;/001.jpg</item>
+        <item>LÁCTEOS/;/Leche Descremada UAT Apóstoles x 1 Lt/;/ADECOAGRO/;/7798338290110/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/001.jpg</item>
+        <item>LÁCTEOS/;/Leche Entera UAT Apóstoles x 1 Lt/;/ADECOAGRO/;/7798338290103/;//;/$ 45,00/;/$ 46,58/;/$ 47,48/;/$ 48,15/;/$ 48,60/;/001.jpg</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Descremado Frutilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000432/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Descremado Vainilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000425/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Durazno Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000692/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Frutilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000661/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
+        <item>LÁCTEOS/;/Yogur Bebible Tetratop Entero Vainilla Ilolay x 1 Kg/;/WILLINNER S.A. (ILOLAY)/;/7790787000609/;/Sí/;/$ 63,00/;/$ 6.521/;/$ 6.647/;/$ 6.741/;/$ 6.804/;/001.jpg</item>
+        <item>LÁCTEOS/;/Yogur Firme Entero Frutilla Ilolay 2 x 120 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787004270/;/Sí/;/$ 34,00/;/$ 3.519/;/$ 3.587/;/$ 3.638/;/$ 3.672/;/001.jpg</item>
+        <item>LÁCTEOS/;/Yogur Firme Entero Vainilla Ilolay 2 x 120 Gr/;/WILLINNER S.A. (ILOLAY)/;/7790787004287/;//;/$ 34,00/;/$ 3.519/;/$ 3.587/;/$ 3.638/;/$ 3.672/;/001.jpg</item>
+    </string-array>
+</resources>
