@@ -82,18 +82,31 @@ public class MandarDenunciaFoto extends Activity {
         builder.show();
     }*/
 
+    public void MandarMail (View view){
+        Toast.makeText(MandarDenunciaFoto.this, "Redireccionando al Mail", Toast.LENGTH_SHORT).show();
+        try {
+            Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:scdydc@minproduccion.gov.ar"));
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Denuncia Precios Cuidados");
+            intent.putExtra(Intent.EXTRA_TEXT, tweet);
+            intent.putExtra(Intent.EXTRA_STREAM, imgUri);
+            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            startActivity(intent);
+
+        } catch (final ActivityNotFoundException e) {
+            Toast.makeText(MandarDenunciaFoto.this, "Ups, No detectamos un cliente de correo.", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
     public void MandarTweet (View view){
-        Toast.makeText(MandarDenunciaFoto.this, "Redireccionando a Tweeter", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MandarDenunciaFoto.this, "Redireccionando a Twitter", Toast.LENGTH_SHORT).show();
         try {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.putExtra(Intent.EXTRA_TEXT, tweet);
             intent.setType("text/plain");
-            //Uri photoURI = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".my.package.name.provider", createImageFile());
-            //Uri uri = FileProvider.getUriForFile(MandarDenunciaFoto.this, BuildConfig.APPLICATION_ID + ".provider",imgFile);
             intent.putExtra(Intent.EXTRA_STREAM, imgUri);
             intent.setType("image/*");
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            //intent.setClassName("com.twitter.android", "com.twitter.android.PostActivity");
             intent.setPackage("com.twitter.android");
             startActivity(intent);
 
@@ -102,30 +115,15 @@ public class MandarDenunciaFoto extends Activity {
         }
         }
 
-    /*public void shareTweet (View view) {
-        Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
-        shareIntent.putExtra(Intent.EXTRA_TEXT, tweet);
-        Uri uri = FileProvider.getUriForFile(MandarDenunciaFoto.this, BuildConfig.APPLICATION_ID + ".provider",imgFile);
-        shareIntent.setType("image/*");
-        shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
-        final PackageManager pm = MandarDenunciaFoto.this.getApplicationContext().getPackageManager();
-        final List<ResolveInfo> activityList = pm.queryIntentActivities(shareIntent, 0);
-        for (final ResolveInfo app : activityList) {
-            if("com.twitter.android.composer.ComposerActivity".equals(app.activityInfo.name))
-            {
-
-                final ActivityInfo activity = app.activityInfo;
-                final ComponentName name = new ComponentName(activity.applicationInfo.packageName, activity.name);
-                shareIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-                shareIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
-                shareIntent.setComponent(name);
-                MandarDenunciaFoto.this.getApplicationContext().startActivity(shareIntent);
-                break;
-            }
-        }
-    }*/
-
     public void btnCancelar (View view) {
+        //Descartar y volver a Main
+        Intent intent = new Intent(MandarDenunciaFoto.this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed()
+    {
         //Descartar y volver a Main
         Intent intent = new Intent(MandarDenunciaFoto.this, MainActivity.class);
         startActivity(intent);

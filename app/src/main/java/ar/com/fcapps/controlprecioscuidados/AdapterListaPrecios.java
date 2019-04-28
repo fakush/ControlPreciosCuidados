@@ -81,7 +81,7 @@ public class AdapterListaPrecios extends BaseAdapter {
             holder.Precio = (TextView) view.findViewById(R.id.Tit_Precio);
 
             // Locate the ImageView in listview_item.xml
-            //holder.Foto = (ImageView) view.findViewById(R.id.FotoProducto);
+            holder.Foto = (ImageView) view.findViewById(R.id.FotoProducto);
 
             view.setTag(holder);
         } else {
@@ -91,6 +91,13 @@ public class AdapterListaPrecios extends BaseAdapter {
         holder.Categoria.setText(listaprecios.get(position).getCategoria());
         holder.Proveedor.setText(listaprecios.get(position).getProveedor());
         holder.Producto.setText(listaprecios.get(position).getProducto());
+        String FotoSelector = listaprecios.get(position).getFoto();
+        if (FotoSelector.equals("icon_pe")) {
+            holder.Foto.setImageResource(R.drawable.icon_pe);
+        }
+        else {
+            holder.Foto.setImageResource(R.drawable.icon_pc);
+        }
 
         SharedPreferences ValorRegion = PreferenceManager.getDefaultSharedPreferences(applicationContext);
         String regionGuardada = ValorRegion.getString("ValorRegion", "");

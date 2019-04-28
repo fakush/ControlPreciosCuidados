@@ -3,6 +3,7 @@ package ar.com.fcapps.controlprecioscuidados;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -94,6 +95,23 @@ public class DenunciaTexto extends Activity {
                 }
             }
         });
+    }
+
+    public void MandarMail (View view){
+        if (Lugar.getText().toString().length() > 0 && Denuncia.length() > 0) {
+            Toast.makeText(DenunciaTexto.this, "Redireccionando al Mail", Toast.LENGTH_SHORT).show();
+            try {
+                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:scdydc@minproduccion.gov.ar"));
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Denuncia Precios Cuidados");
+                intent.putExtra(Intent.EXTRA_TEXT, Tweet);
+                startActivity(intent);
+
+            } catch (final ActivityNotFoundException e) {
+                Toast.makeText(DenunciaTexto.this, "Ups, No detectamos un cliente de correo.", Toast.LENGTH_SHORT).show();
+            }
+        } else {
+            Toast.makeText(DenunciaTexto.this, "Tenes que completar lugar y denuncia para continuar.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void btnMandarTweet (View view) {
