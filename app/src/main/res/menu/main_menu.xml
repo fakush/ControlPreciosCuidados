@@ -7,5 +7,7 @@
     <item
         android:id="@+id/compartir"
         android:title="Recomendanos" />
-
+    <item
+        android:id="@+id/region"
+        android:title="Seleccciona tu Región" />
 </menu>

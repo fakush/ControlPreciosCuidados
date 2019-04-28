@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/denuncia_texto"
+        android:id="@+id/btnRosa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -17,8 +17,8 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/btn_rosa"
         android:elevation="2dp"
-        android:onClick="card_DenunciaTexto"
-        android:text="@string/denuncia_sin_foto"
+        android:onClick="btnRosa"
+        android:text="@string/denuncia_con_foto"
         android:textSize="12sp"
         android:textStyle="bold"
         android:translationZ="2dp"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/denuncia_foto"
+        android:id="@+id/btnVerde"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -37,18 +37,18 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/btn_verde"
         android:elevation="2dp"
-        android:onClick="card_DenunciaFoto"
-        android:text="@string/denuncia_con_foto"
+        android:onClick="btnVerde"
+        android:text="@string/listado_precios_acordados"
         android:textSize="12sp"
         android:textStyle="bold"
         android:translationZ="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/denuncia_texto"
+        app:layout_constraintBottom_toTopOf="@+id/btnRosa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/feedRedes"
+        android:id="@+id/btnAzul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -57,15 +57,15 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/btn_azul"
         android:elevation="2dp"
-        android:onClick="card_FeedRedes"
-        android:text="@string/mira_las_denuncias"
+        android:onClick="btnAzul"
+        android:text="@string/denuncia_sin_foto"
         android:textSize="12sp"
         android:textStyle="bold"
         android:translationZ="2dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/denuncia_texto" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRosa" />
 
     <ImageView
         android:id="@+id/imageView2"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="ListaPreciosMayo">
-        <item>CATEGORIA; PRODUCTO; PROVEEDOR; EAN; SIN TACC; AMBA; BUENOS AIRES; CENTRO Y CUYO; NORESTE Y NOROESTE; PATAGONIA; FOTO</item>
+        <!--<item>CATEGORIA; PRODUCTO; PROVEEDOR; EAN; SIN TACC; AMBA; BUENOS AIRES; CENTRO Y CUYO; NORESTE Y NOROESTE; PATAGONIA; FOTO</item>-->
         <item>ALMACÉN/;/Aceite de Girasol Cada Día x 1,5 Lt/;/AGD/;/7790272004457/;//;/$ 88,50/;/$ 91,60/;/$ 93,37/;/$ 94,70/;/$ 95,58/;/001.jpg</item>
         <item>ALMACÉN/;/Aceite de Girasol Cada Dia x 900 Cc/;/AGD/;/7790272004785/;//;/$ 55,23/;/$ 57,17/;/$ 58,27/;/$ 59,10/;/$ 59,65/;/001.jpg</item>
         <item>ALMACÉN/;/Cacao en Polvo Arcoa 32 x 180 Gr/;/ARCOR/;/7790580402808/;//;/$ 26,77/;/$ 27,71/;/$ 28,24/;/$ 28,64/;/$ 28,91/;/001.jpg</item>

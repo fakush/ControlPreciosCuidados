@@ -1,6 +1,8 @@
 package ar.com.fcapps.controlprecioscuidados;
 
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,6 +43,8 @@ public class AdapterListaPrecios extends BaseAdapter {
         TextView NoresteNoroeste;
         TextView Patagonia;
         ImageView Foto;
+        TextView Region;
+        TextView Precio;
 
     }
 
@@ -63,16 +67,18 @@ public class AdapterListaPrecios extends BaseAdapter {
         final ViewHolder holder;
         if (view == null) {
             holder = new ViewHolder();
-            view = inflater.inflate(R.layout.item_listado_precios, null);
+            view = inflater.inflate(R.layout.item_listadoprecios_simple, null);
             // Locate the TextViews in listview_item.xml
             holder.Categoria = (TextView) view.findViewById(R.id.LV_Categoria);
             holder.Proveedor = (TextView) view.findViewById(R.id.LV_Proveedor);
             holder.Producto = (TextView) view.findViewById(R.id.LV_Producto);
-            holder.AMBA = (TextView) view.findViewById(R.id.Precio_AMBA);
-            holder.BuenosAires = (TextView) view.findViewById(R.id.Precio_BuenosAires);
-            holder.CentroCuyo = (TextView) view.findViewById(R.id.Precio_CentroyCuyo);
-            holder.NoresteNoroeste = (TextView) view.findViewById(R.id.Precio_NoresteyNoroeste);
-            holder.Patagonia = (TextView) view.findViewById(R.id.Precio_Patagonia);
+//            holder.AMBA = (TextView) view.findViewById(R.id.Precio_AMBA);
+//            holder.BuenosAires = (TextView) view.findViewById(R.id.Precio_BuenosAires);
+//            holder.CentroCuyo = (TextView) view.findViewById(R.id.Precio_CentroyCuyo);
+//            holder.NoresteNoroeste = (TextView) view.findViewById(R.id.Precio_NoresteyNoroeste);
+//            holder.Patagonia = (TextView) view.findViewById(R.id.Precio_Patagonia);
+            holder.Region = (TextView) view.findViewById(R.id.Tit_Region);
+            holder.Precio = (TextView) view.findViewById(R.id.Tit_Precio);
 
             // Locate the ImageView in listview_item.xml
             //holder.Foto = (ImageView) view.findViewById(R.id.FotoProducto);
@@ -85,11 +91,36 @@ public class AdapterListaPrecios extends BaseAdapter {
         holder.Categoria.setText(listaprecios.get(position).getCategoria());
         holder.Proveedor.setText(listaprecios.get(position).getProveedor());
         holder.Producto.setText(listaprecios.get(position).getProducto());
-        holder.AMBA.setText(listaprecios.get(position).getAMBA());
-        holder.BuenosAires.setText(listaprecios.get(position).getBuenosAires());
-        holder.CentroCuyo.setText(listaprecios.get(position).getCentroCuyo());
-        holder.NoresteNoroeste.setText(listaprecios.get(position).getNoresteNoroeste());
-        holder.Patagonia.setText(listaprecios.get(position).getPatagonia());
+
+        SharedPreferences ValorRegion = PreferenceManager.getDefaultSharedPreferences(applicationContext);
+        String regionGuardada = ValorRegion.getString("ValorRegion", "");
+        switch (regionGuardada) {
+            case "1":
+                holder.Region.setText("Precio AMBA");
+                holder.Precio.setText(listaprecios.get(position).getAMBA());
+                break;
+            case "2":
+                holder.Region.setText("Precio Buenos Aires");
+                holder.Precio.setText(listaprecios.get(position).getBuenosAires());
+                break;
+            case "3":
+                holder.Region.setText("Precio Centro y Cuyo");
+                holder.Precio.setText(listaprecios.get(position).getCentroCuyo());
+                break;
+            case "4":
+                holder.Region.setText("Precio Noreste y Noroeste");
+                holder.Precio.setText(listaprecios.get(position).getNoresteNoroeste());
+                break;
+            case "5":
+                holder.Region.setText("Precio Patagonia");
+                holder.Precio.setText(listaprecios.get(position).getPatagonia());
+                break;
+        }
+//        holder.AMBA.setText(listaprecios.get(position).getAMBA());
+//        holder.BuenosAires.setText(listaprecios.get(position).getBuenosAires());
+//        holder.CentroCuyo.setText(listaprecios.get(position).getCentroCuyo());
+//        holder.NoresteNoroeste.setText(listaprecios.get(position).getNoresteNoroeste());
+//        holder.Patagonia.setText(listaprecios.get(position).getPatagonia());
 
         // Set the results into ImageView
         /*String ContImagen = listaprecios.get(position).getFoto().toLowerCase();
@@ -145,5 +176,9 @@ public class AdapterListaPrecios extends BaseAdapter {
         }
         notifyDataSetChanged();
     }
+
+    Context applicationContext = MainActivity.getContextOfApplication();
+
+
 
 }

@@ -88,97 +88,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="AMBA"
-                            android:textSize="7sp"
-                            android:textStyle="bold" />
+                            android:text="Region"
+                            android:textAlignment="textEnd"
+                            android:textSize="12sp" />
 
                         <TextView
                             android:id="@+id/Tit_Precio"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Buenos Aires"
-                            android:textSize="7sp"
+                            android:text="Precio"
+                            android:textAlignment="textEnd"
+                            android:textColor="#F44336"
+                            android:textSize="12sp"
                             android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/Tit_CentroyCuyo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Centro y Cuyo"
-                            android:textSize="7sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/Tit_NoresteyNoroeste"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Noreste y Noroeste"
-                            android:textSize="7sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/Tit_Patagonia"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Patagonia"
-                            android:textSize="7sp"
-                            android:textStyle="bold"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/Precio_AMBA"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="AMBA"
-                            android:textColor="#3F51B5"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/Precio_BuenosAires"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Buenos Aires"
-                            android:textColor="#3F51B5"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/Precio_CentroyCuyo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Centro y Cuyo"
-                            android:textColor="#3F51B5"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/Precio_NoresteyNoroeste"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Noreste y Noroeste"
-                            android:textColor="#3F51B5"
-                            android:textSize="10sp" />
-
-                        <TextView
-                            android:id="@+id/Precio_Patagonia"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Patagonia"
-                            android:textColor="#3F51B5"
-                            android:textSize="10sp" />
 
                     </LinearLayout>
 

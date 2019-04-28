@@ -1,15 +1,22 @@
 package ar.com.fcapps.controlprecioscuidados;
 
+import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
@@ -24,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
     private int backButtonCount = 0;
     private AdView mAdView;
     private static final int MY_PERMISSIONS_REQUEST_ACCOUNTS = 1;
+    private CheckBox checkBox_AMBA, checkBox_BuenosAires, checkBox_CentroCuyo, checkBox_NoresteyNoroeste,checkBox_Patagonia;
+    public String region;
+    private SharedPreferences StoredRegion;
+    public static Context contextOfApplication;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +50,26 @@ public class MainActivity extends AppCompatActivity {
         mAdView = findViewById(R.id.adView_Main);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        //Si es la primera vez que se ejecuta la app, muestra el dialogo Region.
+        Boolean isFirstRun = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("isFirstRun", true);
+        if (isFirstRun) {
+            //Abre el Alert
+            region = "0";
+            setRegion();
+        }
+        getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRun", false).apply();
+
+        StoredRegion = PreferenceManager.getDefaultSharedPreferences(this);
+        String Valorregion = StoredRegion.getString("ValorRegion", "");
+        if(Valorregion.length()==0) {
+            //cagamos no había sharedpreferences!
+            region = "1";
+        } else {
+            region = Valorregion;
+        }
+
+        contextOfApplication = getApplicationContext();
     }
 
     @Override
@@ -46,20 +79,129 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    public void card_DenunciaFoto (View view) {
+    public void btnVerde (View view) {
+        Intent intent = new Intent(MainActivity.this, ListadoPrecios.class);
+        startActivity(intent);
+    }
+
+    public void btnRosa (View view) {
         Intent intent = new Intent(MainActivity.this, DenunciaFoto.class);
         startActivity(intent);
     }
 
-    public void card_DenunciaTexto (View view) {
+    public void btnAzul (View view) {
         Intent intent = new Intent(MainActivity.this, DenunciaTexto.class);
         startActivity(intent);
     }
 
-    public void card_FeedRedes (View view) {
-        Intent intent = new Intent(MainActivity.this, ListadoPrecios.class);
-        startActivity(intent);
+    public void setRegion () {
+        final Dialog dialog = new Dialog(MainActivity.this);
+        dialog.setTitle("Ingrese su Region");
+        dialog.setContentView(R.layout.dialog_set_region);
+        final EditText edittext = (EditText) dialog.findViewById(R.id.field_dialogLugar);
+        Button dialogButton = (Button) dialog.findViewById(R.id.btn_dialogRegionOk);
+        dialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (region.equals("0")) {
+                    Toast.makeText(MainActivity.this, "Tenes que seleccionar una región para continuar.", Toast.LENGTH_LONG).show();
+                } else {
+                    dialog.cancel();
+                }
+
+                //Reseteo el valor para el resto de la app
+                //edittext.setText("");
+            }
+        });
+        checkBox_AMBA = (CheckBox) dialog.findViewById(R.id.checkBox_AMBA);
+        checkBox_AMBA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    region = "1";
+                    StoredRegion = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+                    SharedPreferences.Editor editorRegion = StoredRegion.edit();
+                    editorRegion.putString( "ValorRegion", region);
+                    editorRegion.apply();
+                } else {
+                    region = "";
+                }
+
+            }
+        });
+        checkBox_BuenosAires = (CheckBox) dialog.findViewById(R.id.checkBox_BuenosAires);
+        checkBox_BuenosAires.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    region = "2";
+                    StoredRegion = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+                    SharedPreferences.Editor editorRegion = StoredRegion.edit();
+                    editorRegion.putString( "ValorRegion", region);
+                    editorRegion.apply();
+                } else {
+                    region = "";
+                }
+
+            }
+        });
+        checkBox_CentroCuyo = (CheckBox) dialog.findViewById(R.id.checkBox_CentroCuyo);
+        checkBox_CentroCuyo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    region = "3";
+                    StoredRegion = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+                    SharedPreferences.Editor editorRegion = StoredRegion.edit();
+                    editorRegion.putString( "ValorRegion", region);
+                    editorRegion.apply();
+                } else {
+                    region = "";
+                }
+
+            }
+        });
+        checkBox_NoresteyNoroeste = (CheckBox) dialog.findViewById(R.id.checkBox_NoresteyNoroeste);
+        checkBox_NoresteyNoroeste.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    region = "4";
+                    StoredRegion = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+                    SharedPreferences.Editor editorRegion = StoredRegion.edit();
+                    editorRegion.putString( "ValorRegion", region);
+                    editorRegion.apply();
+                } else {
+                    region = "";
+                }
+
+            }
+        });
+        checkBox_Patagonia = (CheckBox) dialog.findViewById(R.id.checkBox_Patagonia);
+        checkBox_Patagonia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //is chkIos checked?
+                if (((CheckBox) v).isChecked()) {
+                    region = "5";
+                    StoredRegion = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+                    SharedPreferences.Editor editorRegion = StoredRegion.edit();
+                    editorRegion.putString( "ValorRegion", region);
+                    editorRegion.apply();
+                } else {
+                    region = "";
+                }
+
+            }
+        });
+        dialog.show();
     }
+
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -80,6 +222,10 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra(Intent.EXTRA_TEXT, "Busca en el Play Store de Android la App 'Control Precios Cuidados' Entre todos nos cuidamos!!!");
 
                     startActivity(Intent.createChooser(intent, "Compratir Nuestra App"));
+                return true;
+
+            case R.id.region:
+                setRegion();
                 return true;
 
             default:
@@ -135,5 +281,9 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
+    }
+
+    public static Context getContextOfApplication(){
+        return contextOfApplication;
     }
 }

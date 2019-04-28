@@ -2,13 +2,20 @@ package ar.com.fcapps.controlprecioscuidados;
 
 import android.app.NotificationManager;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ListView;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -18,8 +25,11 @@ public class ListadoPrecios extends AppCompatActivity {
 
     ListView list;
     AdapterListaPrecios adapter;
-    public ArrayList<Method_ListadoPrecios> bares_array = new ArrayList<Method_ListadoPrecios>();
+    public ArrayList<Method_ListadoPrecios> precios_array = new ArrayList<Method_ListadoPrecios>();
     EditText editsearch;
+    public String regionGuardada;
+    private AdView mAdView;
+
 
 //    String[] Nombre;
 //    String[] Direccion;
@@ -37,13 +47,22 @@ public class ListadoPrecios extends AppCompatActivity {
         setContentView(R.layout.activity_listado_precios);
         setListData();
         list = findViewById(R.id.VistaListaPrecios);
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-        adapter = new AdapterListaPrecios(this, bares_array);
+        MobileAds.initialize(this, "@string/ad_ListaPrecios");
+        mAdView = findViewById(R.id.adView_Main);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+
+        adapter = new AdapterListaPrecios(this, precios_array);
         list.setAdapter(adapter);
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         Objects.requireNonNull(notificationManager).cancel(1);
 
+        SharedPreferences ValorRegion = PreferenceManager.getDefaultSharedPreferences(this);
+        regionGuardada = ValorRegion.getString("ValorRegion", "");
 
         editsearch = (EditText) findViewById(R.id.SearchBar);
 
@@ -75,7 +94,7 @@ public class ListadoPrecios extends AppCompatActivity {
         String[] array = getResources().getStringArray(R.array.ListaPreciosMayo);
         for (int i = 0; i < array.length; i++) {
             final Method_ListadoPrecios sched = new Method_ListadoPrecios();
-            String[] Separado = array[i].split("; ");
+            String[] Separado = array[i].split("/;/");
             sched.setCategoria(Separado[0]);
             sched.setProducto(Separado[1]);
             sched.setProveedor(Separado[2]);
@@ -87,7 +106,7 @@ public class ListadoPrecios extends AppCompatActivity {
             sched.setNoresteNoroeste(Separado[8]);
             sched.setPatagonia(Separado[9]);
             sched.setFoto(Separado[10]);
-            bares_array.add(sched);
+            precios_array.add(sched);
         }
     }
 }
