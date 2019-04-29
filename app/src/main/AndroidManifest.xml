@@ -41,7 +41,6 @@
 
         <activity android:name=".RecomendarApp" />
         <activity android:name=".About" />
-        <activity android:name=".FeedRedes" />
         <activity android:name=".DenunciaTexto" />
         <activity android:name=".DenunciaFoto" />
         <activity android:name=".splashScreen">
