@@ -1,14 +1,15 @@
 package ar.com.fcapps.controlprecioscuidados;
 
+import android.app.Activity;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -21,7 +22,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Objects;
 
-public class ListadoPrecios extends AppCompatActivity {
+public class ListadoPrecios extends Activity {
 
     ListView list;
     AdapterListaPrecios adapter;
@@ -31,19 +32,11 @@ public class ListadoPrecios extends AppCompatActivity {
     private AdView mAdView;
 
 
-//    String[] Nombre;
-//    String[] Direccion;
-//    String[] Barrio;
-//    String[] Telefono;
-//    String[] Descripcion;
-//    String[] Foto;
-//    String[] Coordenadas;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_listado_precios);
         setListData();
         list = findViewById(R.id.VistaListaPrecios);
