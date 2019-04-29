@@ -9,56 +9,53 @@
 
     <Button
         android:id="@+id/btnRosa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/btn_rosa"
+        android:background="@drawable/btn_df"
         android:elevation="2dp"
         android:onClick="btnRosa"
-        android:text="@string/denuncia_con_foto"
         android:textSize="12sp"
         android:textStyle="bold"
         android:translationZ="2dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnVerde"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/btn_verde"
+        android:background="@drawable/btn_listapca"
         android:elevation="2dp"
         android:onClick="btnVerde"
-        android:text="@string/listado_precios_acordados"
         android:textSize="12sp"
         android:textStyle="bold"
         android:translationZ="2dp"
         app:layout_constraintBottom_toTopOf="@+id/btnRosa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnAzul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/btn_azul"
+        android:background="@drawable/btn_dt"
         android:elevation="2dp"
         android:onClick="btnAzul"
-        android:text="@string/denuncia_sin_foto"
         android:textSize="12sp"
         android:textStyle="bold"
         android:translationZ="2dp"
@@ -68,21 +65,6 @@
         app:layout_constraintTop_toBottomOf="@+id/btnRosa" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/header_main"
-        android:contentDescription="@string/todo" />
-
-    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
@@ -90,12 +72,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/adView_Main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/footer_main"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/footer2" />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView_Main"

@@ -13,7 +13,7 @@
     <string name="todo">TODO</string>
     <string name="disclamer">Para poder publicar tu denuncia necesitamos conectar tu cuenta de twitter a nuestra App. Podes hacerlo ahora o más adelante desde el menu de la página principal. Más adelante esperamos poder ofrecerte mejores opciones y otras redes para publicar tus denuncias.</string>
     <string name="tu_denuncia">Tu Denuncia</string>
-    <string name="enviar_por_tweeter">Enviar por Twiter</string>
+    <string name="enviar_por_tweeter">Enviar por Twitter</string>
     <string name="textview">TextView</string>
     <string name="complet_tu_denuncia">Completá Tu Denuncia</string>
     <string name="ingresa_tu_denuncia">Ingresa tu Denuncia</string>

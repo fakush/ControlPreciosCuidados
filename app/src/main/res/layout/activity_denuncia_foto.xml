@@ -13,7 +13,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/header_main"
         android:contentDescription="@string/todo"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,13 +28,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/footer_main"
         android:contentDescription="@string/todo"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/adView_Denuncia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/footer_main" />
+        app:srcCompat="@drawable/footer2" />
 
     <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
