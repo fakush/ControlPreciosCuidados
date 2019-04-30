@@ -17,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -33,9 +34,9 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
 
-    //Twitter
-//    implementation 'com.twitter.sdk.android:twitter-core:3.1.1'
-//    implementation 'com.twitter.sdk.android:tweet-ui:3.1.1'
-//    implementation 'com.twitter.sdk.android:tweet-composer:3.1.1'
-
+    //Codigo de Barras
+    implementation 'com.google.firebase:firebase-ml-vision:19.0.3'
+    implementation 'uk.co.brightec.kbarcode:kbarcode:1.0.2'
 }
+
+apply plugin: 'com.google.gms.google-services'
