@@ -10,8 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.google.android.gms.vision.barcode.Barcode;
-import ar.com.fcapps.controlprecioscuidados.BarcodeReaderFragment;
-
+import com.notbytes.barcode_reader.BarcodeReaderFragment;
 
 import java.util.List;
 
@@ -36,7 +35,7 @@ public class BarcodeFragment extends Fragment implements BarcodeReaderFragment.B
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_barcode_reader, container, false);
+        View view = inflater.inflate(R.layout.fragment_barcode, container, false);
 
         barcodeReader = (BarcodeReaderFragment) getChildFragmentManager().findFragmentById(R.id.barcode_fragment);
         barcodeReader.setListener(this);

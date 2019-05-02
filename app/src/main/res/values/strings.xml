@@ -43,4 +43,7 @@ FC Apps\n
 </string>
     <string name="listado_precios_acordados">Lista Precios Cuidados\n Y Productos Esenciales</string>
     <string name="denuncia_con_foto">Denuncia Con Foto</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

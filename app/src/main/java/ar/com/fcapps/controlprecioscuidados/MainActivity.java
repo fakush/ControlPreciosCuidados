@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void LectoCodigoBarras (View view) {
-        Intent intent = new Intent(MainActivity.this, ListadoPrecios.class);
+        Intent intent = new Intent(MainActivity.this, LectorCodigoDeBarras.class);
         startActivity(intent);
     }
 
