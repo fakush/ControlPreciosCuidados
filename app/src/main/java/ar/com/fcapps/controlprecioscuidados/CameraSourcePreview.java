@@ -1,8 +1,9 @@
 package ar.com.fcapps.controlprecioscuidados;
 
-import android.annotation.SuppressLint;
+import android.Manifest;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.support.annotation.RequiresPermission;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;
@@ -13,87 +14,94 @@ import com.google.android.gms.common.images.Size;
 
 import java.io.IOException;
 
-/** Preview the camera image in the screen. */
 public class CameraSourcePreview extends ViewGroup {
-    private static final String TAG = "MIDemoApp:Preview";
+    private static final String TAG = "CameraSourcePreview";
 
-    private Context context;
-    private SurfaceView surfaceView;
-    private boolean startRequested;
-    private boolean surfaceAvailable;
-    private CameraSource cameraSource;
+    private Context mContext;
+    private SurfaceView mSurfaceView;
+    private boolean mStartRequested;
+    private boolean mSurfaceAvailable;
+    private CameraSource mCameraSource;
 
-    private GraphicOverlay overlay;
+    private GraphicOverlay mOverlay;
 
     public CameraSourcePreview(Context context, AttributeSet attrs) {
         super(context, attrs);
-        this.context = context;
-        startRequested = false;
-        surfaceAvailable = false;
+        mContext = context;
+        mStartRequested = false;
+        mSurfaceAvailable = false;
 
-        surfaceView = new SurfaceView(context);
-        surfaceView.getHolder().addCallback(new SurfaceCallback());
-        addView(surfaceView);
+        mSurfaceView = new SurfaceView(context);
+        mSurfaceView.getHolder().addCallback(new SurfaceCallback());
+        addView(mSurfaceView);
     }
 
-    public void start(CameraSource cameraSource) throws IOException {
+    @RequiresPermission(Manifest.permission.CAMERA)
+    public void start(CameraSource cameraSource) throws IOException, SecurityException {
         if (cameraSource == null) {
             stop();
         }
 
-        this.cameraSource = cameraSource;
+        mCameraSource = cameraSource;
 
-        if (this.cameraSource != null) {
-            startRequested = true;
+        if (mCameraSource != null) {
+            mStartRequested = true;
             startIfReady();
         }
     }
 
-    public void start(CameraSource cameraSource, GraphicOverlay overlay) throws IOException {
-        this.overlay = overlay;
+    @RequiresPermission(Manifest.permission.CAMERA)
+    public void start(CameraSource cameraSource, GraphicOverlay overlay) throws IOException, SecurityException {
+        mOverlay = overlay;
         start(cameraSource);
     }
 
     public void stop() {
-        if (cameraSource != null) {
-            cameraSource.stop();
+        if (mCameraSource != null) {
+            mCameraSource.stop();
         }
     }
 
     public void release() {
-        if (cameraSource != null) {
-            cameraSource.release();
-            cameraSource = null;
+        if (mCameraSource != null) {
+            mCameraSource.release();
+            mCameraSource = null;
         }
     }
 
-    @SuppressLint("MissingPermission")
-    private void startIfReady() throws IOException {
-        if (startRequested && surfaceAvailable) {
-            cameraSource.start();
-            if (overlay != null) {
-                Size size = cameraSource.getPreviewSize();
+    public void setFlash(boolean flag) {
+
+    }
+
+    @RequiresPermission(Manifest.permission.CAMERA)
+    private void startIfReady() throws IOException, SecurityException {
+        if (mStartRequested && mSurfaceAvailable) {
+            mCameraSource.start(mSurfaceView.getHolder());
+            if (mOverlay != null) {
+                Size size = mCameraSource.getPreviewSize();
                 int min = Math.min(size.getWidth(), size.getHeight());
                 int max = Math.max(size.getWidth(), size.getHeight());
                 if (isPortraitMode()) {
                     // Swap width and height sizes when in portrait, since it will be rotated by
                     // 90 degrees
-                    overlay.setCameraInfo(min, max, cameraSource.getCameraFacing());
+                    mOverlay.setCameraInfo(min, max, mCameraSource.getCameraFacing());
                 } else {
-                    overlay.setCameraInfo(max, min, cameraSource.getCameraFacing());
+                    mOverlay.setCameraInfo(max, min, mCameraSource.getCameraFacing());
                 }
-                overlay.clear();
+                mOverlay.clear();
             }
-            startRequested = false;
+            mStartRequested = false;
         }
     }
 
     private class SurfaceCallback implements SurfaceHolder.Callback {
         @Override
         public void surfaceCreated(SurfaceHolder surface) {
-            surfaceAvailable = true;
+            mSurfaceAvailable = true;
             try {
                 startIfReady();
+            } catch (SecurityException se) {
+                Log.e(TAG, "Do not have permission to start the camera", se);
             } catch (IOException e) {
                 Log.e(TAG, "Could not start camera source.", e);
             }
@@ -101,48 +109,64 @@ public class CameraSourcePreview extends ViewGroup {
 
         @Override
         public void surfaceDestroyed(SurfaceHolder surface) {
-            surfaceAvailable = false;
+            mSurfaceAvailable = false;
         }
 
         @Override
-        public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {}
+        public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+        }
     }
 
+    //    Changes into this method
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
-        int width = 320;
-        int height = 240;
-        if (cameraSource != null) {
-            Size size = cameraSource.getPreviewSize();
+        int previewWidth = 320;
+        int previewHeight = 240;
+        if (mCameraSource != null) {
+            Size size = mCameraSource.getPreviewSize();
             if (size != null) {
-                width = size.getWidth();
-                height = size.getHeight();
+                previewWidth = size.getWidth();
+                previewHeight = size.getHeight();
             }
         }
 
         // Swap width and height sizes when in portrait, since it will be rotated 90 degrees
         if (isPortraitMode()) {
-            int tmp = width;
-            width = height;
-            height = tmp;
+            int tmp = previewWidth;
+            previewWidth = previewHeight;
+            previewHeight = tmp;
         }
 
-        final int layoutWidth = right - left;
-        final int layoutHeight = bottom - top;
+        final int viewWidth = right - left;
+        final int viewHeight = bottom - top;
 
-        // Computes height and width for potentially doing fit width.
-        int childWidth = layoutWidth;
-        int childHeight = (int) (((float) layoutWidth / (float) width) * height);
+        int childWidth;
+        int childHeight;
+        int childXOffset = 0;
+        int childYOffset = 0;
+        float widthRatio = (float) viewWidth / (float) previewWidth;
+        float heightRatio = (float) viewHeight / (float) previewHeight;
 
-        // If height is too tall using fit width, does fit height instead.
-        if (childHeight > layoutHeight) {
-            childHeight = layoutHeight;
-            childWidth = (int) (((float) layoutHeight / (float) height) * width);
+        // To fill the view with the camera preview, while also preserving the correct aspect ratio,
+        // it is usually necessary to slightly oversize the child and to crop off portions along one
+        // of the dimensions.  We scale up based on the dimension requiring the most correction, and
+        // compute a crop offset for the other dimension.
+        if (widthRatio > heightRatio) {
+            childWidth = viewWidth;
+            childHeight = (int) ((float) previewHeight * widthRatio);
+            childYOffset = (childHeight - viewHeight) / 2;
+        } else {
+            childWidth = (int) ((float) previewWidth * heightRatio);
+            childHeight = viewHeight;
+            childXOffset = (childWidth - viewWidth) / 2;
         }
 
         for (int i = 0; i < getChildCount(); ++i) {
-            getChildAt(i).layout(0, 0, childWidth, childHeight);
-            Log.d(TAG, "Assigned view: " + i);
+            // One dimension will be cropped.  We shift child over or up by this offset and adjust
+            // the size to maintain the proper aspect ratio.
+            getChildAt(i).layout(
+                    -1 * childXOffset, -1 * childYOffset,
+                    childWidth - childXOffset, childHeight - childYOffset);
         }
 
         try {
@@ -153,7 +177,7 @@ public class CameraSourcePreview extends ViewGroup {
     }
 
     private boolean isPortraitMode() {
-        int orientation = context.getResources().getConfiguration().orientation;
+        int orientation = mContext.getResources().getConfiguration().orientation;
         if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
             return false;
         }
