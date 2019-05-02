@@ -1,71 +1,54 @@
 package ar.com.fcapps.controlprecioscuidados;
 
 
+import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.SurfaceView;
+import android.view.Window;
 import android.widget.TextView;
 
-import github.nisrulz.qreader.QRDataListener;
-import github.nisrulz.qreader.QREader;
+import com.edwardvanraak.materialbarcodescanner.MaterialBarcodeScanner;
+import com.edwardvanraak.materialbarcodescanner.MaterialBarcodeScannerBuilder;
+import com.google.android.gms.vision.barcode.Barcode;
 
-public class LectorCodigoDeBarras extends AppCompatActivity {
+public class LectorCodigoDeBarras extends Activity {
 
-    // QREader
-    private SurfaceView mySurfaceView;
-    private QREader qrEader;
-    private TextView text;
+    private Barcode barcodeResult;
+    private TextView result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_lector_codigo_de_barras);
 
-        text = findViewById(R.id.textoCodigo);
+        result = findViewById(R.id.textoCodigo);
+        startScan();
 
-        // Setup SurfaceView
-        // -----------------
-        mySurfaceView = (SurfaceView) findViewById(R.id.camera_view);
+    }
 
-        // Init QREader
-        // ------------
-        qrEader = new QREader.Builder(this, mySurfaceView, new QRDataListener() {
-            @Override
-            public void onDetected(final String data) {
-                Log.d("QREader", "Value : " + data);
-                text.post(new Runnable() {
+    private void startScan() {
+        /**
+         * Build a new MaterialBarcodeScanner
+         */
+        final MaterialBarcodeScanner materialBarcodeScanner = new MaterialBarcodeScannerBuilder()
+                .withActivity(LectorCodigoDeBarras.this)
+                .withEnableAutoFocus(true)
+                .withBleepEnabled(true)
+                .withBackfacingCamera()
+                .withCenterTracker()
+                .withOnly2DScanning()
+                .withText("Buscando...")
+                .withResultListener(new MaterialBarcodeScanner.OnResultListener() {
                     @Override
-                    public void run() {
-                        text.setText(data);
+                    public void onResult(Barcode barcode) {
+                        barcodeResult = barcode;
+                        result.setText(barcode.rawValue);
                     }
-                });
-            }
-        }).facing(QREader.BACK_CAM)
-                .enableAutofocus(true)
-                .height(mySurfaceView.getHeight())
-                .width(mySurfaceView.getWidth())
+                })
                 .build();
-
+        materialBarcodeScanner.startScan();
     }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        // Init and Start with SurfaceView
-        // -------------------------------
-        qrEader.initAndStart(mySurfaceView);
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        // Cleanup in onPause()
-        // --------------------
-        qrEader.releaseAndCleanup();
-    }
-
 }
 

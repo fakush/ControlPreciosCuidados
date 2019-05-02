@@ -23,7 +23,7 @@
         android:id="@+id/adViewListado"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        ads:adSize="SMART_BANNER"
+        ads:adSize="BANNER"
         ads:adUnitId="@string/ad_ListaPrecios"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
