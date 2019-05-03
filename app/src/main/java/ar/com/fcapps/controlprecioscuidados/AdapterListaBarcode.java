@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-public class AdapterListaPrecios extends BaseAdapter {
+public class AdapterListaBarcode extends BaseAdapter {
 
     // Declare Variables
     Context mContext;
@@ -22,7 +22,7 @@ public class AdapterListaPrecios extends BaseAdapter {
     private List<Method_ListadoPrecios> listaprecios = null;
     private ArrayList<Method_ListadoPrecios> arraylist;
 
-    public AdapterListaPrecios (Context context, List<Method_ListadoPrecios> listaprecios) {
+    public AdapterListaBarcode (Context context, List<Method_ListadoPrecios> listaprecios) {
         mContext = context;
         this.listaprecios = listaprecios;
         inflater = LayoutInflater.from(mContext);
@@ -67,21 +67,23 @@ public class AdapterListaPrecios extends BaseAdapter {
         final ViewHolder holder;
         if (view == null) {
             holder = new ViewHolder();
-            view = inflater.inflate(R.layout.item_listadoprecios_simple, null);
+            view = inflater.inflate(R.layout.item_listado_codigo_de_barras, null);
             // Locate the TextViews in listview_item.xml
-            holder.Categoria = (TextView) view.findViewById(R.id.LV_Categoria);
-            holder.Proveedor = (TextView) view.findViewById(R.id.LV_Proveedor);
-            holder.Producto = (TextView) view.findViewById(R.id.LV_Producto);
+            holder.Categoria = (TextView) view.findViewById(R.id.LV_Categoria_Barcode);
+            holder.Proveedor = (TextView) view.findViewById(R.id.LV_Proveedor_Barcode);
+            holder.Producto = (TextView) view.findViewById(R.id.LV_Producto_Barcode);
 //            holder.AMBA = (TextView) view.findViewById(R.id.Precio_AMBA);
 //            holder.BuenosAires = (TextView) view.findViewById(R.id.Precio_BuenosAires);
 //            holder.CentroCuyo = (TextView) view.findViewById(R.id.Precio_CentroyCuyo);
 //            holder.NoresteNoroeste = (TextView) view.findViewById(R.id.Precio_NoresteyNoroeste);
 //            holder.Patagonia = (TextView) view.findViewById(R.id.Precio_Patagonia);
-            holder.Region = (TextView) view.findViewById(R.id.Tit_Region);
-            holder.Precio = (TextView) view.findViewById(R.id.Tit_Precio);
+            //holder.EAN = (TextView) view.findViewById(R.id.LV_EAN);
+            //holder.SinTACC = (TextView) view.findViewById(R.id.LV_SinTACC);
+            holder.Region = (TextView) view.findViewById(R.id.Tit_Region_Barcode);
+            holder.Precio = (TextView) view.findViewById(R.id.Tit_Precio_Barcode);
 
             // Locate the ImageView in listview_item.xml
-            holder.Foto = (ImageView) view.findViewById(R.id.FotoProducto);
+            holder.Foto = (ImageView) view.findViewById(R.id.FotoProductoBarcode);
 
             view.setTag(holder);
         } else {

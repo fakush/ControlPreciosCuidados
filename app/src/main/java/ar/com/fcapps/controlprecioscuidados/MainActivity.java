@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
 
                     intent.setType("text/plain");
                     intent.putExtra(Intent.EXTRA_SUBJECT, "Control Precios Cuidados - Bajate la App");
-                    intent.putExtra(Intent.EXTRA_TEXT, "Busca en el Play Store de Android la App 'Control Precios Cuidados' Entre todos nos cuidamos!!!\n https://play.google.com/store/apps/details?id=ar.com.fcapps.controlprecioscuidados");
+                    intent.putExtra(Intent.EXTRA_TEXT, "Busca en el Play Store de Android la App 'Control Precios Cuidados' #entretodosnoscuidamos\n https://play.google.com/store/apps/details?id=ar.com.fcapps.controlprecioscuidados");
 
                     startActivity(Intent.createChooser(intent, "Compratir Nuestra App"));
                 return true;
