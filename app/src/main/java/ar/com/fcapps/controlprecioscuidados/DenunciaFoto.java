@@ -48,19 +48,6 @@ public class DenunciaFoto extends Activity {
     private String currentPhotoPath;
     private CheckBox checkBox_Faltante, checkBox_Precio, checkBox_gondola;
     private String Faltante, Precio, Gondola, Tweet, DenunciaLenght;
-//    private View ChkFaltante = View.inflate(this, R.layout.dialog_denuncia, null);
-//    private View ChkPrecio = View.inflate(this, R.layout.dialog_denuncia, null);
-//    private View ChkGondola = View.inflate(this, R.layout.dialog_denuncia, null);
-//    private CheckBox checkBoxFaltante = (CheckBox) ChkFaltante.findViewById(R.id.checkBox_Faltante);
-//    private CheckBox checkBoxPrecio = (CheckBox) ChkFaltante.findViewById(R.id.checkBox_Precio);
-//    private CheckBox checkBoxGondola = (CheckBox) ChkFaltante.findViewById(R.id.checkBox_gondola);
-
-
-
-
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -111,13 +98,6 @@ public class DenunciaFoto extends Activity {
         Intent intent = new Intent(DenunciaFoto.this, MainActivity.class);
         startActivity(intent);
     }
-
-    /*private void dispatchTakePictureIntent() {
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-        }
-    }*/
 
     private void dispatchTakePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
@@ -174,7 +154,6 @@ public class DenunciaFoto extends Activity {
         layerDrawable.draw(canvas);
         imageBitmap = Fotopegada;
         /* create a file to write bitmap data */
-        //File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM) + "/CPC");
         File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/CPC");
         if(dir.exists() && dir.isDirectory()) {
             // do something here
@@ -250,8 +229,6 @@ public class DenunciaFoto extends Activity {
                     denuncia.setText(edittext.getText().toString());
                 }
                 dialog.cancel();
-                //Reseteo el valor para el resto de la app
-                //edittext.setText("");
             }
         });
         checkBox_Faltante = (CheckBox) dialog.findViewById(R.id.checkBox_Faltante);

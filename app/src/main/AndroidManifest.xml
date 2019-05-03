@@ -22,7 +22,8 @@
         android:roundIcon="@drawable/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListadoPrecios"></activity>
+        <activity android:name=".LectorCodigoDeBarras"></activity>
+        <activity android:name=".ListadoPrecios" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -38,10 +39,11 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/ADMOB_APP_ID" />
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="barcode" />
 
-        <activity android:name=".RecomendarApp" />
         <activity android:name=".About" />
-        <activity android:name=".FeedRedes" />
         <activity android:name=".DenunciaTexto" />
         <activity android:name=".DenunciaFoto" />
         <activity android:name=".splashScreen">
