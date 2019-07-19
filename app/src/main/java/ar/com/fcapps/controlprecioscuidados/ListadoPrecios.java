@@ -16,6 +16,7 @@ import android.widget.ListView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 
 import java.util.ArrayList;
@@ -30,6 +31,10 @@ public class ListadoPrecios extends Activity {
     EditText editsearch;
     public String regionGuardada;
     private AdView mAdView;
+    private InterstitialAd mInterstitialAd;
+    private SharedPreferences AdCounter;
+    private int CuantoVamos;
+
 
 
     @Override
@@ -47,6 +52,9 @@ public class ListadoPrecios extends Activity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("@string/ad_Popup");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         adapter = new AdapterListaPrecios(this, precios_array);
         list.setAdapter(adapter);
@@ -80,6 +88,7 @@ public class ListadoPrecios extends Activity {
             }
         });
 
+        //Ad2Counter();
     }
 
     // ListView
@@ -102,4 +111,47 @@ public class ListadoPrecios extends Activity {
             precios_array.add(sched);
         }
     }
+
+    /*public void Ad2Counter() {
+        AdCounter = PreferenceManager.getDefaultSharedPreferences(this);
+        CuantoVamos = AdCounter.getInt("Contador", 0);
+        if(AdCounter == null) {
+            //cagamos no había sharedpreferences!
+            CuantoVamos = 1;
+            SharedPreferences.Editor editorCounter = AdCounter.edit();
+            editorCounter.putInt( "Contador", CuantoVamos);
+            editorCounter.apply();
+        } else {
+            CuantoVamos++;
+            SharedPreferences.Editor editorCounter = AdCounter.edit();
+            editorCounter.putInt( "Contador", CuantoVamos);
+            editorCounter.apply();
+        }
+    }
+
+    public void DaParaUnAviso(){
+        if (CuantoVamos > 3) {
+            if (mInterstitialAd.isLoaded()) {
+                mInterstitialAd.show();
+                mInterstitialAd.setAdListener(new AdListener() {
+                    @Override
+                    public void onAdClosed() {
+                        super.onAdClosed();
+                        finish();
+                    }
+                });
+                SharedPreferences.Editor editorCounter = AdCounter.edit();
+                editorCounter.putInt( "Contador", 0);
+                editorCounter.apply();
+            } else {
+
+            }
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        DaParaUnAviso();
+        super.onBackPressed();
+    }*/
 }

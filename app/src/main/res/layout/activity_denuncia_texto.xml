@@ -241,39 +241,30 @@
 
                 <Button
                     android:id="@+id/btnCancelar"
-                    android:layout_width="100dp"
-                    android:layout_height="30dp"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
-                    android:layout_weight="1"
                     android:background="@drawable/btn_rosa"
                     android:onClick="btnCancelarTweet"
                     android:text="@string/cancelar"
-                    android:textSize="8sp" />
+                    android:textSize="12sp" />
 
-                <Button
-                    android:id="@+id/btnMandarMail"
-                    android:layout_width="100dp"
-                    android:layout_height="30dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/btn_azul"
-                    android:onClick="MandarMail"
-                    android:text="Mail a Defensa Consumidor"
-                    android:textSize="8sp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
 
                 <Button
                     android:id="@+id/btnMandarTweet"
-                    android:layout_width="100dp"
-                    android:layout_height="30dp"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
-                    android:layout_weight="1"
                     android:background="@drawable/btn_verde"
-                    android:onClick="btnMandarTweet"
-                    android:text="Mandar Twitter"
-                    android:textSize="8sp" />
+                    android:onClick="onShareClick"
+                    android:text="Enviar Denuncia"
+                    android:textSize="12sp" />
             </LinearLayout>
 
             <ImageView

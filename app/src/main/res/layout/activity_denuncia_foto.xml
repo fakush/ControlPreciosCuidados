@@ -50,29 +50,29 @@
 
     <Button
         android:id="@+id/btnCancelar"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         android:layout_weight="1"
         android:background="@drawable/btn_rosa"
         android:onClick="btnCancelar"
         android:text="@string/cancelar"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/Footer"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnMandarTweet"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:layout_weight="1"
         android:background="@drawable/btn_verde"
         android:onClick="btnOK"
         android:text="@string/listo"
-        android:textSize="8sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/Footer"
         app:layout_constraintEnd_toEndOf="@+id/DenunciaContainer" />
 

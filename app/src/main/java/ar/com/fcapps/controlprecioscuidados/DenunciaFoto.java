@@ -3,6 +3,7 @@ package ar.com.fcapps.controlprecioscuidados;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -44,10 +45,12 @@ public class DenunciaFoto extends Activity {
     private TextView lugar,denuncia;
     private Bitmap imageBitmap;
     private File photoFile;
-    private Uri photoURI;
-    private String currentPhotoPath;
+    private Uri photoURI, imageUri;
+    private String mCurrentPhotoPath, filename;
     private CheckBox checkBox_Faltante, checkBox_Precio, checkBox_gondola;
     private String Faltante, Precio, Gondola, Tweet, DenunciaLenght;
+    private SharedPreferences StoredSupermercado;
+    public String Supermercado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +63,21 @@ public class DenunciaFoto extends Activity {
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
 
-        //Sacar Foto y ponerla en pantalla
+//        StoredSupermercado = PreferenceManager.getDefaultSharedPreferences(this);
+//        String ValorSupermercado = StoredSupermercado.getString("ValorSupermercado", "");
+//        if(ValorSupermercado.length()==0) {
+//            //cagamos no había sharedpreferences!
+//            Supermercado = "";
+//        } else {
+//            Supermercado = ValorSupermercado;
+//            lugar.setText(Supermercado);
+//        }
+
+//        //Sacar Foto y ponerla en pantalla
+//        filename = "tempfile.jpg";
+//        imageUri = Uri.fromFile(new File(filename));
+
+        // start default camera
         dispatchTakePictureIntent();
         imageView = findViewById(R.id.FotoDenuncia);
 
@@ -81,13 +98,15 @@ public class DenunciaFoto extends Activity {
     public void btnOK (View view) {
         //Se fija si la denuncia esta en blanco
         if (lugar.getText().toString().length() > 0 && denuncia.getText().toString().length() > 0) {
+            Toast.makeText(DenunciaFoto.this, "Preparando tu Denuncia.", Toast.LENGTH_LONG).show();
             //Guardar foto y pasar a la siguiente activity.
-        Intent intent = new Intent(DenunciaFoto.this, MandarDenunciaFoto.class);
-        intent.putExtra("imageUri", photoURI.toString());
-        intent.putExtra("Donde", lugar.getText().toString());
-        intent.putExtra("Denuncia", denuncia.getText().toString());
-        intent.putExtra("Checks", DenunciaLenght);
-        startActivity(intent);
+            Intent intent = new Intent(DenunciaFoto.this, MandarDenunciaFoto.class);
+            intent.putExtra("imageUri", photoURI.toString());
+            intent.putExtra("Donde", lugar.getText().toString());
+            intent.putExtra("Denuncia", denuncia.getText().toString());
+            intent.putExtra("Checks", DenunciaLenght);
+            startActivity(intent);
+            galleryAddPic();
         } else {
             Toast.makeText(DenunciaFoto.this, "Tenes que completar lugar y denuncia para continuar.", Toast.LENGTH_SHORT).show();
         }
@@ -99,35 +118,36 @@ public class DenunciaFoto extends Activity {
         startActivity(intent);
     }
 
-    private void dispatchTakePictureIntent() {
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+    public void dispatchTakePictureIntent() {
+        File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/CPC");
+        if(dir.exists() && dir.isDirectory()) {
+            // do something here
+        } else {
+            dir.mkdirs();
         }
-
-    }
-
-    private File createImageFile() throws IOException {
-        // Create an image file name
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        String imageFileName = "JPEG_" + timeStamp + "_";
-        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        File image = File.createTempFile(
-                imageFileName,  /* prefix */
-                ".jpg",         /* suffix */
-                storageDir      /* directory */
-        );
+        photoFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/CPC", "CPC_" + timeStamp + ".jpg");
+        photoFile.getParentFile().mkdirs();
+        //filename = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "tempfile.jpg";
+        imageUri = Uri.fromFile(photoFile);
 
-        // Save a file: path for use with ACTION_VIEW intents
-        currentPhotoPath = image.getAbsolutePath();
-        return image;
+        // start default camera
+        Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+        cameraIntent.putExtra(android.provider.MediaStore.EXTRA_OUTPUT, imageUri);
+        startActivityForResult (cameraIntent, REQUEST_TAKE_PHOTO);
+
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
-            Bundle extras = data.getExtras();
-            imageBitmap = (Bitmap) extras.get("data");
+        if (requestCode == REQUEST_TAKE_PHOTO && resultCode == RESULT_OK) {
+            //Uri imageUri = data.getData();
+            imageBitmap = null;
+            try {
+                imageBitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), imageUri);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             pegarTitulo();
             imageView.setImageBitmap(imageBitmap);
         }
@@ -137,8 +157,9 @@ public class DenunciaFoto extends Activity {
         //Pegar Imagen
         Matrix matrix = new Matrix();
         matrix.preScale(1.0f, 1.0f);
-        imageBitmap = Bitmap.createScaledBitmap(imageBitmap, 1080, 1440, false);
+        imageBitmap = Bitmap.createScaledBitmap(imageBitmap, imageBitmap.getWidth()/3, imageBitmap.getHeight()/3, false);
         Bitmap FotoDenuncia = Bitmap.createBitmap(imageBitmap, 0, 0, imageBitmap.getWidth(), imageBitmap.getHeight(), matrix, true);
+        //Bitmap FotoDenuncia = ;
         // Arrancar acá nuevo Pegado de Imagenes.
         Resources r = getResources();
         Drawable d = new BitmapDrawable(r, FotoDenuncia);//converting bitmap to drawable
@@ -148,7 +169,8 @@ public class DenunciaFoto extends Activity {
         LayerDrawable layerDrawable = new LayerDrawable(layers);
         int width = layerDrawable.getIntrinsicWidth();
         int height = layerDrawable.getIntrinsicHeight();
-        Bitmap Fotopegada = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+        //Bitmap Fotopegada = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+        Bitmap Fotopegada = Bitmap.createBitmap(imageBitmap.getWidth(), imageBitmap.getHeight(), Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(Fotopegada);
         layerDrawable.setBounds(0, 0, canvas.getWidth(), canvas.getHeight());
         layerDrawable.draw(canvas);
@@ -183,7 +205,7 @@ public class DenunciaFoto extends Activity {
 
     private void galleryAddPic() {
         Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
-        File f = new File(currentPhotoPath);
+        File f = new File(mCurrentPhotoPath);
         Uri contentUri = Uri.fromFile(f);
         mediaScanIntent.setData(contentUri);
         this.sendBroadcast(mediaScanIntent);
@@ -198,11 +220,16 @@ public class DenunciaFoto extends Activity {
           edittext.setText(lugar.getText().toString());
         };
         Button dialogButton = (Button) dialog.findViewById(R.id.btn_dialogLugar_ok);
+
         dialogButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (edittext.getText().toString().length() > 0) {
                     lugar.setText(edittext.getText().toString());
+//                    StoredSupermercado = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+//                    SharedPreferences.Editor editorSupermercado = StoredSupermercado.edit();
+//                    editorSupermercado.putString( "ValorSupermercado", edittext.getText().toString());
+//                    editorSupermercado.apply();
                 }
                 dialog.cancel();
                 //Reseteo el valor para el resto de la app
@@ -237,7 +264,7 @@ public class DenunciaFoto extends Activity {
             public void onClick(View v) {
                 //is chkIos checked?
                 if (((CheckBox) v).isChecked()) {
-                    DenunciaLenght = "el Falantante de un Articulo.";
+                    DenunciaLenght = "el falantante del Articulo:";
                 } else {
                     Faltante = "";
                 }
@@ -250,7 +277,7 @@ public class DenunciaFoto extends Activity {
             public void onClick(View v) {
                 //is chkIos checked?
                 if (((CheckBox) v).isChecked()) {
-                    DenunciaLenght = "el precio incorrecto de un Articulo.";
+                    DenunciaLenght = "el precio incorrecto del Articulo:";
                 } else {
                     Precio = "";
                 }
@@ -262,7 +289,7 @@ public class DenunciaFoto extends Activity {
             public void onClick(View v) {
                 //is chkIos checked?
                 if (((CheckBox) v).isChecked()) {
-                    DenunciaLenght = "un Articulo no señalizado o mal señalizado.";
+                    DenunciaLenght = "un articulo no señalizado o mal señalizado:";
                 } else {
                     Gondola = "";
                 }
